@@ -1,6 +1,8 @@
 ## The Pigeonhole principle
 
-The Dirichlet principle states that if there are $$n+1$$ pigeons, and everyone of them sits in one of $$n$$ holes, there has to be a hole that contains *at least* 2 pigeons. More in general, if there are $$mn+1$$ pigeons in $$n$$ holes, there has to be a hole that contains at least $$m+1$$ holes.
+The Pigeonhole principle states that if there are $$n+1$$ pigeons, and all of them sits in one of $$n$$ holes, then there has to be a hole that contains *at least* 2 pigeons. More generally, if there are $$mn+1$$ pigeons in $$n$$ holes, there must be a hole that contains at least $$m+1$$ pigeons.
+
+This argument was popularized by [Peter Gustav Lejeune Dirichlet](http://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet) in 1834. It is also common to refer to the idea as Dirichlet's principle.
 
 (TODO: Tell the story about the inhabitants of Paris.)
 
