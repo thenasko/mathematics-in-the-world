@@ -7,7 +7,7 @@ The Dirichlet principle states that if there are $$n+1$$ pigeons, and everyone o
 
 ### Dividing the difference
 
-> Given $$$$n + 1$$$$ integers, there exists a pair $$$$a, b$$$$ such that $$$$n$$$$ divides $$$$a-b$$$$.
+> Given $$n + 1$$ integers, there exists a pair $$a, b$$ such that $$n$$ divides $$a-b$$.
 
 To apply the Dirichlet principle, it is very important to understand who plays the role of the pigeons, and what are the holes. In this problem, the pigeons are clearly the $$n+1$$ integers. To have the principle working, we need to pick $$n$$ holes; we can then use the *remainder* that integers give when divided by $$n$$ as holes. There is just $$n$$ such possibilities (remainders from 0 to $$n-1$$ - notice that the remainder of $$-1$$ is $$n-1$$!) and whenever two integers give the same remainder when divided by $$n$$, than their difference is a multiple of $$n$$; we can now conclude: by Dirichlet principle, there have to be at least two numbers in the same hole - that give the same remainder when divided by $$n$$, and hence their difference is a multiple of $$n$$.
 The idea of taking the remainders by a number $$n$$ is a very powerful tool in mathematics; let us introduce then some notations; the remainder of a number when divided by $$n$$ will be called its *congruence class modulo* $$n$$, and whenever two numbers $$a$$ and $$b$$ have the same congruence class modulo $$n$$, we will say they are *coungruent* modulo $$n$$, and we will write $$a\equiv b (mod n)$$.
@@ -15,7 +15,7 @@ The idea of taking the remainders by a number $$n$$ is a very powerful tool in m
 
 ### Summing to 10
 
-> For every 6-element subset $$$$S$$$$ of $$$$\{ 1, \dots, 9 \}$$$$, there exists a pair of distinct integers $$$$a, b \in S$$$$ such that $$$$a + b = 10$$$$.
+> For every 6-element subset $$S$$ of $$\{ 1, \dots, 9 \}$$, there exists a pair of distinct integers $$a, b \in S$$ such that $$a + b = 10$$.
 
 Let us create the boxes in a way that could help us for this problem, is such a way elements in the same box will sum to 10. The first box will be $$\{1,9\}$$, the second $$\{2,8\}$$, then $$\{3,7\}$$ and $$\{4,6\}$$, and at last the element 5 alone, $$\{5\}$$. We have now 6 integers in 5 boxes, so there is at least one box that contains two elements; this box cannot be $$\{5\}$$, that contains only one element, so it has to be one of the others. This then proves that there are two integers whose sum is 10.
 
