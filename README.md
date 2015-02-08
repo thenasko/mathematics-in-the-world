@@ -4,8 +4,4 @@ This book was designed to accompany a mathematics course bearing the same name (
 
 We decided to publish a list of problems that came up as part of the course. Please note that this text is very much a work in progress. We welcome all contributions, from new problems and alternative solutions, to clarifications and spelling corrections.
 
-TODO: Overview -- audience, techniques, programming platform, history of book
 
-TODO: Formulate different problem solving strategies
-
-TODO: Prerequisites
