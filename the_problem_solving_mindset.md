@@ -8,3 +8,9 @@
     * Small examples
     * Symmetry
     * Data stuctures
+
+TODO: Overview -- audience, techniques, programming platform, history of book
+
+TODO: Formulate different problem solving strategies
+
+TODO: Prerequisites
