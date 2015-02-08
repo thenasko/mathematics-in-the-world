@@ -40,7 +40,7 @@ This problem is very tricky; let us pick one of the six people $$A$$, let's anal
 
 REMARK-MATH-HISTORY: In the same way, going a couple of steps further, we can prove the same result that among 18 people there are 4 that either all know each other, or are not acquainted at all. But what about 17? What is the \texiti{minimum} number such that this situation occurs? These solutions to this problem are called Ramsey numbers - for instance, for instance, this exercise was asking to prove $$R(3,3)$$ is at most 6. The fact that $$R(4,4)=18$$ required an extended check using a computer of all $$2.46\times 10^{26}$$ possibilities. The only thing we know nowadays about $$R(5,5)$$ is that it lies between 43 and 49 included. About this, mathematician Joel Spencer has an anecdote about Paul Erd\:os, an hungarian mathematician that spent many years working on this kind of problems:
 
-Erd?s asks us to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of R(5, 5) or they will destroy our planet. In that case, he claims, we should marshal all our computers and all our mathematicians and attempt to find the value. But suppose, instead, that they ask for R(6, 6). In that case, he believes, we should attempt to destroy the aliens.
+Erdős asks us to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of R(5, 5) or they will destroy our planet. In that case, he claims, we should marshal all our computers and all our mathematicians and attempt to find the value. But suppose, instead, that they ask for R(6, 6). In that case, he believes, we should attempt to destroy the aliens.
 
 
 ### The square orchard
