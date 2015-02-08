@@ -2,7 +2,7 @@
 
 The Pigeonhole principle states that if there are $$n+1$$ pigeons, and all of them sits in one of $$n$$ holes, then there has to be a hole that contains *at least* 2 pigeons. More generally, if there are $$mn+1$$ pigeons in $$n$$ holes, there must be a hole that contains at least $$m+1$$ pigeons.
 
-This argument was popularized by [Peter Gustav Lejeune Dirichlet](http://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet) in 1834. It is also common to refer to the idea as Dirichlet's principle.
+This argument was popularized by [Peter Gustav Lejeune Dirichlet](http://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet) in 1834. It is also common to refer to the idea as Dirichlet's principle or the Dirichlet principle.
 
 (TODO: Tell the story about the inhabitants of Paris.)
 
@@ -11,7 +11,7 @@ This argument was popularized by [Peter Gustav Lejeune Dirichlet](http://en.wiki
 
 > Given $$n + 1$$ integers, there exists a pair $$a, b$$ such that $$n$$ divides $$a-b$$.
 
-To apply the Dirichlet principle, it is very important to understand who plays the role of the pigeons, and what are the holes. In this problem, the pigeons are clearly the $$n+1$$ integers. To have the principle working, we need to pick $$n$$ holes; we can then use the *remainder* that integers give when divided by $$n$$ as holes. There is just $$n$$ such possibilities (remainders from 0 to $$n-1$$ - notice that the remainder of $$-1$$ is $$n-1$$!) and whenever two integers give the same remainder when divided by $$n$$, than their difference is a multiple of $$n$$; we can now conclude: by Dirichlet principle, there have to be at least two numbers in the same hole - that give the same remainder when divided by $$n$$, and hence their difference is a multiple of $$n$$.
+The most crucial step in applying  To apply the Dirichlet principle, it is very important to understand who plays the role of the pigeons, and what are the holes. In this problem, the pigeons are clearly the $$n+1$$ integers. To have the principle working, we need to pick $$n$$ holes; we can then use the *remainder* that integers give when divided by $$n$$ as holes. There is just $$n$$ such possibilities (remainders from 0 to $$n-1$$ - notice that the remainder of $$-1$$ is $$n-1$$!) and whenever two integers give the same remainder when divided by $$n$$, than their difference is a multiple of $$n$$; we can now conclude: by Dirichlet principle, there have to be at least two numbers in the same hole - that give the same remainder when divided by $$n$$, and hence their difference is a multiple of $$n$$.
 The idea of taking the remainders by a number $$n$$ is a very powerful tool in mathematics; let us introduce then some notations; the remainder of a number when divided by $$n$$ will be called its *congruence class modulo* $$n$$, and whenever two numbers $$a$$ and $$b$$ have the same congruence class modulo $$n$$, we will say they are *coungruent* modulo $$n$$, and we will write $$a\equiv b (mod n)$$.
 
 
