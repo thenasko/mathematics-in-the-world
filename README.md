@@ -1,6 +1,8 @@
 # Introduction
 
-TODO: Explain the motivation behind the course and the book
+This book was designed to accompany a mathematics course bearing the same name (Math 157, Spring 2015, Harvard). The idea behind the class has been to teach problem solving skills to a wide audience. Each lecture is organized around a number of problems which we interleave with the more general discussion of useful principles and ideas. Student participation and interaction and not only encouraged, but often required.
+
+We decided to publish a list of problems that came up as part of the course. Please note that this text is very much a work in progress. We welcome all contributions, from new problems and alternative solutions, to clarifications and spelling corrections.
 
 TODO: Overview -- audience, techniques, programming platform, history of book
 
