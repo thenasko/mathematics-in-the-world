@@ -69,7 +69,8 @@ What would happen if we decrease 18 to 17. Would the same statement be true? Mor
 
 The combinatorialist [Joel Spencer](http://en.wikipedia.org/wiki/Joel_Spencer) has an anecdote about [Paul Erdős](http://en.wikipedia.org/wiki/Paul_Erd%C5%91s), a Hungarian mathematician that spent many years working on this type of problems.
 
-Erdős asked his colleagues to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of $$R(5, 5)$$ or they will destroy our planet. In that case, he claims, we should marshal all computers and mathematicians to seach for the value. Intead, if we were asked for the value $$R(6, 6)$$, Erdős said we should attempt to destroy the aliens.
+> Erdős asks us to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of $$R(5, 5)$$ or they will destroy our planet. In that case, he claims, we should marshal all our computers and all our mathematicians and attempt to find the value. But suppose, instead, that they ask for $$R(6, 6)$$. In that case, he believes, we should attempt to destroy the aliens.
+
 
 
 ### The square orchard
