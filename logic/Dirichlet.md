@@ -55,11 +55,21 @@ To conclude the proof by induction, we need to do what is called "proving the ba
 > * all know each other, or
 > * none of them are acquaintances.
 
-This problem is very tricky; let us pick one of the six people $$A$$, let's analyze her relationships with the other 5. We need to consider as boxes the possible relationships with $$A$$ (knowing $$A$$, not knowing $$A$$) and as pigeons the five people. By Dirichlet principle, then, there are at least three people $$B, C$$ and $$D$$ that are in the same relationship with $$A$$. Let us say at first that they all know $$A$$; in this case, either two of them know each other (and hence together with $$A$$ they form a triple of people that all know each other) or there is no couple of them that know each other (and in such case $$B,C,D$$ form of a triple that has no acquaintances), that concludes this case. The case in which $$B,C$$ and $$D$$ do not know $$A$$ is exactly the same, because the problem is symmetrical - that means, we can change the relationship between every couple of people (knowing to not knowing, and vice versa), and we would be asking for the same thing - so it is true as well.
+Even though it sounds simple, this is a very tricky problem.
 
-REMARK-MATH-HISTORY: In the same way, going a couple of steps further, we can prove the same result that among 18 people there are 4 that either all know each other, or are not acquainted at all. But what about 17? What is the \texiti{minimum} number such that this situation occurs? These solutions to this problem are called Ramsey numbers - for instance, for instance, this exercise was asking to prove $$R(3,3)$$ is at most 6. The fact that $$R(4,4)=18$$ required an extended check using a computer of all $$2.46\times 10^{26}$$ possibilities. The only thing we know nowadays about $$R(5,5)$$ is that it lies between 43 and 49 included. About this, mathematician Joel Spencer has an anecdote about Paul Erd\:os, an hungarian mathematician that spent many years working on this kind of problems:
+Start by picking one of the six people, and call her A. Let's analyze her relations with the other 5. To apply Dirichlet's principle, we will use the the two possible relation types (acquantance or not) as categories. It follows that there are at least three people (call them B, C, and D) that have the same relation with A.
 
-Erdős asks us to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of R(5, 5) or they will destroy our planet. In that case, he claims, we should marshal all our computers and all our mathematicians and attempt to find the value. But suppose, instead, that they ask for R(6, 6). In that case, he believes, we should attempt to destroy the aliens.
+First, let us say that they all know A. In this case, either two of them know each other (and hence together with A they form a triple of people that all know each other) or there is no couple of them that know each other (and in such case B, C, D form of a triple that has no acquaintances). This concludes the first case.
+
+The case in which B, C and D do not know A is exactly the same, because the problem is symmetric. This means that if we can toggle the relations between every pair of people, the second case reduces to the first - so it must be true as well.
+
+**REMARK-MATH-HISTORY:** Following the same argument, we can prove the same result that among 18 people there are 4 that either all know each other, or are not acquainted at all.
+
+What would happen if we decrease 18 to 17. Would the same statement be true? More generally, what is the *minimum* number such that this situation occurs? The solutions to this problem are called [Ramsey numbers](http://en.wikipedia.org/wiki/Ramsey%27s_theorem#Ramsey_numbers). For example, this exercise showed that $$R(3,3)$$ is at most 6. Proving that $$R(4,4)=18$$ required an extensive check using a computer of all $$2.46 \times 10^{26}$$ possibilities. The only thing we know nowadays about $$R(5,5)$$ is that it lies between 43 and 49 inclusive.
+
+The combinatorialist [Joel Spencer](http://en.wikipedia.org/wiki/Joel_Spencer) has an anecdote about [Paul Erdős](http://en.wikipedia.org/wiki/Paul_Erd%C5%91s), a Hungarian mathematician that spent many years working on this type of problems.
+
+Erdős asked his colleagues to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of $$R(5, 5)$$ or they will destroy our planet. In that case, he claims, we should marshal all computers and mathematicians to seach for the value. Intead, if we were asked for the value $$R(6, 6)$$, Erdős said we should attempt to destroy the aliens.
 
 
 ### The square orchard
