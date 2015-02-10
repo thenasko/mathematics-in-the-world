@@ -1,6 +1,9 @@
 ## The Pigeonhole principle
 
-The Pigeonhole principle states that if there are $$n+1$$ pigeons, and all of them sits in one of $$n$$ holes, then there has to be a hole that contains *at least* 2 pigeons. More generally, if there are $$mn+1$$ pigeons in $$n$$ holes, there must be a hole that contains at least $$m+1$$ pigeons.
+The Pigeonhole principle states that if there are $$n+1$$ pigeons, and all of them sits in one of $$n$$ holes, then there has to be a hole that contains *at least* 2 pigeons. More generally, if there are $$mn+1$$ pigeons in $$n$$ holes, there must be a hole that contains a
+t least $$m+1$$ pigeons.
+
+Boxes are another analogy used to describe this principle. If we have $$n + 1$$ objects (socks, gloves, balls, etc.) placed in $$n$$ boxes, then at least one box contains two.
 
 This argument was popularized by [Peter Gustav Lejeune Dirichlet](http://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet) in 1834. It is also common to refer to the idea as Dirichlet's principle or the Dirichlet principle.
 
@@ -20,17 +23,30 @@ The idea of using the remainders is a very powerful tool in mathematics. Let us 
 
 > For every 6-element subset $$S$$ of $$\{ 1, \dots, 9 \}$$, there exists a pair of distinct integers $$a, b \in S$$ such that $$a + b = 10$$.
 
-Let us create the boxes in a way that could help us for this problem, is such a way elements in the same box will sum to 10. The first box will be $$\{1,9\}$$, the second $$\{2,8\}$$, then $$\{3,7\}$$ and $$\{4,6\}$$, and at last the element 5 alone, $$\{5\}$$. We have now 6 integers in 5 boxes, so there is at least one box that contains two elements; this box cannot be $$\{5\}$$, that contains only one element, so it has to be one of the others. This then proves that there are two integers whose sum is 10.
+Let us choose categories in a way that can help us with this problem. The idea is to group together elements which sum up to 10. The first one will be $$\{1,9\}$$, the second $$\{2,8\}$$, then $$\{3,7\}$$, $$\{4,6\}$$, and at last the element 5 alone, $$\{5\}$$.
+
+We now have 6 integers in 5 boxes, so there is at least one box that contains two of them. This box cannot be $$\{5\}$$ since it the set has only one element.  Then the box containing two has to be one of the others, which proves that there are two integers whose sum is 10.
 
 
 ### We have the same number of friends!
 
 > Is it possible that at a party all guests have different numbers of friends attending?
 
-SOLUTION ONE: Let us say the number of people attending the party is $$n$$. The possibilities for the number of friends that people can have at the party are from 0 (in case somebody does not know anybody else) to $$n-1$$ (for someone knowing everybody else); this gives us $$n$$ possibilities. We have then $$n$$ people-pigeons, and $$n$$ possibilities-holes: so, we *cannot* conclude that there are two people with the same number of acquaintances. We need to also analyze the possibility that there is exactly one person knowing nobody else, one person knowing exactly one other, one person knowing two, and so on until exactly one person that knows anybody else. But this is not possible, because if there is a person $$A$$ not knowing anybody, there cannot be a person $$B$$ that knows anybody else, because it cannot know $$A$$! Rephrasing this, we can "group" together as we did in the previous exercise in the same box the possibilities $$\{0,n-1\}$$, and we know that at most one possibilities in this box will be achieved; we are then in the situation of $$n-1$$ boxes, with $$n$$ people, and we get that there are two people having the same number of friends.
+**SOLUTION ONE:**
+Let us say the number of people attending the party is $$n$$. The possibilities for the number of friends that people can have at the party vary from 0 (in case somebody does not know anybody else) to $$n-1$$ (for someone knowing everybody else). This gives us $$n$$ possibilities. On the other hand, we also have $$n$$ people, so we *cannot* conclude that there are two people with the same number of acquaintances.
 
-SOLUTION TWO: We can use induction; suppose we know that for any group of $$n-1$$ people there are two that have the same number of friends. Let us consider the situation with $$n$$ people: at first, suppose there is a person $$A_0$$ knowing 0 people; then, we can consider the other $$n-1$$ people, that are in some sense "disconnected" from $$A_0$$, and restrict the problem to them: from what we said at the beginning, we then know that there are two people among those that have the same number of friends. On the other hand, consider the opposite situation, where we have nobody having 0 friends; then we can apply the Dirichlet principle, because we have $$n$$ people, and $$n-1$$ possibilities for the number of friends they have (the numbers from 1 to $$n-1$$).
-To conclude the proof by induction, we need to do what is called "proving the base case": suppose that we have two people (the simplest that this problem can be, because with one person the problem does not make sense), that let us prove our statement: the only two possibilities here are that they know each other, or that they don't; in both cases, they have the same number of friends, so the claim follows.
+We need to also analyze the possibility that there is exactly one person knowing nobody else, one person knowing exactly one other, one person knowing two, and so on until exactly one person that knows anybody else. But this is not possible. If there is a person A not knowing anybody, then there cannot be a person B that knows anybody else, because B cannot know A!
+
+Rephrasing this, we can use a similar strategy to the previous provlem and "group" the possibilities $$0$$ and $$n-1$$ in one box. We know that at most one possibilitiy in this box will be achieved, so we are in the situation of $$n-1$$ categories with $$n$$ people associated with them. It follows that there are two people having the same number of friends.
+
+**SOLUTION TWO:**
+We will present an inductive argument which makes the use of of Dirichlet's principle a little more transparent. Suppose we know that for any group of $$n-1$$ people there are two that have the same number of friends (this is called the *inductive hypothesis*).
+
+Consider a party of $$n$$ people. If there is a person $$A_0$$ knowing 0 people, we can consider the remaining $$n-1$$ people. You can say they are "disconnected" from $$A_0$$, so we restrict the problem to this smaller group of people. But we already know that two of them must have the same number of friends by the inductive hypothesis.
+
+On the other hand, consider the opposite situation in which everyone has at least one friend. Then we can apply the Dirichlet principle, because we have $$n$$ people, and $$n-1$$ possibilities for the number of friends they have (the numbers from 1 to $$n-1$$).
+
+To conclude the proof by induction, we need to do what is called "proving the base case". Suppose that we have two people (the simplest that this problem can be, because with one person the problem does not make sense), that let us prove our statement. The only two possibilities here are that they know each other, or that they don't. In both cases, they have the same number of friends, so the claim follows.
 
 
 ### The Friendship Theorem
