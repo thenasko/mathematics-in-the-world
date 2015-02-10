@@ -72,10 +72,13 @@ The combinatorialist [Joel Spencer](http://en.wikipedia.org/wiki/Joel_Spencer) h
 > Erdős asks us to imagine an alien force, vastly more powerful than us, landing on Earth and demanding the value of $$R(5, 5)$$ or they will destroy our planet. In that case, he claims, we should marshal all our computers and all our mathematicians and attempt to find the value. But suppose, instead, that they ask for $$R(6, 6)$$. In that case, he believes, we should attempt to destroy the aliens.
 
 
-
 ### The square orchard
 
 > You own a small orchard containing 51 trees. The shape of the garden is a square with side length 70 meters. It is possible to use a circular fence of radius 10 meters to enclose at least 3 of the trees?
 
-The statement of this problems reminds us immediately of Dirichlet theorem; we have 51 trees-pigeons, and we want 3 to be close enough to be contained in a circle of radius 10. We can apply some reverse psychology to this problem: how many boxes do we need in such a way at least 3 of the 51 are in the same box? The answer is 25 (we need to solve $$mn+1=51$$ and $$m+1=3$$ to find $$n$$). This tells us that if we divide the square in 25 regions, then there is a region that contains 3 trees. For obvious reasons, we cannot split a square in 25 circles of radius 10, there's no way we can have the boundaries to adhere one each other. We can though try to divide the square in 25 regions each of which is *contained* in a circle of radius 10, and the obvious choice is to divide it in 25 smaller squares of radius 70/5=14. Now, the biggest square that is contained in a circle of radius 10 has side $$10\cdot\sqrt{2}\sim 14.14$$, so a circle of radius 10 can indeed contain a square of side 14. Wrapping everything up, recall that we found out that there is one of the little squares that contains at least 3 trees, that gives us that there is also a circle of radius 10 containing them.
+The statement of this problems reminds us immediately of Dirichlet theorem. We have 51 trees (pigeons), and we want 3 to be close enough so they are contained in a circle of radius 10.
+
+To explain the solution of the problem, let us apply some reverse thinking. How many boxes do we need so that at least 3 of the 51 trees are in the same box? The answer is 25. (We solved $$mn+1=51$$ and $$m+1=3$$ to find $$n$$). This tells us that if we divide the square in 25 regions, then there is a region that contains 3 trees. For obvious reasons, we cannot split a square in 25 circles of radius 10, there's no way we can have the boundaries to adhere to one other.
+
+On the other hand, we can try to divide the square in 25 regions each of which is *contained* in a circle of radius 10. The obvious choice is to divide it in $$25 = 5^2$$ smaller squares of radius $$70 / 5 = 14$$. The biggest square that is contained in a circle of radius 10 has side $$10 \cdot \sqrt{2} \approx 14.14$$, so a circle of radius 10 can indeed contain a square of side 14. Wrapping everything up, recall that we found that there is one of the little squares that contains at least 3 trees, hence we also have a circle of radius 10 containing the same 3 trees.
 
