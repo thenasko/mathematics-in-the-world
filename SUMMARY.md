@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [The problem solving mindset](the_problem_solving_mindset.md)
 * [Logic](logic/README.md)
     * [Symmetry](logic/symmetry.md)
     * [Recursive reasoning](logic/recursion.md)
