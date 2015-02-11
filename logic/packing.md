@@ -19,7 +19,7 @@ Denote the number of black block and white block as **B** and **W** respectively
 Proof:
 No we can't. **8*8=64** is not divisible by **3**.
 
-No, we still can't. Color the $8x8$ board with 0,1,2 three colors in following way. For **T_{ij}**, color it with **i+j(mod 3)**. If we count the number of each color, we have number of **0**-tile is **22**, **1**-tile is **20**, **2**-tile is **21**. But each **1 x 3** will cover each color once. So it is impossible.
+No, we still can't. Color the **8x8** board with 0,1,2 three colors in following way. For **T_{ij}**, color it with **i+j(mod 3)**. If we count the number of each color, we have number of **0**-tile is **22**, **1**-tile is **20**, **2**-tile is **21**. But each **1 x 3** will cover each color once. So it is impossible.
 
 
 ### Covering with T-pieces
