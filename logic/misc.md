@@ -97,7 +97,7 @@ We would like to investigate the behavior of the sequence $$b_n$$ as the constan
 * if $$c > 4$$, then $$b_n$$ diverges to infinity.
 We leave the formal proofs of these statements to the reader, and will instead present the behavior of the sequence $$b_n$$ with several starting values $$c$$. After all, a picture is worth a thousand words.
 
-TODO
+![Convergence properties for different values of c](Diagrams/infinite_exponentiation.png)
 
 
 ### Renaissance security
