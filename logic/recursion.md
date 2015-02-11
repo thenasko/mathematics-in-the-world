@@ -8,6 +8,12 @@
 >
 >How does the story end?
 
+Proof:
+We start with small cases. Denote the number of tigers as **N**. If **N=1**, then tiger will eat the sheep since no one else can threaten its life afterward. If **N=2**, then tiger will not eat the sheep because if one of the tigers eats the sheep, the cases reduce to the case when **N=1** and then the other tiger will eat the tiger. A stalemate. If **N=3**, then tiger will eat the sheep since the situation reduces to the case when **N=2** which is a stalemate, so the tiger who eats the sheep survives. Now you can see the pattern. If **N** is an odd number, the tiger will eat the sheep while if **N** is an even number, it is a stalemate. 
+
+In order to prove it more rigorously, we need to use mathematical induction. We have already solved the base case when **N=1,2**. Now assume when **N=k**, the induction hypothesis is true. If **k** is an odd number, we know **N=k+1** will be a stalemate since no tiger wants to eat the sheep because it will be eaten afterward. If $k$ is an even number, we know when **N=k+1** a tiger will eat the sheep since it can reduce the situation to a stalemate and live happily after. 
+
+Now since **N=100**, the sheep and the tigers live happily after.
 
 ### Democratic pirates
 
@@ -39,4 +45,6 @@ This solution is a very simple example of mathematical induction. We found out w
 
 > A thousand samurai, numbered 1 to 1000, are standing in a circle. The first one takes his sword and kills the second. Then, the next man in the circle, number 3, kills number 4. The process continues until there is only one samurai standing. What is his number?
 
-
+Proof:
+First, denote the number of samurai who standing when there are **n** samurais as **S(n)**. First, I want to claim that if **n=2^k**, then **S(n)** is **1**. The proof is trivial by mathematical induction. When **k=1**, **1** kills **2**, so **S(2)=1**. Now if **k=m**, the induction hypothesis holds, we consider the case when **k=m+1**. After one round of killing, it reduces to the case when **k=m** and hence **S(n)=1**. 
+Now the closest **2^n** to **1000** is **512**. If we can reduce the question size to **n=512**, we immediately get the answer. And it is easy by killing **1000-512** more people. So we have **S(n)=2*(1000-512)+1=977**
