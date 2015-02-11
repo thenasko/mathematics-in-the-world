@@ -26,9 +26,9 @@ It seems that we have reached a contradiction, and shown that such an arrangemen
 > 
 > How much are you willing to pay for the game?
 
-I am willing to pay nothing. Note that in each step of the game, the sum of red cards in my pile and red cards in the center pile is equal to the sum of black cards in my opponent's pile and the blue cards in the center pile. (When I or my opponent take two cards of the same color, it does not change anything; when two cards of different colors are disgarded, both sums are decreased by 1.) So at the end of the game, my pile and my opponent's pile always have equal numbers of cards, so I don't win.
+I am not willing to pay anything for this game. Note that in each step of the game, the sum of red cards in my pile and red cards in the center pile is equal to the sum of black cards in my opponent's pile and the black cards in the center pile. (When I or my opponent take two cards of the same color, it does not change anything; when two cards of different colors are discarded, both sums are decreased by 1.) So at the end of the game, my pile and my opponent's pile always have equal numbers of cards, so I don't win.
 
-How do you come up with this result? Intuition. This is not as tongue-in-cheek as it might sound. Whenever we have a repeated process, it is a good idea to look for some quantity that is invariant (does not change) or monovariant (only goes up or only goes down) when each iteration of the process occurs, then compare the beginning and the end. Alternatively, you can try with small cards, say 4, and see what happens.
+How do you come up with this result? Intuition. This is not as tongue-in-cheek as it might sound. Whenever we have a repeated process, it is a good idea to look for some quantity that is invariant (does not change) or monovariant (only goes up or only goes down) when each iteration of the process occurs, then compare the beginning and the end. Alternatively, you can try with a small case, say 4 cards, and see what happens.
 
 ### Apples and oranges
 
