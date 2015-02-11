@@ -15,6 +15,27 @@
 > $$
 > what is the value of $$x$$?
 
+As with many other problems, the simplest solution seems to involve a trick. On the other hand, the more time we spend on the problem, the more natural the solution becomes. Before we get to the actual discussion, there is an intentional ambiguity in the statement.
+
+Let's start with a simpler expression $$x^{x^x}$$ and ask ourselves what we really mean by that. The two possibilities are $$x^{(x^x)}$$ and $$(x^x)^x$$. It is easy to see that these are not equal. To demonstrate this, take $$x = 3$$. Then
+$$
+3^{(3^3)} =
+3^{27},
+$$
+while
+$$
+(3^3)^3 =
+3^{3 \cdot 3} =
+3^9.
+$$
+Another way to state this peculiarity is that successive exponentiation is not [associative](http://en.wikipedia.org/wiki/Associative_property).
+
+Returning to our problem, we will interpret the give equality as
+$$
+x^{(x^{(x^\cdots)})} = 2.
+$$
+
+
 
 ### Renaissance security
 
