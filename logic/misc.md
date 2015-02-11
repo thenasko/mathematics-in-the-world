@@ -54,9 +54,22 @@ x^{x^x}, \quad
 $$
 The given equality can then be interpreted as stating that this sequence converges and its limit is 2. To make this even more rigorous, consider the function $$f(u) = x^u$$. We can then define the recursive sequence $$a_n$$ given by
 $$
-a_1 = x
-\qquad\textrm{and}\qquad
+a_1 = x, \quad
 a_{n+1} = f(a_n)
+$$
+The equality we are trying to solve is
+$$
+\lim_{n \rightarrow \infty} a_n = 2.
+$$
+What happens if we apply $$f$$ to both sides? It turns out we can exchange $$f$$ and the limit because $$f$$ is continuous.
+$$
+\begin{align}
+f(\lim_n a_n) &= f(2) \\
+\lim_n f(a_n) &= f(2) \\
+\lim_n a_{n+1} &= f(2) \\
+\lim_n a_n &= f(2) \\
+2 &= f(2)
+\en{align}
 $$
 
 
