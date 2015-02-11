@@ -69,7 +69,7 @@ f(\lim_n a_n) &= f(2) \\
 \lim_n a_{n+1} &= f(2) \\
 \lim_n a_n &= f(2) \\
 2 &= f(2)
-\en{align}
+\end{align}
 $$
 
 
