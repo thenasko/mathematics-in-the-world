@@ -34,6 +34,30 @@ Returning to our problem, we will interpret the give equality as
 $$
 x^{(x^{(x^\cdots)})} = 2.
 $$
+The main observation is this expression exhibits a self-similarity, namely, the power to which we raise the first $$x$$ is the same as the entire right hand side. Replacing this power with the left hand side value, we arrive at
+$$
+x^2 = 2,
+$$
+which equation has two solutions $$x = \pm \sqrt{2}$$. Raising a negative number to an irrational number is often ill-defined, so we discard the negative solution. Our final answer is
+$$
+x = \sqrt{2}.
+$$
+
+Let us try to understand how this problem works a little better. First, note that the left hand side is infinite, hence is not really well-defined as an algebraic expression. This sounds like a negative comment, but actually is a very constructive one.
+
+Let us fix a positive real number $$x$$, and imagine the following sequence
+$$
+x, \quad
+x^x, \quad
+x^{x^x}, \quad
+\dots.
+$$
+The given equality can then be interpreted as stating that this sequence converges and its limit is 2. To make this even more rigorous, consider the function $$f(u) = x^u$$. We can then define the recursive sequence $$a_n$$ given by
+$$
+a_1 = x
+\qquad\textrm{and}\qquad
+a_{n+1} = f(a_n)
+$$
 
 
 
