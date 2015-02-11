@@ -64,13 +64,33 @@ $$
 What happens if we apply $$f$$ to both sides? It turns out we can exchange $$f$$ and the limit because $$f$$ is continuous.
 $$
 \begin{align}
-f(\lim_n a_n) &= f(2) \\
-\lim_n f(a_n) &= f(2) \\
-\lim_n a_{n+1} &= f(2) \\
-\lim_n a_n &= f(2) \\
-2 &= f(2)
+f(2)
+&= f(\lim_n a_n) \\
+&= \lim_n f(a_n) \\
+&= \lim_n a_{n+1} \\
+&= \lim_n a_n \\
+&= 2
 \end{align}
 $$
+Recalling the definition of $$f$$, this reduces to $$x^2 = 2$$ as before.
+
+At this point, it seems that we fully understand the problem. We analyzed the meaning of the infinite expression, formally reduced it to a limit, and solved that. To push our investigation one step further, why don't we switch 2 in the statement of the problem. For example, take 4. Following out methods
+$$
+x^{x^{x^\cdots}} = 4
+$$
+reduces to
+$$
+x^4 = 4
+$$,
+which has a unique real solution $$x = \sqrt{2}$$. It seems that this coincidence is entirely harmless -- we solved two different equations and found out that they share a solution. On the other hand, plugging $$x = \sqrt{2}$$ in the infinite exponentiation tower cannot produce values 2 and 4 simultaneously. Every well-defined expression can have at most one value.
+
+To find the source of confusion, consider the sequence
+$$
+b_1 = c, \qquad
+b_{n+1} = f(b_n),
+$$
+where $$f(u) = x^u$$, $$x = \sqrt{2}$$, and $$c$$ is an positive real constant. Note that the recursive relation is the same as $$a_{n+1} = f(a_n)$$ but we are using an arbitrary real constant $$c$$ to start from.
+
 
 
 
