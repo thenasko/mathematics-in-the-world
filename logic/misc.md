@@ -89,9 +89,15 @@ $$
 b_1 = c, \qquad
 b_{n+1} = f(b_n),
 $$
-where $$f(u) = x^u$$, $$x = \sqrt{2}$$, and $$c$$ is an positive real constant. Note that the recursive relation is the same as $$a_{n+1} = f(a_n)$$ but we are using an arbitrary real constant $$c$$ to start from.
+where $$f(u) = \sqrt{2}^u$$ and $$c$$ is an positive real constant. Note that the recursive relation is the same as $$a_{n+1} = f(a_n)$$ but we are using an arbitrary real constant $$c$$ to start from.
 
+We would like to investigate the behavior of the sequence $$b_n$$ as the constant $$c$$ varies. We claim that
+* if $$0 < c < 4$$, then $$\lim_n b_n = 2$$,
+* if $$c = 4$$, then $$\lim_n b_n = 4$$, and
+* if $$c > 4$$, then $$b_n$$ diverges to infinity.
+We leave the formal proofs of these statements to the reader, and will instead present the behavior of the sequence $$b_n$$ with several starting values $$c$$. After all, a picture is worth a thousand words.
 
+TODO
 
 
 ### Renaissance security
