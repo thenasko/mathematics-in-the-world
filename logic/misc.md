@@ -6,6 +6,10 @@
 > 
 > You can assume all horses perform consistently (e.g., they run at a constant speed which does not vary between races).
 
+Proof:
+I claim that you can find the top three horses within 7 races like following. 
+
+Let's run $5$ races on all $25$ horses first and then we will have following ordering $x_{i1}>x_{i2}>x_{i3}>x_{i4}>x{i5}$ for $i=1,2,3,4,5$. Now let's have the 6th race for top one from each race. And without loss of generality, we can assume $x_{11}>x_{21}>x_{31}>x_{41}>x_{51}$. Based on this $6$ races, we can know that top 1 is $x_{11}$ and $x_{i4}, x_{i5}$ for $i=1,2,3,4,5$, $x_{j3}$ for $j=2,3,4,5$, $x_{k2}$ for $k=3,4,5$ and $x_{w1}$ for $w=4,5$ have no chance to win top 3. The only 5 horses that are left are $x_{12}, x_{13}, x_{21}, x_{22}, x_{31}$. Run this for the 7th race and we get the answer. 
 
 ### Infinite exponentiation
 
