@@ -34,5 +34,5 @@ No, we still can't. Color the **8x8** board with 0,1,2 three colors in following
 > Is it possible to fit 53 bricks of size $$1 \times 1 \times 4$$ into a $$6 \times 6 \times 6$$ box?
 
 Impossible.
-The idea is similar to Problem 4, but with different coloring. This time instead of coloring alternatively with 1 x 1 x 1 block, we color alternatively with 2 x 2 x 2 block. WLOG, assume black is at the corner. And hence we have **B=2*2*2*(5+4+5)=112** while **W=2* 2* 2*(4+5+4)=101**. But now each bricks of 1 x 1 x 4 much cover two white and two black and hence it is impossible to fit in.
+The idea is similar to Problem 4, but with different coloring. This time instead of coloring alternatively with 1 x 1 x 1 block, we color alternatively with 2 x 2 x 2 block. WLOG, assume black is at the corner. And hence we have **B=2* 2* 2*(5+4+5)=112** while **W=2* 2* 2*(4+5+4)=101**. But now each bricks of 1 x 1 x 4 much cover two white and two black and hence it is impossible to fit in.
 
