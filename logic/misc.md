@@ -82,11 +82,7 @@ At this point, it seems that we fully understand the problem. We analyzed the me
 $$
 x^{x^{x^\cdots}} = 4
 $$
-reduces to
-$$
-x^4 = 4
-$$,
-which has a unique real solution $$x = \sqrt{2}$$. It seems that this coincidence is entirely harmless -- we solved two different equations and found out that they share a solution. On the other hand, plugging $$x = \sqrt{2}$$ in the infinite exponentiation tower cannot produce values 2 and 4 simultaneously. Every well-defined expression can have at most one value.
+reduces to $$x^4 = 4$$, which has a unique real solution $$x = \sqrt{2}$$. It seems that this coincidence is entirely harmless -- we solved two different equations and found out that they share a solution. On the other hand, plugging $$x = \sqrt{2}$$ in the infinite exponentiation tower cannot produce values 2 and 4 simultaneously. Every well-defined expression can have at most one value.
 
 To find the source of confusion, consider the sequence
 $$
