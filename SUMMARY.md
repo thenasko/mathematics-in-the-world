@@ -9,5 +9,5 @@
     * [The Pigeonhole principle](logic/Dirichlet.md)
     * [Miscellaneous](logic/misc.md)
 * [Number theory](number_theory/README.md)
-* [Probability](probabiility/README.md)
+* [Probability](probability/README.md)
 * [Algorithms](algorithms/README.md)
