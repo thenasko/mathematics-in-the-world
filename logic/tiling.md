@@ -1,6 +1,6 @@
-## Tiling and packing
+## Packing and covering
 
-### Tiling with dominoes
+### Covering with dominoes
 
 > We are given a $$8 \times 8$$ board with two diagonal corners missing. Is it possible to cover it completely with dominoes without any pieces overlapping.
 > 
@@ -21,7 +21,7 @@ This is just what we need. Starting from the standard board above, we need to re
 Note that the statement of the problem made no mention of a coloring. That was the crucial step in our solution, but at the same time, it is an auxiliary construction we have control over. Two colors worked well here, but there is no reason why we shouldn't use three or more colors in a different problem.
 
 
-### Tiling with length 3 pieces
+### Covering with length 3 pieces
 
 > Can you tile an $$8 \times 8$$ board with $$1 \times 3$$ pieces?
 > 
@@ -32,7 +32,7 @@ No we can't. $$8*8=64$$ is not divisible by $$3$$.
 No, we still can't. Color the $$8x8$$ board with 0,1,2 three colors in following way. For $$T_{ij}$$, color it with $$i+j(mod 3)$$. If we count the number of each color, we have number of $$0$$-tile is $$22$$, $$1$$-tile is $$20$$, $$2$$-tile is $$21$$. But each $$1 x 3$$ will cover each color once. So it is impossible.
 
 
-### Tiling with T-pieces
+### Covering with T-pieces
 
 > Can you tile a $$10 \times 10$$ board with pieces of the following shape.
 > 
