@@ -47,9 +47,9 @@ This solution is a very simple example of mathematical induction. We found out w
 We will present two solutions to this problem, one recursive, and one more direct. In both cases, it is useful to look at the more general setup of $$n$$ samurai. We will then denote the winner's number by $$S(n)$$.
 
 **SOLUTION 1:**
-If we go through several small cases by hand, it is easy to see that $$S(n) = 1$$ for all $$n = 2^k$$ where $$k$$ is an integer. To see this note that if we start with $$n = 2^k$$ samurai, then going around once only the odd ones survive leaving $$2^{k-1}$$ men standing and it is number 1's turn. Reducing by a factor of two, it is easy to see that number 1 doesn't die as long as $$n$$ is a power of 2, hence $$S(2^k) = 1$$ for all $$k$$.
+If we go through several small cases by hand, it is easy to see that $$S(n) = 1$$ for all $$n = 2^k$$ where $$k$$ is an integer. To see this, note that if we start with $$n = 2^k$$ samurai, then going around once only the odd ones survive leaving $$2^{k-1}$$ men standing and it is number 1's turn. Reducing by a factor of two, it is easy to see that number 1 doesn't die as long as $$n$$ is a power of 2, hence $$S(2^k) = 1$$ for all $$k$$.
 
-This is a very interesting observation, but $$n = 1000$$ is certainly not a power of 2. The key observation is that at some point after the game starts, the number of men standing will be a power of 2. For $$n = 1000$$, the largest power of two less of equal to $$n$$ is $$512 = 2^9$$. Once we reach 512, imagine that we reorder the people: 1, ..., 512. The discussion above shows that number 1 in this ordering would be the winner. We have reduced the problem to finding who is the next person to act when there are 512 men standing. If we start with 1000, it means that $$1000 - 512 = 488$$ people have been killed. Since each of these was slayed by the preceding one in sequence, we deduce that 488 men down are $$2, 4, \dots, 976 = 2 \cdot 488$$. The next turn is in the hands of 977, so he will be the winner.
+This is a very interesting fact, but $$n = 1000$$ is certainly not a power of 2. The key observation is that at some point after the game starts, the number of men standing will be a power of 2. For $$n = 1000$$, the largest power of two less of equal to $$n$$ is $$512 = 2^9$$. Once we reach 512, imagine that we reorder the people: 1, ..., 512. The discussion above shows that number 1 in this ordering would be the winner. We have reduced the problem to finding who is the next person to act when there are 512 men standing. If we start with 1000, it means that $$1000 - 512 = 488$$ people have been killed. Since each of these was slayed by the preceding one in sequence, we deduce that the 488 men down are $$2, 4, \dots, 976 = 2 \cdot 488$$. The next turn is in the hands of 977, so he will be the winner.
 
 Let us try to generalize this logic to any value $$n$$. The largest power of two less of equal to $$n$$ is $$2^{\lfloor \log_2 n \rfloor}$$. It follows that
 $$
@@ -61,6 +61,54 @@ S(n) = 2 (n - 2^{\lfloor \log_2 n \rfloor}) + 1.
 $$
 
 **SOLUTION 2:**
+The second approach we present analyzes one "round" of the game, so we reduce the problem with $$n$$ samurai to one with roughly $$n/2$$.
 
-First, denote the number of samurai who standing when there are $$n$$ samurais as $$S(n)$$. First, I want to claim that if $$n=2^k$$, then $$S(n)$$ is $$1$$. The proof is trivial by mathematical induction. When $$k=1$$, $$1$$ kills $$2$$, so $$S(2)=1$$. Now if $$k=m$$, the induction hypothesis holds, we consider the case when $$k=m+1$$. After one round of killing, it reduces to the case when $$k=m$$ and hence $$S(n)=1$$. 
-Now the closest $$2^n$$ to $$1000$$ is $$512$$. If we can reduce the question size to $$n=512$$, we immediately get the answer. And it is easy by killing $$1000-512$$ more people. So we have $$S(n)=2*(1000-512)+1=977$$
+First, consider the case in which $$n = 2m$$ is even. Going around once, only the odd men survive and there are $$m$$ of them. We can then reorder these $$1, \dots, m$$, and number $$i$$ in the new ordering translates to number $$2 i - 1$$ in the old one. The following table summarizes this observation.
+
+| **Original ordering** | 1 | 2 | 3 | 4 | ... |          | ... | $$2m-1$$ | $$2m$$ |
+|-----------------------|:-:|:-:|:-:|:-:|:---:|:--------:|:---:|:--------:|:------:|
+| **Survivors**         | 1 |   | 3 |   | ... | $$2i-1$$ | ... | $$2m-1$$ |        |
+| **New ordering**      | 1 |   | 2 |   | ... | $$i$$    | ... | $$m$$    |        |
+
+In other words, if the winner in a circle of size $$m$$ is $$S(m)$$, then the winner in a circle of size $$2m$$ is
+$$
+S(2m) = 2 S(m) - 1.
+$$
+
+We can analyze the odd case $$n = 2m + 1$$ in a similar manner. Analyzing the first round only the odd ones survive. In the next step, $$2m + 1$$ kills number 1, and $$3$$ is the next one to act. Again, we are left with a circle of size $$m$$. If we apply the typical ordering to it, translating back sends $$i$$ to $$2 i + 1$$. The following table summarizes this information.
+
+| **Original ordering** | 1 | 2 | 3 | 4 | 5 | ... |          | ... | $$2m$$ | $$2m+1$$ |
+|-----------------------|:-:|:-:|:-:|:-:|:-:|:---:|:--------:|:---:|:------:|:--------:|
+| **Survivors**         |   |   | 3 |   | 5 | ... | $$2i-1$$ | ... |        | $$2m+1$$ |
+| **New ordering**      |   |   | 1 |   | 2 | ... | $$i$$    | ... |        | $$m$$    |
+
+Then the winner is
+$$
+S(2m+1) = 2 S(m) + 1.
+$$
+
+These two recursive relations together with the base case $$S(1)$$ fully characterize the function $$S$$:
+$$
+S(n) =
+\begin{cases}
+2 S(m) - 1 & \textrm{if } n = 2m \textrm{ is even}, \\
+2 S(m) + 1 & \textrm{if } n = 2m+1 \textrm{ is odd}, \\
+1 & \textrm{if } n = 1.
+\end{cases}
+$$
+
+Once we have this, it is easy to compute $$S(1000)$$. The following table summarizes the computation: we first populate the second column going down, then the third one in reverse.
+
+| $$n$$ | Expression for $$S(n)$$    | Value of $$S(n)$$ |
+|-------|----------------------------|------------------:|
+| 1000  | $$S(1000) = 2 S(500) - 1$$ | 977               |
+| 500   | $$S(500)  = 2 S(250) - 1$$ | 489               |
+| 250   | $$S(250)  = 2 S(125) - 1$$ | 245               |
+| 125   | $$S(125)  = 2 S(62)  + 1$$ | 123               |
+| 62    | $$S(62)   = 2 S(31)  - 1$$ | 61                |
+| 31    | $$S(31)   = 2 S(15)  + 1$$ | 31                |
+| 15    | $$S(15)   = 2 S(7)   + 1$$ | 15                |
+| 7     | $$S(7)    = 2 S(3)   + 1$$ | 7                 |
+| 3     | $$S(3)    = 2 S(1)   + 1$$ | 3                 |
+| 1     | $$S(1)    = 1           $$ | 1                 |
+
