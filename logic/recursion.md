@@ -65,8 +65,8 @@ The second approach we present analyzes one "round" of the game, so we reduce th
 
 First, consider the case in which $$n = 2m$$ is even. Going around once, only the odd men survive and there are $$m$$ of them. We can then reorder these $$1, \dots, m$$, and number $$i$$ in the new ordering translates to number $$2 i - 1$$ in the old one. The following table summarizes this observation.
 
-| **Original ordering** | 1 | 2 | 3 | 4 | ... |          | ... | $$2m-1$$ | $$2m$$ |
 |-----------------------|:-:|:-:|:-:|:-:|:---:|:--------:|:---:|:--------:|:------:|
+| **Original ordering** | 1 | 2 | 3 | 4 | ... |          | ... | $$2m-1$$ | $$2m$$ |
 | **Survivors**         | 1 |   | 3 |   | ... | $$2i-1$$ | ... | $$2m-1$$ |        |
 | **New ordering**      | 1 |   | 2 |   | ... | $$i$$    | ... | $$m$$    |        |
 
@@ -77,8 +77,8 @@ $$
 
 We can analyze the odd case $$n = 2m + 1$$ in a similar manner. Analyzing the first round only the odd ones survive. In the next step, $$2m + 1$$ kills number 1, and $$3$$ is the next one to act. Again, we are left with a circle of size $$m$$. If we apply the typical ordering to it, translating back sends $$i$$ to $$2 i + 1$$. The following table summarizes this information.
 
-| **Original ordering** | 1 | 2 | 3 | 4 | 5 | ... |          | ... | $$2m$$ | $$2m+1$$ |
 |-----------------------|:-:|:-:|:-:|:-:|:-:|:---:|:--------:|:---:|:------:|:--------:|
+| **Original ordering** | 1 | 2 | 3 | 4 | 5 | ... |          | ... | $$2m$$ | $$2m+1$$ |
 | **Survivors**         |   |   | 3 |   | 5 | ... | $$2i-1$$ | ... |        | $$2m+1$$ |
 | **New ordering**      |   |   | 1 |   | 2 | ... | $$i$$    | ... |        | $$m$$    |
 
@@ -97,7 +97,7 @@ S(n) =
 \end{cases}
 $$
 
-Once we have this, it is easy to compute $$S(1000)$$. The following table summarizes the computation: we first populate the second column going down, then the third one in reverse.
+Once we have this, it is easy to compute $$S(1000)$$. The following table summarizes the computation: we first populate the second column going down, then the third one in reverse by plugging values.
 
 | $$n$$ | Expression for $$S(n)$$    | Value of $$S(n)$$ |
 |-------|----------------------------|------------------:|
