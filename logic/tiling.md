@@ -38,6 +38,21 @@ No, we still can't. Color the $$8x8$$ board with 0,1,2 three colors in following
 > 
 > ![T-shaped piece](Diagrams/Tetris_T.png)
 
+The shape of the pieces makes this problem appear a little harder, but in fact it is quite simple. Let us imagine a tiling exists, and we color the board in the standard alternating black and white pattern. The pieces which constitute the tiling can be split into two categories: type A which has 3 black and 1 white squares, and type B with 1 black and 3 white squares.
+
+![T-shaped pieces types](Diagrams/Tetris_T_two.png)
+
+Suppose there are $$a$$ pieces of type A, and $$b$$ pieces of type B. The entire board has $$10^2 = 100$ squares of which 50 are black and 50 are white. Equating the squares in each color, we obtain the following.
+$$
+\begin{align}
+3 a + b &= 50 \\
+a + 3 b &= 50 \\
+\end{align}
+$$
+Adding and subtracting these equations, it is easy to arrive at $$a + b = 25$$ and $$a = b$$. But then $$2a = 25$$ which has no integer solutions, and we reached a contradiction. We conclude that it is impossible to tile a $$10 \times 10$$ board with T-shaped pieces.
+
+Note that the same argument works for any board of size $$n \times n$$ where $$n$$ is odd but not divisible by 4.
+
 
 ### Packing bricks
 
