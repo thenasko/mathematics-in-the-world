@@ -12,7 +12,7 @@ Let us imagine we have tried to tile the board by hand a few times unsuccessfull
 
 The idea is to look for a property which a tileable board possesses. If we show that our board does not satisfy this condition, then naturally no tiling exists. It is no coincidence that the question is stated for an $$8 \times 8$$ board, the same size as chess. One distinguishing feature of chess boards is they are colors with white and black squares in an alternating pattern.
 
-![Chess board](Chess_Board.png)
+![Chess board](Diagrams/Chess_Board.png)
 
 Direct inspection shows that no matter how we place a domino on the board, it always covers one white and white black square. It follows that is a board (of any shape) has a tiling by $$n$$ domino pieces, then coloring it with the chess pattern, there must be $$n$$ white and $$n$$ black blocks.
 
