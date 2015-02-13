@@ -34,7 +34,7 @@ How do you come up with this result? Intuition. This is not as tongue-in-cheek a
 
 > A stall at the farmer's market sells three products: boxes of apples, boxes of oranges, and a mix of the two. All boxes are fully opaque and mislabeled. The seller offers his customers a discount if they can guess the the contents of all boxes by opening a minimal number of them. What is this number, and how can one get the discount?
 > 
-> Imagine that the seller becomes more strict with his discount policy. He has redefined ``opening'' a box to mean reaching in and picking a single piece of fruit. How does the problem change?
+> Imagine that the seller becomes more strict with his discount policy. He has redefined "opening" a box to mean reaching in and picking a single piece of fruit. How does the problem change?
 
 
 ### Separating coins

@@ -6,9 +6,20 @@
 > 
 > Assume the board and domino squares are of the same size.
 
-Proof:
-Impossible.
-Denote the number of black block and white block as $$B$$ and $$W$$ respectively. WLOG, assume the two blocks missing are black blocks. We thus have $$B=30$$, $$W=32$$, but for every domino, it has to cover one black and one white. Hence it is impossible to cover.
+At firth sight, it is tempting to think that the answer to this question is positive. On the other hand, experimentation shows that a tiling is hard to get. More generally, trying to obtain a tiling (of a possibly smaller board) is a good place to start building intuition about a problem.
+
+Let us imagine we have tried to tile the board by hand a few times unsuccessfully, and we are now convinced that no tiling exists. How can we go about proving such a result? One way would be to start adding dominoes one by one, enumerate all possible scenarios and find that none of them lead to a solution. While this may work for some smaller cases, it is clear that is not the correct strategy.
+
+The idea is to look for a property which a tileable board possesses. If we show that our board does not satisfy this condition, then naturally no tiling exists. It is no coincidence that the question is stated for an $$8 \times 8$$ board, the same size as chess. One distinguishing feature of chess boards is they are colors with white and black squares in an alternating pattern.
+
+![Chess board](Chess_Board.png)
+
+Direct inspection shows that no matter how we place a domino on the board, it always covers one white and white black square. It follows that is a board (of any shape) has a tiling by $$n$$ domino pieces, then coloring it with the chess pattern, there must be $$n$$ white and $$n$$ black blocks.
+
+This is just what we need. Starting from the standard board above, we need to remove two diagonally opposite corners. Without loss of generality, we can always rotate the board so these are the upper left and lower right corners. Assuming a coloring as the one shown above, both of these places are white. While the original board had an equal number of black and white pieces, each 32, the modified one has 30 white and 32 black pieces. These numbers are not equal, so we conclude that the modified board cannot be tiled with dominoes.
+
+Note that the statement of the problem made no mention of a coloring. That was the crucial step in our solution, but at the same time, it is an auxiliary construction we have control over. Two colors worked well here, but there is no reason why we shouldn't use three or more colors in a different problem.
+
 
 ### Covering with length 3 pieces
 
@@ -16,7 +27,6 @@ Denote the number of black block and white block as $$B$$ and $$W$$ respectively
 > 
 > What if one corner of the board is missing?
 
-Proof:
 No we can't. $$8*8=64$$ is not divisible by $$3$$.
 
 No, we still can't. Color the $$8x8$$ board with 0,1,2 three colors in following way. For $$T_{ij}$$, color it with $$i+j(mod 3)$$. If we count the number of each color, we have number of $$0$$-tile is $$22$$, $$1$$-tile is $$20$$, $$2$$-tile is $$21$$. But each $$1 x 3$$ will cover each color once. So it is impossible.
