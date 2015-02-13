@@ -8,10 +8,9 @@
 >
 >How does the story end?
 
-Proof:
 We start with small cases. Denote the number of tigers as $$N$$. If $$N=1$$, then tiger will eat the sheep since no one else can threaten its life afterward. If $$N=2$$, then tiger will not eat the sheep because if one of the tigers eats the sheep, the cases reduce to the case when $$N=1$$ and then the other tiger will eat the tiger. A stalemate. If $$N=3$$, then tiger will eat the sheep since the situation reduces to the case when $$N=2$$ which is a stalemate, so the tiger who eats the sheep survives. Now you can see the pattern. If $$N$$ is an odd number, the tiger will eat the sheep while if $$N$$ is an even number, it is a stalemate. 
 
-In order to prove it more rigorously, we need to use mathematical induction. We have already solved the base case when $$N=1,2$$. Now assume when $$N=k$$, the induction hypothesis is true. If $$k$$ is an odd number, we know $$N=k+1$$ will be a stalemate since no tiger wants to eat the sheep because it will be eaten afterward. If $k$ is an even number, we know when $$N=k+1$$ a tiger will eat the sheep since it can reduce the situation to a stalemate and live happily after. 
+In order to prove it more rigorously, we need to use mathematical induction. We have already solved the base case when $$N=1,2$$. Now assume when $$N=k$$, the induction hypothesis is true. If $$k$$ is an odd number, we know $$N=k+1$$ will be a stalemate since no tiger wants to eat the sheep because it will be eaten afterward. If $$k$$ is an even number, we know when $$N=k+1$$ a tiger will eat the sheep since it can reduce the situation to a stalemate and live happily after. 
 
 Now since $$N=100$$, the sheep and the tigers live happily after.
 
@@ -45,6 +44,23 @@ This solution is a very simple example of mathematical induction. We found out w
 
 > A thousand samurai, numbered 1 to 1000, are standing in a circle. The first one takes his sword and kills the second. Then, the next man in the circle, number 3, kills number 4. The process continues until there is only one samurai standing. What is his number?
 
-Proof:
+We will present two solutions to this problem, one recursive, and one more direct. In both cases, it is useful to look at the more general setup of $$n$$ samurai. We will then denote the winner's number by $$S(n)$$.
+
+**SOLUTION 1:**
+If we go through several small cases by hand, it is easy to see that $$S(n) = 1$$ for all $$n = 2^k$$ where $$k$$ is an integer. To see this note that if we start with $$n = 2^k$$ samurai, then going around once only the odd ones survive leaving $$2^{k-1}$$ men standing and it is number 1's turn. Reducing by a factor of two, it is easy to see that number 1 doesn't die as long as $$n$$ is a power of 2, hence $$S(2^k) = 1$$ for all $$k$$.
+
+This is a very interesting observation, but $$n = 1000$$ is certainly not a power of 2. The key observation is that at some point after the game starts, the number of men standing will be a power of 2. For $$n = 1000$$, the largest power of two less of equal to $$n$$ is $$512 = 2^9$$. Once we reach 512, imagine that we reorder the people: 1, ..., 512. The discussion above shows that number 1 in this ordering would be the winner. We have reduced the problem to finding who is the next person to act when there are 512 men standing. If we start with 1000, it means that $$1000 - 512 = 488$$ people have been killed. Since each of these was slayed by the preceding one in sequence, we deduce that 488 men down are $$2, 4, \dots, 976 = 2 \cdot 488$$. The next turn is in the hands of 977, so he will be the winner.
+
+Let us try to generalize this logic to any value $$n$$. The largest power of two less of equal to $$n$$ is $$2^{\lfloor \log_2 n \rfloor}$$. It follows that
+$$
+n - 2^{\lfloor \log_2 n \rfloor}
+$$
+people are killed before we reach a power of two. The next person to act, who is also the winner, is
+$$
+S(n) = 2 (n - 2^{\lfloor \log_2 n \rfloor}) + 1.
+$$
+
+**SOLUTION 2:**
+
 First, denote the number of samurai who standing when there are $$n$$ samurais as $$S(n)$$. First, I want to claim that if $$n=2^k$$, then $$S(n)$$ is $$1$$. The proof is trivial by mathematical induction. When $$k=1$$, $$1$$ kills $$2$$, so $$S(2)=1$$. Now if $$k=m$$, the induction hypothesis holds, we consider the case when $$k=m+1$$. After one round of killing, it reduces to the case when $$k=m$$ and hence $$S(n)=1$$. 
 Now the closest $$2^n$$ to $$1000$$ is $$512$$. If we can reduce the question size to $$n=512$$, we immediately get the answer. And it is easy by killing $$1000-512$$ more people. So we have $$S(n)=2*(1000-512)+1=977$$
