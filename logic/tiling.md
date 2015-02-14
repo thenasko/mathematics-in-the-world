@@ -34,7 +34,7 @@ After removing a corner the number of squares is $$8^2 - 1 = 63$$ which is divis
 Suppose we start with a hypothetical tiling of the board with one corner removed. By rotating, we can arrange so this corner is in the top left position. There are two ways to color the board worth investigating.
 
 |        | Coloring A                           | Coloring B                           |
-|:------:|--------------------------------------|--------------------------------------|
+|:------:|:------------------------------------:|:------------------------------------:|
 |        |![A](Diagrams/Three_color_board_A.png)|![B](Diagrams/Three_color_board_B.png)|
 | Whites | 22                                   | 21                                   |
 | Grays  | 21                                   | 21                                   |
