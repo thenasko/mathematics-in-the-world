@@ -29,9 +29,9 @@ Note that the statement of the problem made no mention of a coloring. That was t
 
 The first question is very simple. Since $$8^2 = 64$$ is not divisible by 3, we cannot tile the entire board.
 
-After removing a corner the number of squares is $$8^2 - 1 = 63$$, which is divisible by 3. On the other hand, experimenting with the problem quickly leads one to the suggestion no such tiling is possible. The two color argument we presented above doesn't lead to a contradiction, so we need to work harder. In this case three colors suffice.
+After removing a corner the number of squares is $$8^2 - 1 = 63$$ which is divisible by 3. On the other hand, experimenting with the problem quickly leads one to the suggestion no such tiling is possible. The two color argument we presented above doesn't lead to a contradiction, so we need to work harder. In this case three colors suffice.
 
-Suppose we start with a hypothetical tiling of the board with one corner removed. By rotating, we can arrange so this corner is in the top left position. There are two ways to color the board worth noting.
+Suppose we start with a hypothetical tiling of the board with one corner removed. By rotating, we can arrange so this corner is in the top left position. There are two ways to color the board worth investigating.
 
 |        | Coloring A                           | Coloring B                           |
 |:------:|--------------------------------------|--------------------------------------|
@@ -42,7 +42,7 @@ Suppose we start with a hypothetical tiling of the board with one corner removed
 
 In each of the two cases, it is easy to see that a $$1 \times 3$$ block placed anywhere on the board would contain one unit square of each color. If we choose coloring B, all colors are equally represented and no contradiction arises. On the other hand, Coloring A suffices. Indeed, no tiling is possible.
 
-This problem is a great way to illustrate the importance of auxiliary choices we make. It is not possible to demonsrate the impossibility of tiling unless we use a correct construction. Finding one typically boils down to trying a number of cases and seeing which one does the job.
+This problem is a great way to illustrate the importance of auxiliary choices we make. It is not possible to demonsrate the impossibility of tiling unless we use a correct construction. As we have seen in this case, finding the right construction is typically a trial and error process.
 
 
 ### Tiling with T-pieces
