@@ -27,9 +27,16 @@ Note that the statement of the problem made no mention of a coloring. That was t
 > 
 > What if one corner of the board is missing?
 
-No we can't. $$8*8=64$$ is not divisible by $$3$$.
+The first question is very simple. Since $$8^2 = 64$$ is not divisible by 3, we cannot tile the entire board.
 
-No, we still can't. Color the $$8x8$$ board with 0,1,2 three colors in following way. For $$T_{ij}$$, color it with $$i+j(mod 3)$$. If we count the number of each color, we have number of $$0$$-tile is $$22$$, $$1$$-tile is $$20$$, $$2$$-tile is $$21$$. But each $$1 x 3$$ will cover each color once. So it is impossible.
+After removing a corner the number of squares is $$8^2 - 1 = 63$$, which is divisible by 3. On the other hand, experimenting with the problem quickly leads one to the suggestion no such tiling is possible. The two color argument we presented above doesn't lead to a contradiction, so we need to work harder. In this case three colors suffice.
+
+Suppose we start with a hypothetical tiling of the board with one corner removed. By rotating, we can arrange so this corner is in the top left position. There are two ways to color the board worth noting.
+
+| Coloring A                           | Coloring B                           |
+|--------------------------------------|--------------------------------------|
+|![A](Diagrams/Three_color_board_A.png)|![B](Diagrams/Three_color_board_B.png)|
+
 
 
 ### Tiling with T-pieces
@@ -64,6 +71,6 @@ Before presenting the argument, it is worth noting that a standard two color arg
 
 As we already mentioned, it is possible to solve problem using an interesting two coloring scheme. First, subdivide the larger $$6 \times 6 \times 6$$ cube into $$3^3 = 27$$ smaller $$2 \times 2 \times 2$$ cubes. If we imagine that each of the smaller cubes is a "unit", we apply the standard alternating pattern. In this way, we obtain 14 black and 13 white $$2 \times 2 \times 2$$ cubes (or the other way around). The key point is that these numbers are not equal. Counting the unit cubes, we have $$14 \times 2^3 = 112$$ black units and $$13 \times 2^3 = 104$$ white units.
 
-For contradiction, assume it is possible to pack all 53 bricks inside the larger cube. It is easy to see that no matter how we place a $$1 \times 1 \times 4$$ brick inside, it will always occupy 2 black and 2 white unit cubes. It follows that we need $$2 \x 53 = 106$$ black units and the same number of whites. On the other hand, our coloring produced only 104 whites, so they are insufficient. This demonstrates that no packing is possible.
+For contradiction, assume it is possible to pack all 53 bricks inside the larger cube. It is easy to see that no matter how we place a $$1 \times 1 \times 4$$ brick inside, it will always occupy 2 black and 2 white unit cubes. It follows that we need $$2 \cdot 53 = 106$$ black units and the same number of whites. On the other hand, our coloring produced only 104 whites, so they are insufficient. This demonstrates that no packing is possible.
 
 Note that a volume computation suggests a $$6 \times 6 \times 6$$ cube should be able to fit $$6^3 / 4 = 54$$ bricks, but we cannot pack even 53! On the other hand, it is not difficult to fit 52 pieces.
