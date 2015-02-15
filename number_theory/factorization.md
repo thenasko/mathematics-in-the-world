@@ -7,6 +7,6 @@
 
 ### A fixed number of divisors
 
-What is the smallest natural number which has exactly 77 divisors?
+> What is the smallest natural number which has exactly 77 divisors?
 
 
