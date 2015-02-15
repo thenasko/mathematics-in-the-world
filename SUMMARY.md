@@ -10,5 +10,7 @@
     * [Chess](logic/chess.md)
     * [Miscellaneous](logic/misc.md)
 * [Number theory](number_theory/README.md)
+  * [Prime numbers](number_theory/primes.md)
+  * [Prime factorization](number_theory/factorization.md)
 * [Probability](probability/README.md)
 * [Algorithms](algorithms/README.md)
