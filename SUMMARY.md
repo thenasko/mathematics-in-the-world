@@ -7,6 +7,7 @@
     * [Tiling and packing](logic/tiling.md)
     * [He said, she said](logic/he-said-she-said.md)
     * [The Pigeonhole principle](logic/Dirichlet.md)
+    * [Chess](logic/chess.md)
     * [Miscellaneous](logic/misc.md)
 * [Number theory](number_theory/README.md)
 * [Probability](probability/README.md)
