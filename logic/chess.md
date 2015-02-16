@@ -28,7 +28,7 @@ SOLUTION ONE: As we did before with columns, we can now consider diagonals as th
 
 ![Bishopdiagonals](Diagrams/Bishopdiagonals.png)
 
-We have 15 diagonals, so in principle we *could* place 15 bishops in them, one in each. But exactly as it happens in the problem “We have the same number of friends” above, there are two mutually exclusive options. Looking more carefully, it is not possible to have a bishop in the “diagonal” composed by the only upper left corner *and* one in the lower right corner. They would attack each other, going through the diagonal in the other direction. So, again, we have 15 bishops, 14 boxes (collecting together the two opposite corners) so there have to be two of them in the same diagonal, that attack each other.
+We have 15 diagonals, so in principle we *could* place 15 bishops in them, one in each. But exactly as it happens in the problem **We have the same number of friends** above, there are two mutually exclusive options. Looking more carefully, it is not possible to have a bishop in the “diagonal” composed by the only upper left corner *and* one in the lower right corner. They would attack each other, going through the diagonal in the other direction. So, again, we have 15 bishops, 14 boxes (collecting together the two opposite corners) so there have to be two of them in the same diagonal, that attack each other.
 
 SOLUTION TWO: ROOKS ON A DIFFERENT CHESSBOARD
 
