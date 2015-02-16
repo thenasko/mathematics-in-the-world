@@ -27,10 +27,12 @@ where sadly we cannot perform any algebraic manipulation. To try to understand t
 | $$n$$ | 1  | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |------------|----|---|---|---|---|---|---|---|---|----|
 | $$n^2+1$$    | 2 | 5 | 10 | 17 | 26 | 37 | 50 | 65 | 82 | 101  |
-|------------|----|---|---|---|---|---|---|---|---|----|
 | **Prime?**    | Y | Y | N | Y | N | Y | N | N | N | Y  |
 
-This is indeed a way more complicated problem than the previous one, and no solution is known. One funny feature of this kind of problems, is that if we *slightly* change one problem (in this case, we just changed a negative sign to a positive!) the problem can become arbitrarily complicated. In this 
+As we can see, there are many solutions. In fact, there is an infinite number of them.
+This is indeed a way more complicated problem than the previous one, and no explicit solution is known. One funny feature of this kind of problems, is that if we *slightly* change one problem (in this case, we just changed a negative sign to a positive!) the problem can become arbitrarily complicated, or even impossible to solve. 
+
+Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason behind the fact that the product of the two numbers $$1^2+1$$ and $$2^2+1$$ is the third one, $$3^2+1$$. This reason is called   
 
 
 
