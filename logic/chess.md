@@ -18,7 +18,7 @@ Here, we can use the Dirichlet principle, and the argument is very simple. Suppo
 
 We will follow closely what we did for the previous problem. In this case, it’s slightly more complicated to guess what this maximal number is. It is indeed 14, and one possible configuration is the following.
 
-![Chess board](Diagrams/Bishop.png)
+![Bishops](Diagrams/Bishops.png)
 
 Now we need to prove that it is not possible to place 15 or more bishops in a peaceful setting. As we did before with columns, we can now consider diagonals as the “holes” of the Dirichlet principle.
 
