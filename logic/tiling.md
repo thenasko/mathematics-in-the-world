@@ -2,7 +2,7 @@
 
 ### Tiling with dominoes
 
-> We are given a $$8 \times 8$$ board with two diagonal corners missing. Is it possible to cover it completely with dominoes without any pieces overlapping.
+> We are given a $$8 \times 8$$ board with two diagonal corners missing. Is it possible to cover it completely with dominoes without any pieces overlapping?
 > 
 > Assume the board and domino squares are of the same size.
 
