@@ -80,3 +80,6 @@ As we already mentioned, it is possible to solve problem using an interesting tw
 For contradiction, assume it is possible to pack all 53 bricks inside the larger cube. It is easy to see that no matter how we place a $$1 \times 1 \times 4$$ brick inside, it will always occupy 2 black and 2 white unit cubes. It follows that we need $$2 \cdot 53 = 106$$ black units and the same number of whites. On the other hand, our coloring produced only 104 whites, so they are insufficient. This demonstrates that no packing is possible.
 
 Note that a volume computation suggests a $$6 \times 6 \times 6$$ cube should be able to fit $$6^3 / 4 = 54$$ bricks, but we cannot pack even 53! On the other hand, it is not difficult to fit 52 pieces.
+
+
+
