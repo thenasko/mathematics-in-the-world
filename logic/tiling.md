@@ -47,7 +47,7 @@ This problem is a great way to illustrate the importance of auxiliary choices we
 
 ### Tiling with T-pieces
 
-> Can you tile a $$10 \times 10$$ board with pieces of the following shape.
+> Can you tile a $$10 \times 10$$ board with pieces of the following shape?
 > 
 > ![T-shaped piece](Diagrams/Tetris_T.png)
 
