@@ -32,7 +32,13 @@ where sadly we cannot perform any algebraic manipulation. To try to understand t
 As we can see, there are many solutions. In fact, there is an infinite number of them.
 This is indeed a way more complicated problem than the previous one, and no explicit solution is known. One funny feature of this kind of problems, is that if we *slightly* change one problem (in this case, we just changed a negative sign to a positive!) the problem can become arbitrarily complicated, or even impossible to solve. 
 
-Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason behind the fact that the product of the two numbers $$1^2+1$$ and $$2^2+1$$ is the third one, $$3^2+1$$. This reason is called   
+Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason behind the fact that the product of the two numbers $$1^2+1$$ and $$2^2+1$$ is the third one, $$3^2+1$$. This reason is called [Fibonacci identity](http://en.wikipedia.org/wiki/Brahmagupta–Fibonacci_identity), that is
+
+$$(a^2 + b^2)(c^2 + d^2)= (ad+bc)^2+(ac-bd)^2 $$
+
+This formula allows the product of two numbers that are sum of two squares to be expressed again as the sum of two squares. In our case, we just applied with $$a=b=d=1$$ and $$c=2$$.
+
+Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1$$ (except for 2) give remainder 1 when divided by 4. Looking more closely at the table, in fact, the odd prime factors that we get are $5,17,13,37,41,101$, all of them (using the notation introduced in the exercise )having remainder 1 when divided by 4. 
 
 
 
