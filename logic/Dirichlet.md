@@ -83,23 +83,7 @@ To explain the solution of the problem, let us apply some reverse thinking. How 
 On the other hand, we can try to divide the square in 25 regions each of which is *contained* in a circle of radius 10. The obvious choice is to divide it in $$25 = 5^2$$ smaller squares of radius $$70 / 5 = 14$$. The biggest square that is contained in a circle of radius 10 has side $$10 \cdot \sqrt{2} \approx 14.14$$, so a circle of radius 10 can indeed contain a square of side 14. Wrapping everything up, recall that we found that there is one of the little squares that contains at least 3 trees, hence we also have a circle of radius 10 containing the same 3 trees.
 
 
-### Peaceful rooks
 
-> What is the maximal number of rooks you can place on an chess board so that no two can attack each other?
-
-The problems involving finding a maximum are very tricky, because they always consist in two parts.
-
-The first step is guessing what could be the right number: in this case, after a bit of guessing, is it easy to find a configuration with 8 rooks not attacking each other. For instance, we can place them along one diagonal of the chessboard, but there is plenty of other possibilities.
-
-Then it comes the second part, that people sometimes forget, but that it needed to produce a complete proof. What we need to do is to *prove* that 8 is indeed the maximum. In other words, that whenever we have 9 rooks or more, there are always two that attack each other.
-
-Here, we can use the Dirichlet principle, and the argument is very simple. Suppose we have 9 or more rooks on the chessboard, there are at least two that lie in the same column, because columns are only 8. Then, these two rooks attack each other! And this concludes the proof.
-
-### Peaceful bishops
-
-> What is the maximal number of bishops you can place on an chess board so that no two can attack each other?
-
-We
 
 
 
