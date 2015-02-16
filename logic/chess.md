@@ -8,6 +8,8 @@ The problems involving finding a maximum are very tricky, because they always co
 
 The first step is guessing what could be the right number: in this case, after a bit of guessing, is it easy to find a configuration with 8 rooks not attacking each other. For instance, we can place them along one diagonal of the chessboard, but there is plenty of other possibilities.
 
+![Rooks](Diagrams/Rooks.png)
+
 Then it comes the second part, that people sometimes forget, but that it needed to produce a complete proof. What we need to do is to *prove* that 8 is indeed the maximum. In other words, that whenever we have 9 rooks or more, there are always two that attack each other.
 
 Here, we can use the Dirichlet principle, and the argument is very simple. Suppose we have 9 or more rooks on the chessboard, there are at least two that lie in the same column, because columns are only 8. Then, these two rooks attack each other! And this concludes the proof.
