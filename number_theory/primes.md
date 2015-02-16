@@ -20,7 +20,7 @@ We can now use the information that we have, that $$p$$ is a prime number. The p
 
 In the same way as the previous exercise, we get the equation
 
-$$p=n^2-1$$
+$$p=n^2-1,$$
 
 where sadly we cannot perform any algebraic manipulation. To try to understand that happens, let us just try some values of $$n$$ and see whether we find a prime number.  
 
@@ -32,15 +32,13 @@ where sadly we cannot perform any algebraic manipulation. To try to understand t
 As we can see, there are many solutions. In fact, there is an infinite number of them.
 This is indeed a way more complicated problem than the previous one, and no explicit solution is known. One funny feature of this kind of problems, is that if we *slightly* change one problem (in this case, we just changed a negative sign to a positive!) the problem can become arbitrarily complicated, or even impossible to solve. 
 
-Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason behind the fact that the product of the two numbers $$1^2+1$$ and $$2^2+1$$ is the third one, $$3^2+1$$. This reason is called [Fibonacci identity](http://en.wikipedia.org/wiki/Brahmagupta–Fibonacci_identity), that is
+**REMARK-MATH-HISTORY:** Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason behind the fact that the product of the two numbers $$1^2+1$$ and $$2^2+1$$ is the third one, $$3^2+1$$. This reason is called [Fibonacci identity](http://en.wikipedia.org/wiki/Brahmagupta–Fibonacci_identity), probably already known to [Diophantus of Alexandria](http://en.wikipedia.org/wiki/Diophantus) in the $$3^{rd}$$ century AC, that is the following:
 
-$$(a^2 + b^2)(c^2 + d^2)= (ad+bc)^2+(ac-bd)^2 $$
+$$(a^2 + b^2)(c^2 + d^2)= (ad+bc)^2+(ac-bd)^2. $$
 
-This formula allows the product of two numbers that are sum of two squares to be expressed again as the sum of two squares. In our case, we just applied with $$a=b=d=1$$ and $$c=2$$.
+This formula allows the product of two numbers that are sum of two squares to be expressed again as the sum of two squares. In our case, we just applied with $$a=b=d=1$$ and $$c=2$$. Try a few more cases!
 
-Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1$$ (except for 2) give remainder 1 when divided by 4. Looking more closely at the table, in fact, the odd prime factors that we get are $5,17,13,37,41,101$, all of them (using the notation introduced in the exercise **Dividing the difference**)having remainder 1 when divided by 4. 
-
-
+Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1$$ (except for 2) give remainder 1 when divided by 4. Looking more closely at the table, in fact, the odd prime factors that we get are $5,17,13,37,41,101$, all of them (using the notation introduced in the exercise **Dividing the difference**) being congruent to 1 modulo 4. The reason of this fact is the so called [Quadratic reciprocity law](http://en.wikipedia.org/wiki/Quadratic_reciprocity#.E2.88.921_and_the_first_supplement), a very deep result proved by one of the greatest mathematicians of all time, [Carl Friedrich Gauss](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), in 1798. 
 
 
 
