@@ -39,7 +39,7 @@ How do you come up with this result? Intuition. This is not as tongue-in-cheek a
 
 ### Separating coins
 
-> There is a room with 100 coins on the floor, 10 of them are heads up, and the remaining are tails up. If you enter blindfolded, can you produce two piles such that the number of heads up coins in each is equal.
+> There is a room with 100 coins on the floor, 10 of them are heads up, and the remaining are tails up. If you enter blindfolded, can you produce two piles such that the number of heads up coins in each is equal?
 > 
 > Assume you cannot distinguish the two sides of a coin by touching it, but you are allowed to turn coins.
 
