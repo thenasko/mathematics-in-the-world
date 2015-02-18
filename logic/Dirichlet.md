@@ -90,7 +90,7 @@ On the other hand, we can try to divide the square in 25 regions each of which i
 
 In this problem, unlike many of the others, we are given a huge amount of information, way more that what we need. In fact, we will restrict to analyze only a $$9\times 3$$ rectangle as in the picture below, and prove that a monochromatic rectangle exists inside that rectangle. This is not the only way: the reader is encouraged to try if the same argument works for differently shaped rectangles.
 
-TODO: PICTURE 
+(TODO: PICTURE)
 
 Let us consider one column in our rectangle; how many possibilities do we have to color it? The answer is 8, because of the 2 choices for the upper point, 2 for the middle, and 2 for the lower. So, by Dirichlet principle, we have two columns in our rectangle that are two columns that are colored in the same way. In these two columns, moreover (still by Dirichlet principle) we have at least two points of the same color. Considering the 4 points obtained in this way, we get a monochromtic rectangle. 
 
