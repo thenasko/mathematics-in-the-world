@@ -4,7 +4,7 @@
 
 > What is the maximal number of rooks you can place on an chess board so that no two can attack each other?
 
-The problems involving finding a maximum are very tricky, because they always consist in two parts.
+The problems involving finding a maximum are very tricky, because they always consist of two parts.
 
 The first step is guessing what could be the right number: in this case, after a bit of guessing, is it easy to find a configuration with 8 rooks not attacking each other. For instance, we can place them along one diagonal of the chessboard, but there is plenty of other possibilities.
 
