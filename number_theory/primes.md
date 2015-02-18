@@ -38,7 +38,9 @@ $$(a^2 + b^2)(c^2 + d^2)= (ad+bc)^2+(ac-bd)^2. $$
 
 This formula allows the product of two numbers that are sum of two squares to be expressed again as the sum of two squares. In our case, we just applied with $$a=b=d=1$$ and $$c=2$$. Try a few more cases!
 
-Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1$$ (except for 2) give remainder 1 when divided by 4. Looking more closely at the table, in fact, the odd prime factors that we get are $5,17,13,37,41,101$, all of them (using the notation introduced in the exercise **Dividing the difference**) being congruent to 1 modulo 4. The reason of this fact is the so called [Quadratic reciprocity law](http://en.wikipedia.org/wiki/Quadratic_reciprocity#.E2.88.921_and_the_first_supplement), a very deep result proved by one of the greatest mathematicians of all time, [Carl Friedrich Gauss](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), in 1798. 
+Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1$$ (except for 2) give remainder 1 when divided by 4. Looking more closely at the table, in fact, the odd prime factors that we get are 5, 17, 13, 37, 41, 101, all of them (using the notation introduced in the exercise **Dividing the difference**) being congruent to 1 modulo 4. The reason of this fact is the so called [Quadratic reciprocity law](http://en.wikipedia.org/wiki/Quadratic_reciprocity#.E2.88.921_and_the_first_supplement), a very deep result proved by one of the greatest mathematicians of all time, [Carl Friedrich Gauss](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), in 1798. 
 
 
+### Euclid's Theorem
 
+> How do we know that there are infinitely many primes?
