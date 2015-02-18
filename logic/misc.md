@@ -8,7 +8,7 @@
 
 We claim that one can find the top three horses using 7 races as follows. 
 
-Let's split the 25 horses in 5 groups of 5. We start by racing the horses from each group. Then, we will hold a sixth race involving the winners from each of the five groups.
+Let's split the 25 horses in 5 groups of 5. We start by racing the horses from each group. Then, we will hold a sixth race involving the winners from each of the five groups. The following table reflects the race results. 
 
 | Group 1 | Group 2 | Group 3 | Group 4 | Group 5 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
