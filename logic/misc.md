@@ -12,7 +12,11 @@ Let's split the 25 horses in 5 groups of 5. We start by racing the horses from e
 
 | Group 1 | Group 2 | Group 3 | Group 4 | Group 5 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
-| H 1.1   |
+| H 1.1   | H 2.1   | H 3.1   | H 4.1   | H 5.1   |
+| H 1.2   | H 2.2   | H 3.2   | H 4.2   | H 5.2   |
+| H 1.3   | H 2.3   | H 3.3   | H 4.3   | H 5.3   |
+| H 1.4   | H 2.4   | H 3.4   | H 4.4   | H 5.4   |
+| H 1.5   | H 2.5   | H 3.5   | H 4.5   | H 5.5   |
 
 Let's run $$5$$ races on all $$25$$ horses first and then we will have following ordering $$x_{i1}>x_{i2}>x_{i3}>x_{i4}>x_{i5}$$ for $$i=1,2,3,4,5$$. Now let's have the 6th race for top one from each race. And without loss of generality, we can assume $$x_{11}>x_{21}>x_{31}>x_{41}>x_{51}$$. Based on these $$6$$ races, we can know that top 1 is $$x_{11}$$ and $$x_{i4}, x_{i5}$$ for $$i=1,2,3,4,5$$, $$x_{j3}$$ for $$j=2,3,4,5$$, $$x_{k2}$$ for $$k=3,4,5$$ and $$x_{w1}$$ for $$w=4,5$$ have no chance to win top 3. The only 5 horses that are left are $$x_{12}, x_{13}, x_{21}, x_{22}, x_{31}$$. Run this for the 7th race and we get the answer. 
 
