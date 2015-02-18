@@ -2,7 +2,7 @@
 
 ### Square plus one
 
-> Can you find a positive integer $$d$$ which divides both $$n^2 + 1$$ and $$(n+1)^2 + 1$$ for some $$n \in \mathbb{Z}_{> 0}$$? How many such $$d$$ are there?
+> Can you find a positive integer $$d$$ which divides both $$n^2 + 1$$ and $$(n+1)^2 + 1$$ for some $$n \in \mathbb{Z}$$? How many such $$d$$ are there?
 
 
 ### Integers?
