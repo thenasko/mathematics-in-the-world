@@ -8,17 +8,22 @@
 
 We claim that one can find the top three horses using 7 races as follows. 
 
-Let's split the 25 horses in 5 groups of 5. We start by racing the horses from each group. Then, we will hold a sixth race involving the winners from each of the five groups. The following table reflects the race results up to this moment. The horses in each column (group) are ordered on the basis of the race within that group (for example, H 1.1 is the fastest horse in Group 1).
+Let's split the 25 horses in 5 groups of 5. We start by racing the horses from each group. Then, we will hold a sixth race involving the winners from each of the five groups. The following table reflects the race results up to this moment. The horses in each column (group) are ordered on the basis of the race within that group (e.g., 1.1 is the fastest horse in group 1). Furthermore, we have ordered the groups using the results from the sixth race (e.g., 1.1 is faster than 2.1).
 
 | Group 1 | Group 2 | Group 3 | Group 4 | Group 5 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
-| H 1.1   | H 2.1   | H 3.1   | H 4.1   | H 5.1   |
-| H 1.2   | H 2.2   | H 3.2   | H 4.2   | H 5.2   |
-| H 1.3   | H 2.3   | H 3.3   | H 4.3   | H 5.3   |
-| H 1.4   | H 2.4   | H 3.4   | H 4.4   | H 5.4   |
-| H 1.5   | H 2.5   | H 3.5   | H 4.5   | H 5.5   |
+| 1.1     | **2.1** | **3.1** | 4.1     | 5.1     |
+| **1.2** | **2.2** | 3.2     | 4.2     | 5.2     |
+| **1.3** | 2.3     | 3.3     | 4.3     | 5.3     |
+| 1.4     | 2.4     | 3.4     | 4.4     | 5.4     |
+| 1.5     | 2.5     | 3.5     | 4.5     | 5.5     |
 
-Let's run $$5$$ races on all $$25$$ horses first and then we will have following ordering $$x_{i1}>x_{i2}>x_{i3}>x_{i4}>x_{i5}$$ for $$i=1,2,3,4,5$$. Now let's have the 6th race for top one from each race. And without loss of generality, we can assume $$x_{11}>x_{21}>x_{31}>x_{41}>x_{51}$$. Based on these $$6$$ races, we can know that top 1 is $$x_{11}$$ and $$x_{i4}, x_{i5}$$ for $$i=1,2,3,4,5$$, $$x_{j3}$$ for $$j=2,3,4,5$$, $$x_{k2}$$ for $$k=3,4,5$$ and $$x_{w1}$$ for $$w=4,5$$ have no chance to win top 3. The only 5 horses that are left are $$x_{12}, x_{13}, x_{21}, x_{22}, x_{31}$$. Run this for the 7th race and we get the answer. 
+There are a few important observations worth making here. First, 1.1 is the fastest horse among all 25. The second one is that cross column comparison beyond the first row is hard (e.g., we don't know if 2.2 or 3.3 is faster).
+
+Since we are only interested in the top three horses, there are a number of candidates we can reject. Any horse in groups 4 or 5 cannot belong to the top three (since they are slower than 1.1, 2.1, and 3.1). The same reasoning implies that the only horse from group 3 which can be a contender for the top three is 3.1. Similarly, we can also discard 2.3, 2.4, 2.5, 1.4, and 1.5.
+
+The remaining contenders for the second and third place are marked as bold in the table above. There are exactly five, and a seventh race can determine which two enter the top three.
+
 
 ### Infinite exponentiation
 
