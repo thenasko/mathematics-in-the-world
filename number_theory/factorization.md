@@ -20,6 +20,8 @@ $$\begin{cases}e_1+1=11 \\ e_2+1=7 \end{cases}\ \ \Rightarrow \ \ \  \begin{case
 
 So, our number will be of the form $$n=p_1^{6}p_2^{11}$$ for $$p_1,p_2$$ prime numbers. How can we choose them so that $$n$$ is as small as possible? Of course, we need to pick $$p_1$$ and $$p_2$$ as small as possible, that means, $$2$$ and $$3$$. We are left with two possibilities now, $$n=2^{6}3^{11}$$ and $$n=2^{11}3^{6}$$, and clearly the second is smaller.
 
+In the second case, the number is of the form $$n=p_1^{76}$$. To make it as small as possible, we need to pick $$p_1=2$$, so that $$n=2^{76}$$.
+
 ### The locker game
 
 > The students of a local high school enjoy the following extra-curricular activity. After the end of the day, all 100 students go in front of their closed lockers, numbered 1 to 100. The headmaster then proceeds to blow a whistle 100 times. At the first sound, all students open their lockers. At the second, the students standing by even lockers close them. The game continues in a similar manner -- at the $$n$$-th step students in front of lockers divisible by $$n$$ toggle them.
