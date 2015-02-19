@@ -10,6 +10,12 @@ The number of zeroes at the end of a number $$n$$ is given by the highest power 
 
 > What is the smallest natural number which has exactly 77 divisors?
 
+The number of divisors of a natural number $$n=\prod p_i^{e_i}$$ is given by the product $$\prod(e_i+1)$$. This is because every divisor will be of the form $$d=\prod p_i^{f_i}$$ where every $$f_i$$ satisfies $$0\leq f_i\leq e_i$$. So, for every $$f_i$$ we have $$e_i+1$$ choices, and the choices are independent, and hence the formula follows.
+
+Now, we want to find the smallest number $$n=\prod p_i^{e_i}$$ such that $$\prod(e_i+1)=77$$. Let us now analyze all possible decompositions of $$77$$. The only two possible options are $$7\cdot 11$$ and $$77$$ alone itself. Notice that we do not consider ones in the decomposition because we would have a factor $$e_i+1$$ equal to $$1$$, that means $$e_i=0$$. 
+
+In the first case, we get 
+
 
 ### The locker game
 
