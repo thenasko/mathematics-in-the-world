@@ -20,11 +20,25 @@ $$\begin{cases}e_1+1=11 \\ e_2+1=7 \end{cases}\ \ \Rightarrow \ \ \  \begin{case
 
 So, our number will be of the form $$n=p_1^{6}p_2^{11}$$ for $$p_1,p_2$$ prime numbers. How can we choose them so that $$n$$ is as small as possible? Of course, we need to pick $$p_1$$ and $$p_2$$ as small as possible, that means, $$2$$ and $$3$$. We are left with two possibilities now, $$n=2^{6}3^{11}$$ and $$n=2^{11}3^{6}$$, and clearly the second is smaller.
 
-In the second case, the number is of the form $$n=p_1^{76}$$. To make it as small as possible, we need to pick $$p_1=2$$, so that $$n=2^{76}$$.
+In the second case, the number is of the form $$n=p_1^{76}$$. To make it as small as possible, we need to pick $$p_1=2$$, so that $$n=2^{76}$$. This number is *way* bigger than the numbers we found before (in fact, it has more than three times the *digits*).
+
+Concluding, having exhausted all possibilities, the smallest number with 77 divisors is $$n=2^{11}3^{6}$$.
 
 ### The locker game
 
 > The students of a local high school enjoy the following extra-curricular activity. After the end of the day, all 100 students go in front of their closed lockers, numbered 1 to 100. The headmaster then proceeds to blow a whistle 100 times. At the first sound, all students open their lockers. At the second, the students standing by even lockers close them. The game continues in a similar manner -- at the $$n$$-th step students in front of lockers divisible by $$n$$ toggle them.
 >
 > Which lockers are open at the end of the game?
+
+Instead of focusing in what happens at a specific blow, let us choose a different strategy: we pick a lock, let's say the $n$-th, and let's see how many times it is toggled throughout the 100 blows. The lock will be open in the end if is has been toggled an odd number of times. Now, the lock is toggled at the $i$-th blow whenever $i$ is a divisor or $n$, so it is toggled once for every divisor of $n$. So, the $n$-th lock will be open in the end exactly if $n$ has an odd numbers of divisors. 
+
+We can now focus on the question: what are the numbers with an odd number of divisors? Looking at the formula from the previous exercise, the number of divisors of $$n=\prod p_i^{e_i}$$ is given by the product $$\prod(e_i+1)$$. This product can be odd only if every factor is odd too, that in turns gives us that every $$e_i$$ has to be even.
+
+
+
+
+
+
+
+
 
