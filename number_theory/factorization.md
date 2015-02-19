@@ -32,7 +32,9 @@ Concluding, having exhausted all possibilities, the smallest number with 77 divi
 
 Instead of focusing in what happens at a specific blow, let us choose a different strategy: we pick a lock, let's say the $n$-th, and let's see how many times it is toggled throughout the 100 blows. The lock will be open in the end if is has been toggled an odd number of times. Now, the lock is toggled at the $i$-th blow whenever $i$ is a divisor or $n$, so it is toggled once for every divisor of $n$. So, the $n$-th lock will be open in the end exactly if $n$ has an odd numbers of divisors. 
 
-We can now focus on the question: what are the numbers with an odd number of divisors? Looking at the formula from the previous exercise, the number of divisors of $$n=\prod p_i^{e_i}$$ is given by the product $$\prod(e_i+1)$$. This product can be odd only if every factor is odd too, that in turns gives us that every $$e_i$$ has to be even.
+We can now focus on the question: what are the numbers with an odd number of divisors? Looking at the formula from the previous exercise, the number of divisors of $$n=\prod p_i^{e_i}$$ is given by the product $$\prod(e_i+1)$$. This product can be odd only if every factor is odd too, that in turns gives us that every $$e_i$$ has to be even. But this means that the number has to be a square! Hence, the locks that are going to be open at the end are just the squares, namely
+
+$$1,4,9,16,25,36,49,64,81,100.$$
 
 
 
