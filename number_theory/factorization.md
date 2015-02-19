@@ -14,8 +14,11 @@ The number of divisors of a natural number $$n=\prod p_i^{e_i}$$ is given by the
 
 Now, we want to find the smallest number $$n=\prod p_i^{e_i}$$ such that $$\prod(e_i+1)=77$$. Let us now analyze all possible decompositions of $$77$$. The only two possible options are $$7\cdot 11$$ and $$77$$ alone itself. Notice that we do not consider ones in the decomposition because we would have a factor $$e_i+1$$ equal to $$1$$, that means $$e_i=0$$. 
 
-In the first case, we get 
+In the first case, we get
 
+$$\begin{cases}e_1+1=11 \\ e_2+1=7 \end{cases}\ \ \Rightarrow \ \ \  \begin{cases}e_1=10 \\ e_2=6 \end{cases}$$
+
+So, our number will be of the form $$n=p_1^{6}p_2^{11}$$ for $$p_1,p_2$$ prime numbers. How can we choose them so that $$n$$ is as small as possible? Of course, we need to pick $$p_1$$ and $$p_2$$ as small as possible, that means, $$2$$ and $$3$$. We are left with two possibilities now, $$n=2^{6}3^{11}$$ and $$n=2^{11}3^{6}$$, and clearly the second is smaller.
 
 ### The locker game
 
