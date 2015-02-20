@@ -37,7 +37,7 @@ We are looking for something much quicker, a condition one can almost check in a
 
 ### Missing digits 1
 
-> The number $62ab427$ is a multiple of 99. Find the digits $$a$$ and $$b$$.
+> The number $$62ab427$$ is a multiple of 99. Find the digits $$a$$ and $$b$$.
 
 
 ### Missing digits 2
