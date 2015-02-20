@@ -13,5 +13,6 @@
   * [Prime numbers](number_theory/primes.md)
   * [Prime factorization](number_theory/factorization.md)
   * [Divisibility and remainders](number_theory/divisibility-remainders.md)
+  * [Divisibility criteria](number_theory/divisibility-criteria.md)
 * [Probability](probability/README.md)
 * [Algorithms](algorithms/README.md)
