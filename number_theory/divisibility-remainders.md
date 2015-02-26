@@ -5,7 +5,7 @@
 
 Trying small values of $$n$$, we immediately find that $$d=5$$ works; for instance, choosing $$n=2$$ or $$n=7$$. Then, of course $$d=1$$ works too, because $$1$$ divides all integers.
 
-Let us now prove that $$1$$ and $$5$$ are the only possibilities. Suppose we have a $$d$$ that divides both $$n^2 + 1$$ and $$(n+1)^2 + 1$$; then its divides their difference, in symbols
+Let us now prove that $$1$$ and $$5$$ are the only possibilities. Suppose we have a $$d$$ that divides both $$n^2 + 1$$ and $$(n+1)^2 + 1$$; then it divides their difference, in symbols
 $$d\mid 2n+1.$$
 Now, let's try to combine the relation $$d\mid 2n+1$$ with the ones we had before, in particular we can do
 $$d\mid n(2n+1)$$
