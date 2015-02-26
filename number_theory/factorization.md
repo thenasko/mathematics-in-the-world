@@ -4,7 +4,18 @@
 
 > How many zeroes does $$100!$$ end in?
 
-The number of zeroes at the end of a number $$n$$ is given by the highest power of 10 that divides the number. Moreover, considering the highest power of 2 and the highest power of 5 dividing $$n$$, this number is going to be the smallest of the two. For example, the number $$2^4\cdot 3^2 \cdot 5^7$$ ends with 4 zeroes (in fact, this number is $$11250000$$).
+The number of zeroes at the end of a number $$n$$ is given by the highest power of 10 that divides the number. Moreover, considering the highest power of 2 and the highest power of 5 dividing $$n$$, this number is going to be the smallest of the two. For example, the number $$2^4\cdot 3^2 \cdot 5^7$$ ends with 4 zeroes (in fact, this number is $$11250000$$ ).
+
+So, we need to find how many times the primes $$2$$ and $$5$$ appear in the decomposition of $$100!$$. We are going to use the following result, that we are going to prove later.
+
+> The highest power of a prime $$p$$ that divides a factorial $$n!$$ is given by the
+$$\sum_{i=1}^\infty\left\lfloor\frac{n}{p^i}\right\rfloor.$$
+
+Using this result, the highest power of $$2$$ and $$5$$ dividing $$100!$$ are given by
+$$\left\lfloor\frac{100}{2}\right\rfloor+\left\lfloor\frac{100}{2^2}\right\rfloor+\left\lfloor\frac{100}{2^3}\right\rfloor+\left\lfloor\frac{100}{2^4}\right\rfloor+\left\lfloor\frac{100}{2^5}\right\rfloor+\left\lfloor\frac{100}{2^6}\right\rfloor=50+25+12+6+3+1=97$$
+$$\left\lfloor\frac{100}{5}\right\rfloor+\left\lfloor\frac{100}{5^2}\right\rfloor=20+4=24.$$
+So, the number of trailing zeroes is 24. 
+
 
 ### A fixed number of divisors
 
