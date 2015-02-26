@@ -12,14 +12,21 @@ So, we need to find how many times the primes $$2$$ and $$5$$ appear in the deco
 $$\sum_{i=1}^\infty\left\lfloor\frac{n}{p^i}\right\rfloor.$$
 
 Using this result, the highest power of $$2$$ and $$5$$ dividing $$100!$$ are given by
-$$\left\lfloor\frac{100}{2}\right\rfloor+\left\lfloor\frac{100}{2^2}\right\rfloor+\left\lfloor\frac{100}{2^3}\right\rfloor+\left\lfloor\frac{100}{2^4}\right\rfloor+\left\lfloor\frac{100}{2^5}\right\rfloor+\left\lfloor\frac{100}{2^6}\right\rfloor=50+25+12+6+3+1=97$$
+$$\left\lfloor\frac{100}{2}\right\rfloor+\left\lfloor\frac{100}{2^2}\right\rfloor+\left\lfloor\frac{100}{2^3}\right\rfloor+\left\lfloor\frac{100}{2^4}\right\rfloor+\left\lfloor\frac{100}{2^5}\right\rfloor+\left\lfloor\frac{100}{2^6}\right\rfloor=$$
+$$=50+25+12+6+3+1=97$$
 $$\left\lfloor\frac{100}{5}\right\rfloor+\left\lfloor\frac{100}{5^2}\right\rfloor=20+4=24.$$
 So, the number of trailing zeroes is 24. 
 
-Let us now prove the result, for a prime $$p$$ and a factorial $$n!$$. Let us list the multiples of $$p$$ that are less than $$n$$, the ones that bring a contribution:
+Let us now prove the result, for a prime $$p$$ and a factorial $$n!$$. Let us list the multiples of $$p$$ that are less than $$n$$, the ones that bring some factor $$p$$ into $$n!$$:
 
+| **Multiples of p** | p | 2p | 3p | ... | p(p-1) | p^2 | ... | p(p^2-1) | p^3 | ... | n |
+|-----------------------|:-:|:-:|:-:|:-:|:---:|:--------:|:---:|:--------:|:------:|
+| **1st contribution**         | p | p | p | ...  | p | p | ... | p | p | ... |
+| **2nd contribution**      |  |   |  | ... |  | p | ... |  | p | ... |
+| **3rd contribution**      |  |   |  | ... |  |  | ... |  | p | ... |
+| **4th contribution**      |  |   |  | ... |  |  | ... |  |  | ... |
 
-
+The highest power of $$p$$ dividing $$n!$$ is the number of occurrences of $$p$$ in this table. Let us now count this number, counting row by row. In the first row, there is one $$p$$ for every multiple of $$p$$ that is smaller than or equal to $$n$$. This means that there is exactly $$\lfloor\frac{n}{p}\rfloor$$ of them. Similarly, in the second column all multiples of $$p^2$$ that are smaller than or equal than $$n$$ appear, so there is $$\lfloor\frac{n}{p^2}\rfloor$$ of them. Keeping going, in the $i$-th row there are going to be $$\lfloor\frac{n}{p^i}\rfloor$$ occurrences of $$p$$, and the formula follows just taking the sum.
 
 ### A fixed number of divisors
 
