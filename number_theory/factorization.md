@@ -16,6 +16,10 @@ $$\left\lfloor\frac{100}{2}\right\rfloor+\left\lfloor\frac{100}{2^2}\right\rfloo
 $$\left\lfloor\frac{100}{5}\right\rfloor+\left\lfloor\frac{100}{5^2}\right\rfloor=20+4=24.$$
 So, the number of trailing zeroes is 24. 
 
+Let us now prove the result, for a prime $$p$$ and a factorial $$n!$$. Let us list the multiples of $$p$$ that are less than $$n$$, the ones that bring a contribution:
+
+
+
 
 ### A fixed number of divisors
 
