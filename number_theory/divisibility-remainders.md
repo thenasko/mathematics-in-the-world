@@ -27,6 +27,9 @@ and taking the difference we get $$d\mid 5$$. Wrapping everything up, we showed 
 > \frac{n(n+1)(2n+1)}{6}$$
 > integers (for $$n \in \mathbb{Z}$$)? Try to find an argument which doesn't appeal to the summation identities.
 
+For the first, let us show that $$n(n+1)$$ is always divisible by $$2$$. Let us consider all possibilities for the remainders of $$n$$ and $$n+1$$ modulo 2.
+
+
 
 ### The last digit
 
