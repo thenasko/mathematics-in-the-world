@@ -29,6 +29,25 @@ and taking the difference we get $$d\mid 5$$. Wrapping everything up, we showed 
 
 For the first, let us show that $$n(n+1)$$ is always divisible by $$2$$. Let us consider all possibilities for the remainders of $$n$$ and $$n+1$$ modulo 2.
 
+| $$n$$ | $$n+1$$  | $$n(n+1)$$ | modulo 2 |
+|-------|:--------:| ------:|
+| 0     | 1| 0 |
+| 1 | 0 | 0 |
+
+This shows that whatever is the remainder of $$n$$ modulo 2, the remainder of $$n(n+1)$$ is always 0, so the fraction $$\frac{n(n+1)}{2}$$ is an integer. In other words, among two consecutive integers one has to be even, so their product will be even too.
+
+For the second fraction, we can just do the table mod 6 as we did before. Notice that the third column can just be obtained by summing the first two, and that when we are modulo 6 the product $$2\cdot 3$$ is $$0$$.
+
+| $$n$$ | $$n+1$$  | $$2n+1$$ | $$n(n+1)(2n+1)$$ |  modulo 6 |
+|-------|:--------:| :------:|------:|
+| 0     | 1| 1 | 0|
+| 1 | 2 | 3 | 0|
+| 2 | 3 | 5 | 0|
+| 3 | 4 | 1 | 0|
+| 4 | 5 | 3 | 0|
+| 5 | 0 | 5 | 0|
+
+
 
 
 ### The last digit
