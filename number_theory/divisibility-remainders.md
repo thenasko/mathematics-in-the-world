@@ -85,3 +85,7 @@ so that the last digit of $$7^{7^{2015}}$$ is again $$3$$.
 > Consider the sequence of last digits (in base 10) obtained from the Fibonacci sequence. Is it periodic and why?
 
 Consider the last digit of the first Fibonacci numbers.
+
+| $$F_n$$ | $$F_0$$ | $$F_1$$ | $$F_2$$ | $$F_3$$ | $$F_4$$ | $$F_5$$ | $$F_6$$ | $$F_7$$ | $$F_8$$ | $$F_9$$ | $$F_{10}$$ | $$F_{11}$$ | $$F_{12}$$ | $$F_{13}$$ | $$F_{14}$$ | $$F_{15}$$ | $$F_{16}$$ | 
+|-------------|:--------:|
+| Digit | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 3 | 1 | 4 | 5 | 9 | 4 | 3 | 7 | 0 | 7 |
