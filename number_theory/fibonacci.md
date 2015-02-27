@@ -1,6 +1,6 @@
 ## The Fibonacci sequence
 
-### Tiling a strip}
+### Tiling a strip
 
 In how many ways can you tile an $$n \times 2$$ strip with dominoes?
 
