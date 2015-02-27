@@ -48,8 +48,8 @@ Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1
 
 > How do we know that there are infinitely many primes?
 
-In this exercise, we will use a proof by *contradiction*: we will suppose the claim is false, and deduce a contradiction from there.
+In this exercise, we will use a proof by *contradiction*: first assume the claim is false, and then deduce a contradiction from that.
 
-Let us suppose the statement is false - that means, there are only finitely many primes. We can then consider all of them, and call them $$p_1,p_2,\ldots,p_n$$. Consider now the number
+Let us suppose the statement is false &ndash; that means there are only finitely many primes. We can then consider all of them, and call them $$p_1,p_2,\ldots,p_n$$. Consider the number
 $$N=p_1\cdot p_2\cdots p_n+1.$$
-We now that this number is greater than $$1$$, and hence it has to have a factorization as a product of primes. So, there has to be a prime $$p$$ that divides it. Remember that $$p$$ needs to be in the list of primes we gave before, because we are supposing they are *all* the prime numbers. So, $$p$$ divides $$N$$, but it divides also $$N-1$$, because $$N-1$$ is the product of all primes. So $$p$$ divides both $$N$$ and $$N-1$$, and hence it divides their difference $$1$$. But this is impossible, because no prime is a divisor than $$1$$, and here is the contradiction. This proves that the initial assertion is indeed true, the primes are infinitely many.
+We now that $$N$$ is greater than $$1$$, and hence it must have a factorization as a product of primes. In particular, there exists a prime $$p$$ that divides it. Remember that $$p$$ needs to be in the list of primes we gave before, because we are supposing these are *all* the prime numbers. So, $$p$$ divides $$N$$, but it divides also $$N-1$$, because $$N-1$$ is the product of all primes. So $$p$$ divides both $$N$$ and $$N-1$$, and hence it divides their difference $$1$$. This is impossible because $$1$$ admits no positive divisors, so we get a contradiction. This proves that the initial assertion is indeed true, namely, there are infinitely many primes.
