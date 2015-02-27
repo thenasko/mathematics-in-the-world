@@ -55,6 +55,7 @@ For the second fraction, we can just do the table mod 6 as we did before. Notice
 > * What is the last digit of $$7^{2015}$$ (in base 10)?
 > * What is the last digit of $$7^{7^{2015}}$$ (in base 10)?
 
+Let us look at the last digit powers of 7 have.
 
 ### The last digit of Fibonacci numbers
 
