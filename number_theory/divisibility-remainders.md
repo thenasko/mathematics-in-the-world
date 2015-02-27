@@ -70,7 +70,15 @@ $$7^n\equiv\begin{cases}
 3\ (\textrm{mod}\ 10)\ \text{if }n\equiv 3\ (\textrm{mod}\ 4) \\
 \end{cases}$$
 
-So, to go back to our problem, notice that the remainder of $$2015$$ when divided by $$4$$ is $$3$$. Then, the last digit of $$7^{2015}$$ is $$3$$.
+So, to go back to to the first question in our problem, notice that the remainder of $$2015$$ when divided by $$4$$ is $$3$$. Then, the last digit of $$7^{2015}$$ is $$3$$. Notice that once we notice that $$7^4\equiv 1\ (\textrm{mod}\ 10)$$, we can just say
+
+$$7^{2015}\equiv (7^4)^{503}\cdot 7^3\equiv 7^3\equiv 3\ (\textrm{mod}\ 10). $$
+
+To solve the second question, we need to find the remainder of the exponent of $$7^{7^{2015}}$$ - namely, $$7^{2015}$$ - when divided by 4. But we have
+
+$$7^{2015}\equiv (-1)^{2015}\equiv -1\ (\textrm{mod}\ 4) $$
+
+so that the last digit of $$7^{7^{2015}}$$ is again $$3$$.
 
 ### The last digit of Fibonacci numbers
 
