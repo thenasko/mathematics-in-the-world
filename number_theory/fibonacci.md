@@ -30,7 +30,7 @@ allows us to define the Fibonacci numbers $$F_n$$ for negative values of $$n$$. 
 
 What is the limit
 $$
-\lim_{n \rarr F_n} \frac{F_{n+1}}{F_n}?
+\lim_{n \rightarrow \infty} \frac{F_{n+1}}{F_n}?
 $$
 
 
