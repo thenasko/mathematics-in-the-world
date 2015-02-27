@@ -14,5 +14,6 @@
   * [Prime factorization](number_theory/factorization.md)
   * [Divisibility and remainders](number_theory/divisibility-remainders.md)
   * [Divisibility criteria](number_theory/divisibility-criteria.md)
+  * [The Fibonacci sequence](number_theory/fibonacci.md)
 * [Probability](probability/README.md)
 * [Algorithms](algorithms/README.md)

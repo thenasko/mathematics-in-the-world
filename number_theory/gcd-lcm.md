@@ -23,3 +23,10 @@ If $$(a,b) = 1$$, we call $$a$$ and $$b$$ *coprime*.
 > Find the greatest common divisor of $$F_{2014}$$ and $$F_{2015}$$.
 
 
+### Lowest terms
+
+For which values $$n \in \mathbb{Z}$$, the fraction
+$$
+\frac{12 n + 5}{18 n + 7}
+$$
+is in lowest terms?
