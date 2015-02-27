@@ -55,7 +55,22 @@ For the second fraction, we can just do the table mod 6 as we did before. Notice
 > * What is the last digit of $$7^{2015}$$ (in base 10)?
 > * What is the last digit of $$7^{7^{2015}}$$ (in base 10)?
 
-Let us look at the last digit powers of 7 have.
+Let us look at the last digit powers of 7 have. Notice that to obtain the last digit of $$7^n$$, we don't need to know the entire number $$7^{n-1}$$, but only its last digit!
+
+| Power of 7 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|-------------|:--------:|
+| Last digit | 1 | 7 | 9 | 3 | 1 | 7 | 9 | 3 | 1 | 7 |
+
+It is clear that we have a period of order 4. In particular, we have the following table (that can be proved by induction, for example).
+
+$$7^n\equiv\begin{cases}
+1\ (\textrm{mod}\ 10)\ \text{if }n\equiv 0\ (\textrm{mod}\ 4) \\
+7\ (\textrm{mod}\ 10)\ \text{if }n\equiv 1\ (\textrm{mod}\ 4) \\
+9\ (\textrm{mod}\ 10)\ \text{if }n\equiv 2\ (\textrm{mod}\ 4) \\
+3\ (\textrm{mod}\ 10)\ \text{if }n\equiv 3\ (\textrm{mod}\ 4) \\
+\end{cases}$$
+
+So, to go back to our problem, notice that the remainder of $$2015$$ when divided by $$4$$ is $$3$$. Then, the last digit of $$7^{2015}$$ is $$3$$.
 
 ### The last digit of Fibonacci numbers
 
