@@ -33,7 +33,7 @@ Sadly, we cannot factorize the right hand side. To try and understand what happe
 
 As we can see, there are many solutions, and one can only guess there is an infinite number of them. This question, also known as [Landau's forth problem](http://en.wikipedia.org/wiki/Landau%27s_problems), remains open.
 
-One fascinating feature of this type of problems is that if we *slightly* change the statement (in this case, we just changed a minus to a plus) the problem can become arbitrarily complicated, or even impossible to solve.
+One fascinating feature of this type of problems is that if we *slightly* change the statement (in this case, we just altered a minus to a plus) the problem can become arbitrarily complicated, or even impossible to solve.
 
 **REMARK-MATH-HISTORY:** Throughout history, mathematicians studied this problem quite a lot. For instance, there is a reason why the product of the numbers $$1^2+1$$ and $$2^2+1$$ is $$3^2+1$$. The [Fibonacci identity](http://en.wikipedia.org/wiki/Brahmagupta–Fibonacci_identity), probably already known to [Diophantus of Alexandria](http://en.wikipedia.org/wiki/Diophantus) in the $$3^{rd}$$ century AC, states that
 $$
@@ -48,7 +48,7 @@ Furthermore, there is also a reason why all prime factors of the numbers $$n^2+1
 
 > How do we know that there are infinitely many primes?
 
-In this exercise, we will do a proof by *contradiction*: we will suppose the claim is false, and deduce a contradiction from there.
+In this exercise, we will use a proof by *contradiction*: we will suppose the claim is false, and deduce a contradiction from there.
 
 Let us suppose the statement is false - that means, there are only finitely many primes. We can then consider all of them, and call them $$p_1,p_2,\ldots,p_n$$. Consider now the number
 $$N=p_1\cdot p_2\cdots p_n+1.$$
