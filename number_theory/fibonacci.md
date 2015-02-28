@@ -17,7 +17,7 @@ Fix a value $$n \geq 3$$. We will split the tilings of a strip of length $$n$$ i
 
 | Group 1 | Group 2 |
 |---------|---------|
-|!(Group 1)[Diagrams/Stripe_tiling_1.png]|!(Group 1)[Diagrams/Stripe_tiling_2.png]|
+| ![Group 1](Diagrams/Stripe_tiling_1.png) | ![Group 1](Diagrams/Stripe_tiling_2.png) |
 
 Starting with a tiling in the first group, we can remove the last domino to get a tiling of length $$n-1$$. Conversely, if we start with a tiling of length $$n-1$$, we can add a vertical domino to get one in the first group. This shows that the number of tilings in the first group is exactly $$T_{n-1}$$. Similar logic shows that there are $$T_{n-2}$$ tilings in the second group. Putting this together, we find that
 $$
