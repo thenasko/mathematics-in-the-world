@@ -33,6 +33,36 @@ $$
 \lim_{n \rightarrow \infty} \frac{F_{n+1}}{F_n}?
 $$
 
+Let us assume the limit exists and is equal to $$\ell$$. The trick is to find a self-similarity (similar to the *Infinite exponentiation* problem) and arrive at an equation satisfies by $$\ell$$. As with any problem involving the Fibonacci numbers, the first thing we should try to use is the recursive relation.
+
+$$
+\begin{align}
+\ell
+&= \lim_n \frac{F_{n+1}}{F_n} \\
+&= \lim_n \frac{F_n + F_{n-1}}{F_n} \\
+&= \lim_n \left( 1 + \frac{F_{n-1}}{F_n} \right) \\
+&= 1 + \frac{1}{\lim_n \frac{F_n}{F_{n-1}}} \\
+&= 1 + \frac{1}{\ell}
+\end{align}
+$$
+
+We deduced that $$\ell$$ restiefies the equation
+$$
+\ell^2 - \ell - 1,
+$$
+whose roots are
+$$
+\frac{1 \pm \sqrt{5}}{2}.
+$$
+Since all ratios $$F_{n+1} / F_n$$ are positive, it follows that the limit $$\ell$$ is non-negative. Duscarding the negative solution, we conclude that
+$$
+\lim_n \frac{F_{n+1}}{F_n} =
+\frac{1 + \sqrt{5}}{2}.
+$$
+
+**CHALLENGE:**
+Try to show that the limit $$\ell$$ exists.
+
 
 ### The Fibonacci numbers and linear algebra
 
