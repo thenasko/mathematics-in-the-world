@@ -4,6 +4,27 @@
 
 > In how many ways can you tile an $$n \times 2$$ strip with dominoes?
 
+Let $$T_n$$ denote the number of ways we can tile a $$n \times 2$$ strip with dominoes. If one has never seen this problem before, our first instinct should be to compute some values of $$T_n$$. Direct inspection shows that
+$$
+T_1 = 1, \qquad
+T_2 = 2, \qquad
+T_3 = 3, \qquad
+T_4 = 5,
+$$
+which is identical to the Fibonacci sequence. This observation suggests we should be looking for a recursive relation satisfied by $$T_n$$.
+
+Fix a value $$n \geq 3$$. We will split the tilings of a strip of length $$n$$ into two groups: those that end with a vertical domino, and those that end with two horizontal ones.
+
+| Group 1 | Group 2 |
+|---------|---------|
+|!(Group 1)[Diagrams/Stripe_tiling_1.png]|!(Group 1)[Diagrams/Stripe_tiling_2.png]|
+
+Starting with a tiling in the first group, we can remove the last domino to get a tiling of length $$n-1$$. Conversely, if we start with a tiling of length $$n-1$$, we can add a vertical domino to get one in the first group. This shows that the number of tilings in the first group is exactly $$T_{n-1}$$. Similar logic shows that there are $$T_{n-2}$$ tilings in the second group. Putting this together, we find that
+$$
+T_n = T_{n-1} + T_{n-2}.
+$$
+Together with $$T_1 = F_1 = 1$$, and $$T_2 = F_2 = 2$$, induction implies that $$T_n = F_n$$ is the $$n$$-th Fibonacci number.
+
 
 ### Sum of Fibonacci squares
 
