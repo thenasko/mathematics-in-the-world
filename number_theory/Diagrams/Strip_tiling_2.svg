@@ -375,8 +375,7 @@ www.devincook.com</dc:title>
      id="layer1"
      transform="translate(-97.5,-829.862)">
     <g
-       id="g3008"
-       transform="matrix(0,-1,1,0,-232.36202,1732.362)">
+       id="g3050">
       <path
          inkscape:export-ydpi="30.09836"
          inkscape:export-xdpi="30.09836"
@@ -384,8 +383,8 @@ www.devincook.com</dc:title>
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
          id="path3170"
-         d="m 700,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 800.00018,1032.362 0,-100 -100.00002,0 0,100 100.00002,0 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
          inkscape:export-ydpi="30.09836"
          inkscape:export-xdpi="30.09836"
@@ -393,11 +392,11 @@ www.devincook.com</dc:title>
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
          id="path3172"
-         d="m 700,932.36221 100,0 0,-100.00003 -100,0 0,100.00003 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 700.00019,1032.362 0,-100 -100.00003,0 0,100 100.00003,0 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 700,1032.362 100,0 0,-199.99998 -100,0 0,199.99998 z"
+         d="m 799.99998,1032.362 0,-100 -199.99998,0 0,100 199.99998,0 z"
          id="path3004"
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -415,11 +414,10 @@ www.devincook.com</dc:title>
        inkscape:export-xdpi="30.09836"
        inkscape:export-ydpi="30.09836" />
     <g
-       transform="matrix(0,-1,1,0,-232.36202,1632.362)"
-       id="g3036">
+       id="g3045">
       <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 700,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 800.00018,932.362 0,-100 -100.00002,0 0,100 100.00002,0 z"
          id="path3038"
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -427,8 +425,8 @@ www.devincook.com</dc:title>
          inkscape:export-xdpi="30.09836"
          inkscape:export-ydpi="30.09836" />
       <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 700,932.36221 100,0 0,-100.00003 -100,0 0,100.00003 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 700.00019,932.362 0,-100 -100.00003,0 0,100 100.00003,0 z"
          id="path3040"
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -442,7 +440,7 @@ www.devincook.com</dc:title>
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc"
          id="path3042"
-         d="m 700,1032.362 100,0 0,-199.99998 -100,0 0,199.99998 z"
+         d="m 799.99998,932.362 0,-100 -199.99998,0 0,100 199.99998,0 z"
          style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
   </g>

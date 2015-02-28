@@ -4,7 +4,7 @@
 
 > In how many ways can you tile an $$n \times 2$$ strip with dominoes?
 
-Let $$T_n$$ denote the number of ways we can tile a $$n \times 2$$ strip with dominoes. If one has never seen this problem before, our first instinct should be to compute some values of $$T_n$$. Direct inspection shows that
+Let $$T_n$$ denote the number of ways we can tile a $$n \times 2$$ strip with dominoes. If one has never seen this problem before, our first instinct should be to compute small values of $$T_n$$. Direct inspection shows that
 $$
 T_1 = 1, \qquad
 T_2 = 2, \qquad

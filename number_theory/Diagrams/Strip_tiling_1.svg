@@ -369,7 +369,10 @@ www.devincook.com</dc:title>
      id="layer1"
      transform="translate(-97.5,-829.862)">
     <g
-       id="g3008">
+       id="g3037"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/number_theory/Diagrams/Strip_tiling_1.png"
+       inkscape:export-xdpi="30"
+       inkscape:export-ydpi="30">
       <path
          inkscape:export-ydpi="30.09836"
          inkscape:export-xdpi="30.09836"
@@ -378,7 +381,7 @@ www.devincook.com</dc:title>
          sodipodi:nodetypes="ccccc"
          id="path3170"
          d="m 700,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
          inkscape:export-ydpi="30.09836"
          inkscape:export-xdpi="30.09836"
@@ -387,9 +390,9 @@ www.devincook.com</dc:title>
          sodipodi:nodetypes="ccccc"
          id="path3172"
          d="m 700,932.36221 100,0 0,-100.00003 -100,0 0,100.00003 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          d="m 700,1032.362 100,0 0,-199.99998 -100,0 0,199.99998 z"
          id="path3004"
          sodipodi:nodetypes="ccccc"
