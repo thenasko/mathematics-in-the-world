@@ -91,3 +91,4 @@ Consider the last digit of the first Fibonacci numbers.
 | Digit | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 3 | 1 | 4 | 5 | 9 | 4 | 3 | 7 | 0 | 7 |
 
 Unlike in the previous exercise, there does not seem to be a clear pattern. The sequence is in fact periodic; we will now prove it without actually showing the cycle.
+Notice that the last digit of the Fibonacci number $$F_n$$ is solely determined by the last digits of $$F_{n-1}$$ and of $$F_{n-2}$$. 
