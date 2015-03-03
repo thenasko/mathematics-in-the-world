@@ -59,6 +59,10 @@ $$13+a-b=11\ \ \text{or}\ \ 13+a-b=22$$
 that becomes
 $$a-b=-2\ \ \text{or}\ \ a-b=9.$$
 
+So, we have possibilities for $$a+b$$ and two for $$a-b$$, that give 4 linear systems in $$a$$ and $$b$$ that we need to solve. But instead of doing this, let us be clever. If $$a-b=9$$, this automatically means $$a=9$$ and $$b=0$$ (because $$a$$ and $$b$$ are digits), but this doesn't fit with any of the two possibilities for $$a+b$$. So, the difference $$a-b$$ has to be $$-2$$. Plugging in $$a=b-2$$ in the two equations for the sum $$a+b$$, we get from the first equation $$b=4$$ (and then $$a=2$$) and from the second $$b=8.5$$ that is impossible. The number is then
+
+$$6224427=99\cdot 62837$$.
+
 
 ### Missing digits 2
 
