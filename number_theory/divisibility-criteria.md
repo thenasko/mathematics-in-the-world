@@ -34,6 +34,14 @@ We are looking for something much quicker, a condition one can almost check in a
 
 > Find the smallest positive integer $$n$$ such that the decimal expansion of $$99 n$$ contains only ones.
 
+The aim of this problem is to find the smaller number whose digits are only ones, that is multiple of $$99$$. But being multiple of 99 is the same as being contemporarily multiple of 9 and 11. So, let us apply the criteria we found in the previous exercise. For the number
+
+$$\underbrace{11\ldots 11}_{k}$$
+
+to be multiple of 9, we need the sum of the digits to be too. But the sum of the digits is just $$k$$, so we need $$k$$ to be divisible by 9. In order to have our number multiple of 11, we need the alternating sum of digits to be multiple of 11. But the alternating sum of digits is 0 whenever $$k$$ is even, and 1 when $$k$$ it odd, so we just need $$k$$ to be even. 
+
+Wrapping up, we need the smallest $$k$$ that is both multiple of $$9$$ and even, so the answer is just 18. We have in fact
+$$\underbrace{11\ldots 11}_{18}=99\cdot 11223344556677889$$
 
 ### Missing digits 1
 
