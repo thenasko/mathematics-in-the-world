@@ -47,6 +47,10 @@ $$\underbrace{11\ldots 11}_{18}=99\cdot 11223344556677889$$
 
 > The number $$62ab427$$ is a multiple of 99. Find the digits $$a$$ and $$b$$.
 
+As in the previous exercise, we want the sum of digits to be multiple of $$9$$, and the alternating sum to be multiple of $$11$$. 
+
+The sum of digits is just $$21+a+b$$, and we want it to be multiple than 9. We know that $$a+b$$ is the sum of two digits, so that it can be only a number between 0 and 18. Hence, the only multiples of 9 that the sum of digits can achieve are 27 and 36, so that we have
+$$21+a+b=27\ \text{or}\ 21+a+b=36.$$
 
 ### Missing digits 2
 
