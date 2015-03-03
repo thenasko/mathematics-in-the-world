@@ -50,7 +50,15 @@ $$\underbrace{11\ldots 11}_{18}=99\cdot 11223344556677889$$
 As in the previous exercise, we want the sum of digits to be multiple of $$9$$, and the alternating sum to be multiple of $$11$$. 
 
 The sum of digits is just $$21+a+b$$, and we want it to be multiple than 9. We know that $$a+b$$ is the sum of two digits, so that it can be only a number between 0 and 18. Hence, the only multiples of 9 that the sum of digits can achieve are 27 and 36, so that we have
-$$21+a+b=27\ \text{or}\ 21+a+b=36.$$
+$$21+a+b=27\ \ \text{or}\ \ 21+a+b=36$$
+that becomes
+$$a+b=6\ \ \text{or}\ \ a+b=15.$$
+
+Similarly, the alternating sum is $$13+a-b$$, and we want it to be multiple of 11. The difference $$a-b$$ can only be a number from $$-9$$ to $$9$$, so that the only multiples of 11 achievable from the alternating sum of digits are $$11$$ and $$22$$. We have
+$$13+a-b=11\ \ \text{or}\ \ 13+a-b=22$$
+that becomes
+$$a-b=-2\ \ \text{or}\ \ a-b=9.$$
+
 
 ### Missing digits 2
 
