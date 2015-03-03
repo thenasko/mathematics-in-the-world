@@ -61,13 +61,20 @@ $$a-b=-2\ \ \text{or}\ \ a-b=9.$$
 
 So, we have possibilities for $$a+b$$ and two for $$a-b$$, that give 4 linear systems in $$a$$ and $$b$$ that we need to solve. But instead of doing this, let us be clever. If $$a-b=9$$, this automatically means $$a=9$$ and $$b=0$$ (because $$a$$ and $$b$$ are digits), but this doesn't fit with any of the two possibilities for $$a+b$$. So, the difference $$a-b$$ has to be $$-2$$. Plugging in $$a=b-2$$ in the two equations for the sum $$a+b$$, we get from the first equation $$b=4$$ (and then $$a=2$$) and from the second $$b=8.5$$ that is impossible. The number is then
 
-$$6224427=99\cdot 62837$$.
+$$6224427=99\cdot 62837.$$
 
 
 ### Missing digits 2
 
 > Suppose $$33! = 8ab331761881188649551819440128cd00000$$. Find the digits $$a$$, $$b$$, $$c$$, and $$d$$.
 
+Using formulas from the previous sections, the number of zeroes at the end of $$33!$$ is
+$$\left\lfloor\frac{33}{5}\right\rfloor+\left\lfloor\frac{33}{25}\right\rfloor=6+1=7$$
+so we immediately get that $$c$$ and $$d$$ have to be zero. 
+Then, to find $$a$$ and $$b$$, we can apply the same argument as in the previous exercise, because we know that $$33!$$ is also going to be multiple of 99.
+In the exact same way, we get $$a=6$$ and $$b=8$$, so that
+
+$$33!=8683317618811886495518194401280000000.$$
 
 ### Sum the digits!
 
