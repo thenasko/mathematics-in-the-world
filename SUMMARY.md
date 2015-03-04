@@ -15,5 +15,7 @@
   * [Divisibility and remainders](number_theory/divisibility-remainders.md)
   * [Divisibility criteria](number_theory/divisibility-criteria.md)
   * [The Fibonacci sequence](number_theory/fibonacci.md)
+  * [Generating functions](number_theory/generating-functions.md)
+  * [Plynomials](number_theory/polynomials.md)
 * [Probability](probability/README.md)
 * [Algorithms](algorithms/README.md)
