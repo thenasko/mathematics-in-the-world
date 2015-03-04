@@ -111,3 +111,27 @@ Try to show that the limit $$\ell$$ exists.
 > $$
 > What does the recursive relation satisfied by $$F_n$$ say about $$f(x)$$? Does this give an alternative derivation of the closed formula for $$F_n$$?
 
+
+### Other starting points
+
+> Consider the sequence
+> $$
+> S_0 = a, \qquad
+> S_1 = b, \qquad
+> S_{n+2} = S_{n+1} + S_n,
+> $$
+> where $$a$$ and $$b$$ are real numbers. Can you express $$S_n$$ in terms of the Fibonacci numbers?
+
+
+### A pitfalls of recursion
+
+> Consider the following implementation of the Fibonacci sequence in Python.
+>
+>   def F(n):
+>       if n == 0 or n == 1:
+>           return n
+>       else:
+>           return F(n-1) + F(n-2)
+>
+> Let the number of functions calls resulting in a call to F(n) be $$C_n$$. Can you find a recursive definition for $$C_n$$? Does this allow us to express $$C_n$$ in closed terms? Explain why your analysis shows that the recursive implementation above is undesirable.
+
