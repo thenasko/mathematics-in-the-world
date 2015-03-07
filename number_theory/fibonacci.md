@@ -1,4 +1,4 @@
-## The Fibonacci sequence
+## the Fibonacci sequence
 
 ### Tiling a strip
 
@@ -101,6 +101,88 @@ Try to show that the limit $$\ell$$ exists.
 > \end{pmatrix}.
 > $$
 > Use this to find a closed formula for $$F_n$$ in terms of $$n$$.
+
+If we write $$F_{n+2} = F_{n+1} + F_n$$, then it is immediate that
+$$
+\begin{pmatrix}
+F_{n+2} \\
+F_{n+1}
+\end{pmatrix}
+=
+\begin{pmatrix}
+F_{n+1} + F_n \\
+F_{n+1}
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 1 \\ 1 & 0
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+F_{n+1} \\
+F_n
+\end{pmatrix},
+$$
+so $$A = \left( \begin{smallmatrix} 1 & 1 \\ 1 & 0 \end{smallmatrix} \right)$$.
+
+The characteristic polynomial of $$A$$ has roots
+$$
+\phi = \frac{1 + \sqrt{5}}{2}, \qquad
+\psi = \frac{1 - \sqrt{5}}{2},
+$$
+and we can write $$A = P^{-1} \diag(\phi, \psi) P$$, where
+$$
+P =
+\begin{pmatrix}
+\phi & 1 \\
+\psi & 1
+\end{pmatrix}.
+$$
+Note that $$\phi \cdot \psi = -1$$.
+
+Applying the matrix equality involving $$A$$ multiple times, we obtain
+$$
+\begin{pmatrix}
+F_{n+1} \\
+F_n
+\end{pmatrix}
+=
+A^n
+\begin{pmatrix}
+F_1 \\
+F_0
+\end{pmatrix}
+=
+P^{-1}
+\begin{pmatrix}
+\phi^n & 0 \\
+0 & \psi^n
+\end{pmatrix}
+P
+\begin{pmatrix}
+1 \\ 0
+\end{pmatrix}.
+$$
+Substituting $$P$$ in leads to the [http://en.wikipedia.org/wiki/Fibonacci_number#Closed-form_expression](Binet formula)
+$$
+F_n =
+\frac{\phi^n - \psi^n}{\phi - \psi} =
+\frac{\phi^n - \psi^n}{\sqrt{5}}.
+$$
+We will present an alternative, although clearly related, derivation using generating functions later on.
+
+It is worth noting that the matrix equality we derived is sometimes expressed as
+$$
+\begin{pmatrix}
+F_{n+1} & F_n \\
+F_n & F_{n-1}
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 1 \\ 1 & 0
+\end{pmatrix}^n.
+$$
+This equality holds for all integers $$n$$, so it gives us an alternative approach to describing the negative Fibonacci numbers.
 
 
 ### The Fibonacci numbers and power series
