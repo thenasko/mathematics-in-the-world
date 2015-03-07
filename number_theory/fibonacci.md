@@ -130,7 +130,7 @@ $$
 \phi = \frac{1 + \sqrt{5}}{2}, \qquad
 \psi = \frac{1 - \sqrt{5}}{2},
 $$
-and we can write $$A = P^{-1} \diag(\phi, \psi) P$$, where
+and we can write $$A = P^{-1} \textrm{diag}(\phi, \psi) P$$, where
 $$
 P =
 \begin{pmatrix}
@@ -163,7 +163,7 @@ P
 1 \\ 0
 \end{pmatrix}.
 $$
-Substituting $$P$$ in leads to the [http://en.wikipedia.org/wiki/Fibonacci_number#Closed-form_expression](Binet formula)
+Substituting $$P$$ leads to the [Binet formula](http://en.wikipedia.org/wiki/Fibonacci_number#Closed-form_expression):
 $$
 F_n =
 \frac{\phi^n - \psi^n}{\phi - \psi} =
@@ -183,15 +183,6 @@ F_n & F_{n-1}
 \end{pmatrix}^n.
 $$
 This equality holds for all integers $$n$$, so it gives us an alternative approach to describing the negative Fibonacci numbers.
-
-
-### The Fibonacci numbers and power series
-
-> Define the function $f(x)$ in terms of the infinite power series
-> $$
-> f(x) = \sum_{n = 0}^\infty F_n x^n.
-> $$
-> What does the recursive relation satisfied by $$F_n$$ say about $$f(x)$$? Does this give an alternative derivation of the closed formula for $$F_n$$?
 
 
 ### Other starting points
