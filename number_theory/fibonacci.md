@@ -199,7 +199,7 @@ Note that $$F_0 = 0$$ and $$F_{-1} = F_1 = 1$$. It follows that we can write
 $$
 \begin{align}
 S_0 &= a = a F_{-1} + b F_0, \\
-S_1 &= b = a F_{\phantom{-}0} + b F_1.
+S_1 &= b = a F_{0\phantom{-}} + b F_1.
 \end{align}
 $$
 Since the $$S_n$$ satisfy the same recursive relation as the Fibonacci sequence, it follows by induction that
