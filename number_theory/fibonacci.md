@@ -195,6 +195,19 @@ This equality holds for all integers $$n$$, so it gives us an alternative approa
 > $$
 > where $$a$$ and $$b$$ are real numbers. Can you express $$S_n$$ in terms of the Fibonacci numbers?
 
+Note that $$F_0 = 0$$ and $$F_{-1} = F_1 = 1$$. It follows that we can write
+$$
+\begin{align}
+S_0 &= a = a F_{-1} + b F_0, \\
+S_1 &= b = a F_{\phantom{-}0} + b F_1.
+\end{align}
+$$
+Since the $$S_n$$ satisfy the same recursive relation as the Fibonacci sequence, it follows by induction that
+$$
+S_n = a F_{n-1} + b F_n.
+$$
+This result can be interpreted as a statement that the Fibonacci sequence is somehow fundamental among all sequences which satisfy the Fibonacci recursion. Put differently, even though there is nothing special about the starting points $$F_0 = 0$$ and $$F_1 = 1$$, sequences with other starting points can always be expressed in terms of the $$F_n$$.
+
 
 ### A pitfalls of recursion
 
