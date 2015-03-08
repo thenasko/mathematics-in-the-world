@@ -141,15 +141,36 @@ A(x) =
 $$
 Expanding using the geometric series formula, we get
 $$
-\begin{align}
 A(x)
-&= \sum_{n \geq 0} 2^n x^n - \sum_{n \geq 0} x^n \\
-&= \sum_{n \geq 0} (2^n - 1) x^n,
-\end{align}
+= \sum_{n \geq 0} 2^n x^n - \sum_{n \geq 0} x^n
+= \sum_{n \geq 0} (2^n - 1) x^n,
 $$
 so
 $$
 a_n = 2^n - 1.
 $$
 
-
+Before working on the second sequence $$b_n$$, it is helpful to expand our toolkit of basic power series expansions. So far, we have only worked with the geometric series formula
+$$
+\frac{1}{1 - x} =
+\sum_{n \geq 0} x^n =
+1 + x + x^2 + x^3 + \cdots.
+$$
+What happens if we differentiate both sides? The left sides is
+$$
+\frac{d}{d x} \frac{1}{1 - x} =
+\frac{1}{(1 - x)^2},
+$$
+while the right hand side is
+$$
+\sum_{n \geq 0} n x^{n-1}
+= \sum_{n \geq 0} (n+1) x^n
+= \sum_{n \geq 0} x^n + \sum_{n \geq 0} n x^n
+= \frac{1}{1 - x} + \sum_{n \geq 0} n x^n.
+$$
+Equating and rearranging, we obtain
+$$
+\sum_{n \geq 0} n x^n
+= \frac{1}{(1 - x)^2} - \frac{1}{1 - x}
+= \frac{x}{(1 - x)^2}.
+$$
