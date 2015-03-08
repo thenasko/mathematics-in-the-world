@@ -76,6 +76,32 @@ A
 = \frac{1}{\phi - \psi}
 = \frac{1}{\sqrt{5}}.
 $$
+In conclusion, we found that
+$$
+f(x) =
+\frac{1}{\sqrt{5}} \left( \frac{1}{1 - \phi x} - \frac{1}{1 - \psi x} \right).
+$$
+
+To find a formula for $$F_n$$, we recall the geometric series formula
+$$
+1 + c + c^2 + c^3 + \cdots
+= \sum_{n \geq 0} c^n
+= \frac{1}{1 - c},
+$$
+where $|c| < 1$. Using $$c = \phi x$$ and $$c = \psi x$$ above, we compute
+$$
+\begin{align}
+f(x)
+&= \frac{1}{\sqrt{5}} \left( \sum_{n \geq 0} \phi^n x^n - \sum_{n \geq 0} \psi^n x^n \right) \\
+&= \sum_{n \geq 0} \frac{\phi^n - \psi^n}{\sqrt{5}} x^n.
+\end{align}
+$$
+In conclusion, we showed that
+$$
+F_n =
+\frac{\phi^n - \psi^n}{\phi - \psi} =
+\frac{\phi^n - \psi^n}{\sqrt{5}}.
+$$
 
 
 ### Using generating functions
