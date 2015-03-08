@@ -103,6 +103,9 @@ F_n =
 \frac{\phi^n - \psi^n}{\sqrt{5}}.
 $$
 
+**REMARK:**
+The power series we presented for $$f(x)$$ do not converge for all values of $$x$$. Fortunately, they are valid in the intersection of $$|\phi x| < 1$$ and $$|\psi x| < 1$$ which is nonempty. Alternatively, we can explain this phenomenon by saying that all computations were performed using [formal power series](http://en.wikipedia.org/wiki/Formal_power_series) and there is no need to worry about convergence at all.
+
 
 ### Using generating functions
 
