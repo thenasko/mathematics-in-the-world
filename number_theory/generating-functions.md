@@ -10,7 +10,7 @@
 
 The solution of this problem is a little longer, so it is important to start with a plan and understand that well. The premise behind *generating functions*, of which $$f(x)$$ is an example, is that a recursive relation can be translated to an equation satisfied by $$f$$. We can find an expression for $$f(x)$$, and in turn that will give a closed formula for the original sequence.
 
-Since the Fibonacci relation reads $$F_n = F_{n-1} + F_{n-2}$$, and the coefficient of $$x^n$$ in $$f(x)$$ is $$F_n$$, we need to find a way to place $$F_{n-1}$$ and $$F_{n-1}$$ as coefficients in front of $$x^n$$. Starting from $$f(x)$$ this can be easily achieved if we multiply it by $$x$$ and $$x^2$$:
+Since the Fibonacci relation reads $$F_n = F_{n-1} + F_{n-2}$$, and the coefficient of $$x^n$$ in $$f(x)$$ is $$F_n$$, we need to find a way to place $$F_{n-1}$$ and $$F_{n-1}$$ as coefficients in front of $$x^n$$. Starting from $$f(x)$$, this can be easily achieved if we multiply it by $$x$$ and $$x^2$$:
 $$
 \begin{align}
 x f(x)
@@ -23,7 +23,7 @@ x^2 f(x)
 = \sum_{n \geq 2} F_{n-2} x^n.
 \end{align}
 $$
-The sum of these two series resembles $$f(x)$$ closely.
+The sum of these two series resembles $$f(x)$$ closely:
 $$
 \begin{align}
 f(x)
@@ -36,17 +36,19 @@ x^2 f(x)
 $$
 If we subtract the second and third line from the first, the coefficients of $$x^n$$ for $$n \geq 2$$ are zero:
 $$
+\begin{align}
 (1 - x - x^2) f(x)
-= F_0 + (F_1 - F_0) x + \sum_{n \geq 2} (F_n - F_{n-1} - F_{n-2}) x^n
-= F_0 + (F_1 - F_0) x
-= x.
+&= F_0 + (F_1 - F_0) x + \sum_{n \geq 2} (F_n - F_{n-1} - F_{n-2}) x^n \\
+&= F_0 + (F_1 - F_0) x \\
+&= x.
+\end{align}
 $$
 This completes the first part of out task, that is, finding a formula for the function $$f(x)$$:
 $$
 f(x) = \frac{x}{1 - x - x^2}.
 $$
 
-We are now left to translate our knowledge about $$f(x)$$ to a formula for the Fibonacci sequence $$F_n$$. We see that $$f(x)$$ is a rational function (a ratio of two polynomials), but the denominator has degree 2. Such quotients are much harder to understand than ones involving a linear denominator, so out first task is present $$f(x)$$ in a more suitable form. The issue we described is a very common problem when we integrate rational functions, and it is typically resolved using the [partial fraction decomposition](http://en.wikipedia.org/wiki/Partial_fraction_decomposition).
+We are now left to translate our knowledge about $$f(x)$$ to a formula for the Fibonacci sequence $$F_n$$. We see that $$f(x)$$ is a rational function (a ratio of two polynomials), but the denominator has degree 2. Such quotients are much harder to understand than ones involving a linear denominator, so out first goal is present $$f(x)$$ in a more suitable form. The issue we described is a very common problem when we integrate rational functions, and it is typically resolved using the [partial fraction decomposition](http://en.wikipedia.org/wiki/Partial_fraction_decomposition).
 
 First, we find that the roots of the denominator are $$-\psi = 1/\phi$$ and $$-\phi = 1/\psi$$, where
 $$
@@ -104,7 +106,7 @@ F_n =
 $$
 
 **REMARK:**
-The power series we presented for $$f(x)$$ do not converge for all values of $$x$$. Fortunately, they are valid in the intersection of $$|\phi x| < 1$$ and $$|\psi x| < 1$$ which is nonempty. Alternatively, we can explain this phenomenon by saying that all computations were performed using [formal power series](http://en.wikipedia.org/wiki/Formal_power_series) and there is no need to worry about convergence at all.
+The power series we presented for $$f(x)$$ does not converge for all values of $$x$$. Fortunately, it is valid in the intersection of $$|\phi x| < 1$$ and $$|\psi x| < 1$$ which is nonempty. Alternatively, we can explain this phenomenon by saying that all computations were performed using [formal power series](http://en.wikipedia.org/wiki/Formal_power_series), and there is no need to worry about convergence at all.
 
 
 ### Using generating functions
