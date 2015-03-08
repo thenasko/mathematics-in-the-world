@@ -150,7 +150,7 @@ $$
 a_n = 2^n - 1.
 $$
 
-Before working on the second sequence $$b_n$$, it is helpful to expand our toolkit of basic power series expansions. So far, we have only worked with the geometric series formula
+Before working on the second sequence $$b_n$$, it is helpful to expand our toolkit of basic power series. So far, we have only worked with the geometric series formula
 $$
 \frac{1}{1 - x} =
 \sum_{n \geq 0} x^n =
@@ -161,7 +161,7 @@ $$
 \frac{d}{d x} \frac{1}{1 - x} =
 \frac{1}{(1 - x)^2},
 $$
-while the right hand side is
+while the right hand side reads
 $$
 \sum_{n \geq 0} n x^{n-1}
 = \sum_{n \geq 0} (n+1) x^n
@@ -188,10 +188,10 @@ B(x)
 &= 2 x B(x) + \frac{x^2}{(1 - x)^2}.
 \end{align}
 $$
-Rearranging, we get
+Rearranging, we obtain
 $$
 B(x)
-= \frac{x^2}{(1 - x)^2 (1 - 2x).
+= \frac{x^2}{(1 - x)^2 (1 - 2x)}.
 $$
 The general form of a rational function with this denominator is
 $$
@@ -199,7 +199,7 @@ $$
 \frac{*}{(1 - x)^2} +
 \frac{*}{1 - 2 x},
 $$
-and in this case find that
+and our this case we have
 $$
 \begin{align}
 B(x)
