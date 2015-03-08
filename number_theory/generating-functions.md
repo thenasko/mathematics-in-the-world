@@ -10,7 +10,7 @@
 
 The solution of this problem is a little longer, so it is important to start with a plan and understand that well. The premise behind *generating functions*, of which $$f(x)$$ is an example, is that a recursive relation can be translated to an equation satisfied by $$f$$. We can find an expression for $$f(x)$$, and in turn that will give a closed formula for the original sequence.
 
-Since the Fibonacci relation reads $$F_n = F_{n-1} + F_{n-2}$$, and the coefficient of $$x^n$$ in $$f(x)$$ is $$F_n$$, we need to find a way to find a way to get $$F_{n-1}$$ and $$F_{n-1}$$ as coefficients in front of $$x^n$$. Starting from $$f(x)$$ this can be easily achieved if we multiply it by $$x$$ and $$x^2$$:
+Since the Fibonacci relation reads $$F_n = F_{n-1} + F_{n-2}$$, and the coefficient of $$x^n$$ in $$f(x)$$ is $$F_n$$, we need to find a way to place $$F_{n-1}$$ and $$F_{n-1}$$ as coefficients in front of $$x^n$$. Starting from $$f(x)$$ this can be easily achieved if we multiply it by $$x$$ and $$x^2$$:
 $$
 \begin{align}
 x f(x)
