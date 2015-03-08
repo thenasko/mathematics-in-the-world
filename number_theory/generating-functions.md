@@ -88,7 +88,7 @@ $$
 = \sum_{n \geq 0} c^n
 = \frac{1}{1 - c},
 $$
-where $|c| < 1$. Using $$c = \phi x$$ and $$c = \psi x$$ above, we compute
+where $$|c| < 1$$. Using $$c = \phi x$$ and $$c = \psi x$$ above, we compute
 $$
 \begin{align}
 f(x)
