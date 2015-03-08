@@ -115,4 +115,39 @@ The power series we presented for $$f(x)$$ does not converge for all values of $
 > * $$a_0 = 0,\; a_{n+1} = 2 a_n + 1$$,
 > * $$b_0 = 0,\; b_{n+1} = 2 b_n + n$$.
 
+In both cases, and particularly for $$a_n$$, it is possible to guess a formula for the sequence and prove that it holds by induction. We would like to present an alternative derivation of these formulas which generalize to many other cases where guesswork doesn't work as well.
+
+Start by setting $$A(x) = \sum_{n \geq 0} a_n x^n$$. It is possible to find an expression for $$A(x)$$ using the method presented above, but we will present a slightly different technique here. We will first plug in the recursive formula for $$a_n$$ and manipulate the power series.
+$$
+A(x)
+&= \sum_{n \geq 0} a_n x^n \\
+&= \sum_{n \geq 1} a_n x^n \\
+&= \sum_{n \geq 1} (2 a_{n-1} + 1) x^n \\
+&= \sum_{n \geq 0} (2 a_n + 1) x^{n+1} \\
+&= 2 x \left( \sum_{n \geq 0} a_n x^n \right) + x \sum_{n \geq 0} x^n \\
+&= 2 x A(x) + \frac{x}{1 - x}.
+$$
+Rearranging, we get
+$$
+A(x) =
+\frac{x}{(1 - x)(1 - 2x)}.
+$$
+This expression has a partial fraction decomposition
+$$
+A(x) =
+\frac{1}{1 - 2x} - \frac{1}{1 - x}.
+$$
+Expanding using the geometric series formula, we get
+$$
+\begin{align}
+A(x)
+&= \sum_{n \geq 0} 2^n x^n - \sum_{n \geq 0} x^n \\
+&= \sum_{n \geq 0} (2^n - 1) x^n,
+\end{align}
+$$
+so
+$$
+a_n = 2^n - 1.
+$$
+
 
