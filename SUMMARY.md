@@ -18,4 +18,5 @@
   * [Generating functions](number_theory/generating-functions.md)
   * [Plynomials](number_theory/polynomials.md)
 * [Probability](probability/README.md)
+  * [Basic probability](probability/basic.md)
 * [Algorithms](algorithms/README.md)
