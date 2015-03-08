@@ -174,3 +174,41 @@ $$
 = \frac{1}{(1 - x)^2} - \frac{1}{1 - x}
 = \frac{x}{(1 - x)^2}.
 $$
+This formula is important for two reasons. First, if we encounter the series $$\sum_{n \geq 0} n x^n$$, we can now replace it with $$x / (1 - x)^2$$. Secondly, we also found a power series expansion for $$1 / (1 - x)^2$$, which allows us to handle rational functions with a repeated root of the denominator. Both of these are necessary for the analysis of $$b_n$$.
+
+If we set $$B(x) = \sum_{n \geq 0} b_n x^n$$, we have
+$$
+\begin{align}
+B(x)
+&= \sum_{n \geq 0} b_n x^n \\
+&= \sum_{n \geq 0} b_{n+1} x^n \\
+&= \sum_{n \geq 0} ( 2 b_n + n ) x^n \\
+&= \sum_{n \geq 0} (2 b_n + n) x^{n+1} \\
+&= 2 x \left( \sum_{n \geq 0} b_n x^n \right) + x \left( \sum_{n \geq 0} n x^n \right) \\
+&= 2 x B(x) + \frac{x^2}{(1 - x)^2}.
+\end{align}
+$$
+Rearranging, we get
+$$
+B(x)
+= \frac{x^2}{(1 - x)^2 (1 - 2x).
+$$
+The general form of a rational function with this denominator is
+$$
+\frac{*}{1 - x} +
+\frac{*}{(1 - x)^2} +
+\frac{*}{1 - 2 x},
+$$
+and in this case find that
+$$
+\begin{align}
+B(x)
+&= \frac{1}{1 - 2x} - \frac{1}{(1 - x)^2} \\
+&= \left( \sum_{n \geq 0} 2^n x^n \right) - \left( \sum_{n \geq 0} (n+1) x^n \right) \\
+&= \sum_{n \geq 0} (2^n - n - 1) x^n.
+\end{align}
+$$
+In conclusion, we found that
+$$
+b_n = 2^n - n - 1.
+$$
