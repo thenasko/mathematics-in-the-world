@@ -14,7 +14,7 @@ Since the Fibonacci relation reads $$F_n = F_{n-1} + F_{n-2}$$, and the coeffici
 $$
 \begin{align}
 x f(x)
-&= x \sum_{n \geq 0} F_n x^n
+&= x\phantom{^2} \sum_{n \geq 0} F_n x^n
 = \sum_{n \geq 0} F_n x^{n+1}
 = \sum_{n \geq 1} F_{n-1} x^n, \\
 x^2 f(x)
@@ -37,9 +37,44 @@ $$
 If we subtract the second and third line from the first, the coefficients of $$x^n$$ for $$n \geq 2$$ are zero:
 $$
 (1 - x - x^2) f(x)
-&= F_0 + (F_1 - F_0) x + \sum_{n \geq 2} (F_n - F_{n-1} - F_{n-2}) x^n
+= F_0 + (F_1 - F_0) x + \sum_{n \geq 2} (F_n - F_{n-1} - F_{n-2}) x^n
 = F_0 + (F_1 - F_0) x
 = x.
+$$
+This completes the first part of out task, that is, finding a formula for the function $$f(x)$$:
+$$
+f(x) = \frac{x}{1 - x - x^2}.
+$$
+
+We are now left to translate our knowledge about $$f(x)$$ to a formula for the Fibonacci sequence $$F_n$$. We see that $$f(x)$$ is a rational function (a ratio of two polynomials), but the denominator has degree 2. Such quotients are much harder to understand than ones involving a linear denominator, so out first task is present $$f(x)$$ in a more suitable form. The issue we described is a very common problem when we integrate rational functions, and it is typically resolved using the [partial fraction decomposition](http://en.wikipedia.org/wiki/Partial_fraction_decomposition).
+
+First, we find that the roots of the denominator are $$-\psi = 1/\phi$$ and $$-\phi = 1/\psi$$, where
+$$
+\phi = \frac{1 + \sqrt{5}}{2}, \qquad
+\psi = \frac{1 - \sqrt{5}}{2}.
+$$
+We can then write
+$$
+\begin{align}
+f(x)
+&= \frac{x}{1 - x - x^2} \\
+&= - \frac{x}{x^2 + x - 1} \\
+&= - \frac{x}{(x - 1/\phi)(x - 1/\psi)} \\
+&= - \frac{\phi\psi x}{(\phi x - 1)(\psi x - 1)} \\
+&= \frac{x}{(1 - \phi x)(1 - \psi x)}.
+\end{align}
+$$
+A partial fraction decomposition for $$f(x)$$ is an expression
+$$
+f(x) =
+\frac{A}{1 - \phi x} + \frac{B}{1 - \psi x}
+$$
+for some constants $$A$$ and $$B$$. Bringing this expression to a common denominator and equating the numerator to $$x$$, we find that
+$$
+A
+= -B
+= \frac{1}{\phi - \psi}
+= \frac{1}{\sqrt{5}}.
 $$
 
 
