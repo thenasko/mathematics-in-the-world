@@ -23,7 +23,7 @@ Starting with a tiling in the first group, we can remove the last domino to get 
 $$
 T_n = T_{n-1} + T_{n-2}.
 $$
-Together with $$T_1 = F_1 = 1$$, and $$T_2 = F_2 = 2$$, induction implies that $$T_n = F_n$$ is the $$n$$-th Fibonacci number.
+Together with $$T_1 = F_1 = 1$$, and $$T_2 = F_2 = 2$$, induction implies that $$T_n = F_{n+1}$$ is the $$(n+1)$$-st Fibonacci number.
 
 
 ### Sum of Fibonacci squares
