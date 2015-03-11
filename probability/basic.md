@@ -43,7 +43,7 @@
 
 ### An even number of heads
 
-> You flip $n$ fair coins independently. What is the probability to get an even number of heads?
+> You flip $$n$$ fair coins independently. What is the probability to get an even number of heads?
 
 
 ### Collecting famous mathematicians
