@@ -209,7 +209,7 @@ $$
 This result can be interpreted as a statement that the Fibonacci sequence is somehow fundamental among all sequences which satisfy the Fibonacci recursion. Put differently, even though there is nothing special about the starting points $$F_0 = 0$$ and $$F_1 = 1$$, sequences with other starting points can always be expressed in terms of the $$F_n$$.
 
 
-### A pitfalls of recursion
+### The pitfalls of recursion
 
 > Consider the following implementation of the Fibonacci sequence in Python.
 >
