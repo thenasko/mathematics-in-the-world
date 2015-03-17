@@ -47,7 +47,7 @@ It turns out the three member jury is as efficient as a single member jury!
 
 The is the prototypical example of a [geometric distribution](http://en.wikipedia.org/wiki/Geometric_distribution). Since the probability of throwing a $$6$$ is $$1 / 6$$, the expected number of throws is $$1 / (1 / 6) = 6$$.
 
-Let us go over the derivation of this formula. Instead of using a die, suppose we have a coin which comes up heads with probability $$p > 0$$, and we are interested in the expected number of throws $$X$$ until we get heads. The probability of getting heads for the first time in the $$k$$-th throw is
+Let us go over the derivation of this result. Instead of using a die, imagine we have a coin which comes up heads with probability $$p > 0$$, and we are interested in the expected number of throws $$X$$ until we get heads. The probability of getting heads for the first time in the $$k$$-th throw is
 $$
 \mathbb{P}(X = k) =
 (1 - p)^{k-1} p.
