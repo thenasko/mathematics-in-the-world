@@ -1,7 +1,29 @@
 ## Basic probability
+
 ### Successive wins
 
 > You signed up for a tennis tournament in which you win a prize if you win (at least) two successive games in a row of three. Your two opponents are your friend and the club champion. Given the option to play friend-champion-friend or champion-friend-champion, which scenario would you pick? What is the expected number of wins in each case?
+
+Let the probability of winning against your friend be $$p$$ and against the chamion be $$q$$. We know that $$p > q$$.
+
+Putting the comparison of the two scenarios aside, let us try to compute the probabilities of two successive wins. To get two successive wins in a row of three games, we should either win all three, lose the first one only, or lose the last one only. If we are playing friend-champion-friend, the total probability is
+$$
+P_{\textrm{fcf}} =
+p q p + (1 - p) q p + p q (1 - p) =
+p q (2 - p).
+$$
+Likewise, the probability of two successive wins in a champion-friend-champion setup is
+$$
+P_{\textrm{cfc}} =
+q p q + (1 - q) p q + q p (1 - q) =
+p q (2 - q).
+$$
+
+We are now ready to compare the the scenarios. Since $$p < q$$, it follows that $$2 - p > 2 - q$$, so
+$$
+P_{\textrm{fcf}} < P_{\textrm{cfc}}.
+$$
+At first glance, this may be surprising and counter-intuitive. Why should we opt to play the more seasoned player twice, if we can do that only once? The answer lies in the middle game. If we loose it, then no matter how well we play the first and third games, we cannot obtain two successive wins. In the friend-champion-friend scenario, the middle game is the hardest one, hence the lower overall chance of two successive wins.
 
 
 ### Flippant juror
@@ -31,7 +53,7 @@
 
 ### St. Petersburg paradox
 
-> A casino offers a game in which a fair coin is tossed at east stage. The initial steak is $\$2$. If the coin comes up tails, you receive the steak. If we get heads, the steak is doubled, and the process repeats. How much should they charge for this game?
+> A casino offers a game in which a fair coin is tossed at each stage. The initial steak is $\$2$. If the coin comes up tails, you receive the steak. If we get heads, the steak is doubled, and the process repeats. How much should they charge for this game?
 > 
 > What if every time we get heads, the steak is increased by one? How much should they charge?
 
