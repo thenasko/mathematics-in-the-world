@@ -63,7 +63,7 @@ $$
 &= \frac{1}{p}.
 \end{align}
 $$
-Note that we used the formula $$\sum_{k \geq 1} k x^{k-1} = 1 / (1 - x)^2$$. For more information, see the discussion of [generating functions](/number_theory/generating-functions.md).
+Note that we used the formula $$\sum_{k \geq 1} k x^{k-1} = 1 / (1 - x)^2$$. For more information, see the discussion of generating functions.
 
 
 ### Perfect hand
