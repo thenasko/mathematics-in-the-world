@@ -28,12 +28,22 @@ At first glance, this may be surprising and counter-intuitive. Why should we opt
 
 ### Flippant juror
 
-> As part of his jury duty, an undergraduate student was chosen to participate in a jury of three members (majority rules). To express his disinterest in the case, he decides to vote by flipping a fair coin. The other two members of the jury independently will make the right decision with probability $p$. How does this arrangement compare to a single member jury which decides on the correct outcome with the same probability $p$?
+> As part of his jury duty, an undergraduate student was chosen to participate in a jury of three members (majority rules). To express his disinterest in the case, he decides to vote by flipping a fair coin. The other two members of the jury independently will make the right decision with probability $$p$$. How does this arrangement compare to a single member jury which decides on the correct outcome with the same probability $$p$$?
+
+The three person jury would decide on the right outcome only if at least two of the members choose that option. There are four voting scenarios which lead to this outcome: all correct, first two correct, first and third correct, second and third correct. Adding them up, we get
+$$
+p \cdot p \cdot \frac{1}{2} +
+p \cdot p \cdot \frac{1}{2} +
+p \cdot (1 - p) \cdot \frac{1}{2} +
+(1 - p) \cdot p \cdot \frac{1}{2} =
+p.
+$$
+It turns out the three member jury is as efficient as a single member jury!
 
 
 ### First six
 
-> How many times do you need to throw a die on average before you get a $6$?
+> How many times do you need to throw a die on average before you get a 6?
 
 
 ### Perfect hand
@@ -48,7 +58,7 @@ At first glance, this may be surprising and counter-intuitive. Why should we opt
 
 ### A personal taste for money
 
-> Ten white and ten black balls are placed in an urn. You are allowed to choose one of the two colors. A ball is drawn from the urn, and it the color matches you get $\$10$. If the colors are not a match, there is no prize. If the game is to be played only once, how much are you willing to pay for it?
+> Ten white and ten black balls are placed in an urn. You are allowed to choose one of the two colors. A ball is drawn from the urn, and it the color matches you get $10. If the colors are not a match, there is no prize. If the game is to be played only once, how much are you willing to pay for it?
 
 
 ### St. Petersburg paradox
