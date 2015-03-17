@@ -45,6 +45,26 @@ It turns out the three member jury is as efficient as a single member jury!
 
 > How many times do you need to throw a die on average before you get a 6?
 
+The is the prototypical example of a [geometric distribution](http://en.wikipedia.org/wiki/Geometric_distribution). Since the probability of throwing a $$6$$ is $$1 / 6$$, the expected number of throws is $$1 / (1 / 6) = 6$$.
+
+Let us go over the derivation of this formula. Instead of using a die, suppose we have a coin which comes up heads with probability $$p > 0$$, and we are interested in the expected number of throws $$X$$ until we get heads. The probability of getting heads for the first time in the $$k$$-th throw is
+$$
+\mathbb{P}(X = k) =
+(1 - p)^{k-1} p.
+$$
+The expected value of $$X$$ is
+$$
+\begin{align}
+\mathbb{E}(X)
+&= \sum_{k \geq 1} k \mathbb{P}(X = k) \\
+&= \sum_{k \geq 1} k (1 - p)^{k-1} p \\
+&= p \sum_{k \geq 1} k (1 - p)^{k-1} \\
+&= p \cdot \frac{1}{(1 - (1 - p))^2} \\
+&= \frac{1}{p}.
+\end{align}
+$$
+Note that we used the formula $$\sum_{k \geq 1} k x^{k-1} = 1 / (1 - x)^2$$. For more information, see the discussion of [generating functions](/number_theory/generating-functions.md).
+
 
 ### Perfect hand
 
