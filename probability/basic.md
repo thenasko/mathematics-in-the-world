@@ -75,10 +75,25 @@ Note that we used the formula $$\sum_{k \geq 1} k x^{k-1} = 1 / (1 - x)^2$$. For
 
 > Imagine a city whose streets form a perfect grid. Starting at the point with coordinates $$(0,0)$$, how many ways are there to walk to the intersection $$(m, n)$$ in $$m + n$$ steps?
 
+The key to this problem is finding a suitable interpretation of the suitable paths. Given a path, we will associate to it a list of instructions *X* and *Y*: "X" stands for a step in the positive $$x$$-direction (right), and likewise for "Y". A path between $$(0,0)$$ and $$(m,n)$$ must be made up of $$m+n$$ instructions, $$m$$ of which are X and the remaining $$n$$ Y. Conversely, given such a string of Xs and Ys, we can construct a path.
+
+We have reduced the problem to counting strings of length $$m+n$$ with $$m$$ Xs and $$n$$ Ys. The answer to this simple combinatorial problem is
+$$
+\binom{m+n}{m} = \binom{m+n}{n}.
+$$
+
 
 ### A personal taste for money
 
 > Ten white and ten black balls are placed in an urn. You are allowed to choose one of the two colors. A ball is drawn from the urn, and it the color matches you get $10. If the colors are not a match, there is no prize. If the game is to be played only once, how much are you willing to pay for it?
+
+The probability of getting matching colors is $$1/2$$, so the expected value of the game is
+$$
+\frac{1}{2} \cdot 10 + \frac{1}{2} \cdot 0 = 5.
+$$
+Whether anyone would be willing to pay $5 for this game is an entirely different question. First, if we were allowed to play the game many times, and we paid less than $5 for it, we expect to have positive earnings. On the other hand, there is no reason to pay more than $5 from the game, that is, unless we derive additional gains by playing this game (e.g., it is enjoyable, we network, etc.).
+
+If we are only allowed to play once, paying $5 seems like an even steeper price. In the end of the day, making a decision requires weighing the possibility of wining $5 against the possibility of loosing $5. The point of this discussion is that expected value is useful when evaluating games, but it should not be the only criterion we take into consideration. There are numerous additional factors, but one should always look at the variance and any potential stop limits.
 
 
 ### St. Petersburg paradox
@@ -91,6 +106,27 @@ Note that we used the formula $$\sum_{k \geq 1} k x^{k-1} = 1 / (1 - x)^2$$. For
 ### Even split
 
 > What is the probability of getting exactly 50 heads if you flip 100 fair coins? Can you find a concrete figure approximating the result without using additional computational power?
+
+The probability for obtaining an even split is
+$$
+\frac{1}{2^{100}} \binom{100}{50} =
+\frac{100!}{2^{100} \cdot 50! \cdot 50!}.
+$$
+To get an approximate value, we will use the [Stirling's approximation formula](http://en.wikipedia.org/wiki/Stirling%27s_approximation) which states that
+$$
+n! \approx \sqrt{2 \pi n} \left( \frac{n}{e} \right)^n.
+$$
+Substituting, we can simplify the expression above to
+$$
+\frac{1}{2^{100}} \binom{100}{50}
+\approx
+\frac{1}{5 \sqrt{2 \pi}}
+\approx
+0.0798.
+$$
+Without approximations, the actual value is closer to $$0.0796$$.
+
+It is worth noting that we computed there is almost 8% chance of getting an even split between heads and tails when using 100 coins. Depending on prior experience, this may intuitively appear as a fairly high value.
 
 
 ### An even number of heads
