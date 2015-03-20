@@ -204,6 +204,39 @@ $$
 
 > Tasty-o-crunch, a new brand of cereal, decided to include cards featuring famous mathematicians with their product. Each box contains one of 10 possible cards all of which are equally likely to appear. How many boxes of cereal do you need to buy on average to get a complete set?
 
+This problem may appear somewhat difficult at first, but there is a simple observation which leads to a solution. It is worth spending a bit of time grappling with the problem in order to get a better sense where the difficulty lies.
+
+Let $$X_i$$ denote the number of boxes it takes us to collect $$i$$ distinct mathematicians. Clearly, $$X_1 = 1$$. Once we have our first card, the probability of drawing the same one is $$1/10$$. If we think of this as a coin which comes up tails with probability $$1 - 1/10 = 5/10$$, the expected number of boxes we need to buy before obtaining our second card is $$1 / (9/10) = 10/9$$. This shows that $$\mathbb{E}(X_2 - X_1) = 10/9$$. Continuing this line of reasoning, we compute
+$$
+\begin{align}
+\mathbb{E}(X_1) &= \frac{10}{10} = 1, \\
+\mathbb{E}(X_2 - X_1) &= \frac{10}{9}, \\
+\mathbb{E}(X_3 - X_2) &= \frac{10}{8}, \\
+\mathbb{E}(X_4 - X_3) &= \frac{10}{7}, \\
+\mathbb{E}(X_5 - X_4) &= \frac{10}{6}, \\
+\mathbb{E}(X_6 - X_5) &= \frac{10}{5}, \\
+\mathbb{E}(X_7 - X_6) &= \frac{10}{4}, \\
+\mathbb{E}(X_8 - X_7) &= \frac{10}{3}, \\
+\mathbb{E}(X_9 - X_8) &= \frac{10}{2}, \\
+\mathbb{E}(X_10 - X_9) &= \frac{10}{1}.
+\end{align}
+$$
+Adding all of these, we find the desired answer
+$$
+\mathbb{E}(X_10) =
+10 \left( \frac{1}{1} + \frac{1}{2} + \cdots + \frac{1}{10} \right) \approx
+29.290.
+$$
+
+What if there were 100 distinct cards instead of 10? The sum $$\sum_{k = 1}^{100} 1/k$$ is much more tiresome to compute. Fortunately, there is an [approximation](http://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant#Asymptotic_expansions) we can use:
+$$
+\sum_{k = 1}^n \frac{1}{k} =
+\ln n + \gamma + \frac{1}{2n} - \frac{1}{12 n^2} + \frac{1}{120 n^3} + O(n^{-4}).
+$$
+Here $$\gamma \approx 0.577$$ denotes the [Euler-Mascheroni constant](http://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant). Using the approximation, we find that $$\mathbb{E}(X_10) \approx 29.288$$.
+
+The advantages of using the Euler-Mascheroni approximation are twofold. First, we can compute $$\mathbb{E}(X_n)$$ in constant time, whereas the original formula would require linear time in $$n$$. Second, for large values of $$n$$ floating point errors can accumulate quickly, so using the original formula may actually lead to a worse approximation of the actual value than the Euler-Mascheroni approximation.
+
 
 ### The second best
 
