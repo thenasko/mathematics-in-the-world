@@ -168,8 +168,36 @@ $$
 
 In fact, this line of reasoning generalizes substantially. We can use it to show that given arbitrary coins (not necessarily fair), the probability of obtaining an even number of heads is $$1/2$$ if and only if at least one of the coins is fair.
 
-It is worth mentioning that the problem has a simpler but less enlightening solution. Imagine we have a configuration of $$n$$ coins, and we take the first one and flip it. If we started with an even configuration, we end up with an odd one, and vice versa. This line of reasoning shows that there are equal number of even and odd arrangements. Since all configurations of $$n$$ coins are equally likely, it follows that the probability of getting an even (or odd) one is exactly $$1/2$$.
+It is worth mentioning that the problem has a very simpler but less enlightening solution. Imagine we have a configuration of $$n$$ coins, and we take the first one and flip it. If we started with an even configuration, we end up with an odd one, and vice versa. This line of reasoning shows that there are equal number of even and odd arrangements. Since all configurations of $$n$$ coins are equally likely, it follows that the probability of getting an even (or odd) one is exactly $$1/2$$.
 
+Alternatively, it is also possible to solve this problem by induction. Consider a sequence of coin tosses and associated random variables $$H_i$$ such that $$H_i = 1$$ if the $i$-th toss came up heads, and $$H_i = 0$$ otherwise. Since all coins are fair, we know that
+$$
+\mathbb{P}(H_i = 0) =
+\mathbb{P}(H_i = 1) =
+\frac{1}{2}.
+$$
+Then set $$X_n = \sum_{i = 1}^n H_i$$. As a base case, we note
+$$
+\mathbb{P}(X_1 \textrm{ is even}) =
+\mathbb{P}(H_1 = 0) =
+\frac{1}{2}.
+$$
+Next, assume that $$\mathbb{P}(X_n \textrm{ is even}) = 1/2$. We can use conditional probability to compute
+$$
+\begin{align}
+\mathbb{P}(X_{n+1} \textrm{ is even})
+&= 
+\mathbb{P}(X_{n+1} \textrm{ is even} | H_{n+1} = 0) \mathbb{P}(H_{n+1} = 0) +
+\mathbb{P}(X_{n+1} \textrm{ is even} | H_{n+1} = 1) \mathbb{P}(H_{n+1} = 1) \\
+&=
+\mathbb{P}(X_n \textrm{ is even}) \mathbb{P}(H_{n+1} = 0) +
+\mathbb{P}(X_n \textrm{ is odd}) \mathbb{P}(H_{n+1} = 1) \\
+&=
+\frac{1}{2} \cdot \frac{1}{2} + \frac{1}{2} \cdot \frac{1}{2} \\
+&=
+\frac{1}{2}.
+\end{align}
+$$
 
 
 ### Collecting famous mathematicians
