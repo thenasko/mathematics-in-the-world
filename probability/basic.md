@@ -133,6 +133,44 @@ It is worth noting that we computed there is almost 8% chance of getting an even
 
 > You flip $$n$$ fair coins independently. What is the probability to get an even number of heads?
 
+We can iterate over all even integers between $$0$$ and $$n$$ and add up the probabilities for obtaining that particular number of heads. The resulting expression is
+$$
+\frac{1}{2^n} \sum_{\substack{0 \leq k \leq n \\ k \textrm{ even}}} \binom{n}{k}.
+$$
+Trying out some small values for $$n$$, it is easy to see that the answer is 1/2 independently from $$n$$.
+
+There is a simple trick which helps us evaluate the expression above. Recall the formula
+$$
+(x + y)^n = \sum_{k = 0}^n \binom{n}{k} x^{n-k} y^k.
+$$
+Replacing $$y$$ with $-y$$, we get
+$$
+(x - y)^n = \sum_{k = 0}^n (-1)^k \binom{n}{k} x^{n-k} y^k.
+$$
+Adding and subtracting the two allows us to filter only even or odd values for $$k$$:
+$$
+\begin{align}
+\frac{ (x+y)^n + (x-y)^n }{2}
+&= \sum_{\substack{0 \leq k \leq n \\ k \textrm{ even}}} \binom{n}{k} x^{n-k} y^k, \\
+\frac{ (x+y)^n - (x-y)^n }{2}
+&= \sum_{\substack{0 \leq k \leq n \\ k \textrm{ odd}}} \binom{n}{k} x^{n-k} y^k.
+\end{align}
+$$
+Plugging in $$x = y = 1/2$$, we find that
+$$
+\begin{align}
+\frac{1}{2^n} \sum_{\substack{0 \leq k \leq n \\ k \textrm{ even}}} \binom{n}{k}
+&= \frac{ (1/2 + 1/2)^n + (1/2 - 1/2)^n }{2} \\
+&= \frac{ 1^n + 0^n }{2} \\
+&= \frac{1}{2}.
+\end{align}
+$$
+
+In fact, this line of reasoning generalizes substantially. We can use it to show that given arbitrary coins (not necessarily fair), the probability of obtaining an even number of heads is $$1/2$$ if and only if at least one of the coins is fair.
+
+It is worth mentioning that the problem has a simpler but less enlightening solution. Imagine we have a configuration of $$n$$ coins, and we take the first one and flip it. If we started with an even configuration, we end up with an odd one, and vice versa. This line of reasoning shows that there are equal number of even and odd arrangements. Since all configurations of $$n$$ coins are equally likely, it follows that the probability of getting an even (or odd) one is exactly $$1/2$$.
+
+
 
 ### Collecting famous mathematicians
 
