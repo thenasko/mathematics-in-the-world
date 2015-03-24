@@ -12,7 +12,7 @@ $$
 
 (a) **Law of total probability.**
 
-  Suppose $$E_1, \dots, E_n \subset \Omega$$ are mutually exclusive events such that $$\bigcup_{i = 1}^n E_i = \Omega$$. Given any event $$A \subset \Omega$$, we can compute its probability by
+Suppose $$E_1, \dots, E_n \subset \Omega$$ are mutually exclusive events such that $$\bigcup_{i = 1}^n E_i = \Omega$$. Given any event $$A \subset \Omega$$, we can compute its probability by
 $$
 \mathbb{P}(A) = \sum_{i = 1}^n \mathbb{P}(A \,|\, E_i) \cdot \mathbb{P}(E_i).
 $$
