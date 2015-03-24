@@ -253,6 +253,7 @@ The advantages of using the Euler-Mascheroni approximation are twofold. First, w
 > Amy has $$n+1$$ fair coins, while her brother Brad only has $$n$$. If both flip all of their coins, what is the probability that Amy will end up with more heads than Brad?
 
 
+
 ### Singles row
 
 > A number of single men and women independently bought tickets for a movie, and they end up sitting in a single row. If a man and a woman occupy adjacent seats, we will call them a potential couple. Assuming that the seating arrangement is random, and there are $$a$$ men and $$b$$ women, how many potential couples are there on average?

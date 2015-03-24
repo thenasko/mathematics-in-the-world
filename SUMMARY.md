@@ -19,5 +19,6 @@
   * [Plynomials](number_theory/polynomials.md)
 * [Probability](probability/README.md)
   * [Basic probability](probability/basic.md)
+  * [Conditional probability](probability/conditional.md)
   * [Geometric probability](probability/geometric.md)
 * [Algorithms](algorithms/README.md)
