@@ -21,4 +21,5 @@
   * [Basic probability](probability/basic.md)
   * [Conditional probability](probability/conditional.md)
   * [Geometric probability](probability/geometric.md)
+  * [Combinatorial probability](probability/combinatorial.md)
 * [Algorithms](algorithms/README.md)
