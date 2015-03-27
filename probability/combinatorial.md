@@ -64,4 +64,3 @@ These equalities are referred to as [*De Morgan's laws*](http://en.wikipedia.org
 ### Identical birthdays
 
 > How many people should be in the same room so that the probability of two having the same birthday is at least 1/2? How many people should be in the room so the probability of at least one of them having the same birthday as you is 1/2?
-
