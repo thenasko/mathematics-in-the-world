@@ -23,9 +23,9 @@ $$
 This is called the [*inclusion-exclusion principle*](http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle). It also applicable to the probability of the union of events $$A_1, \dots, A_n \subset \Omega$$ in which case
 $$
 \begin{align}
-\Pbb( A_1 \cup \cdots \cup A_n )
-&= \sum_{I \subset \{1, \dots, n\}} (-1)^{|I| + 1} \; \Pbb\left( \bigcap_{i \in I} A_i \right) \\
-&= \sum_{k = 1}^n \left( \sum_{1 \leq i_1 < \cdots < i_k \leq n} \Pbb( A_{i_1} \cap \cdots \cap A_{i_k} ) \right).  
+\mathbb{P}( A_1 \cup \cdots \cup A_n )
+&= \sum_{I \subset \{1, \dots, n\}} (-1)^{|I| + 1} \; \mathbb{P}\left( \bigcap_{i \in I} A_i \right) \\
+&= \sum_{k = 1}^n \left( \sum_{1 \leq i_1 < \cdots < i_k \leq n} \mathbb{P}( A_{i_1} \cap \cdots \cap A_{i_k} ) \right).  
 \end{align}
 $$
 
