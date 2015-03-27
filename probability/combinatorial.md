@@ -1,6 +1,6 @@
 ## Combinatorial probability
 
-We all know from the simplest Venn diagram that given two sets, we can compute the size of their union as
+We all know from the simplest Venn diagram that given two sets, we can compute the size of their union a
 $$
 |A \cup B| =
 |A| + |B| - |A \cap B|.
