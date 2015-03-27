@@ -24,7 +24,7 @@ This is called the [*inclusion-exclusion principle*](http://en.wikipedia.org/wik
 $$
 \begin{align}
 \mathbb{P}( A_1 \cup \cdots \cup A_n )
-&= \sum_{I \subset \{1, \dots, n\}} (-1)^{|I| + 1} \; \mathbb{P\left( \bigcap_{i \in I} A_i \right) \\
+&= \sum_{I \subset \{1, \dots, n\}} (-1)^{|I| + 1} \; \mathbb{P}\left( \bigcap_{i \in I} A_i \right) \\
 &= \sum_{k = 1}^n \left( \sum_{1 \leq i_1 < \cdots < i_k \leq n} \mathbb{P}( A_{i_1} \cap \cdots \cap A_{i_k} ) \right).  
 \end{align}
 $$
