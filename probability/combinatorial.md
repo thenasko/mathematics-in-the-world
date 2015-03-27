@@ -20,7 +20,7 @@ $$
 &= \sum_{k = 1}^n \left( \sum_{1 \leq i_1 < \cdots < i_k \leq n} |A_{i_1} \cap \cdots \cap A_{i_k}| \right).
 \end{align}
 $$
-This is called the [*inclusion-exclusion principle*](http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle. It also applicable to the probability of the union of events $$A_1, \dots, A_n \subset \Omega$$ in which case
+This is called the [*inclusion-exclusion principle*](http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle). It also applicable to the probability of the union of events $$A_1, \dots, A_n \subset \Omega$$ in which case
 $$
 \begin{align}
 \mathbb{P}( A_1 \cup \cdots \cup A_n )
