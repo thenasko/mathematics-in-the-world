@@ -68,6 +68,7 @@ These equalities are referred to as [*De Morgan's laws*](http://en.wikipedia.org
 ### Two decks
 
 > We take an ordered deck of cards and form a line from its cards by taking them one by one in the order that the appear. Next, we take a well-shuffled deck and place its cards in a line directly below the first one.
+> 
 > a. What is the average number of pairs of matching cards which lie directly above each other?
 > b. What is the answer if we do this experiment with two independently shuffled decks?
 > c. If each deck consists of $$n$$ cards, what is the probability that no matches occur?
