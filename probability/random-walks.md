@@ -13,4 +13,4 @@
 
 ### Gambler's ruin
 
-> You have $$\$a$$ in your pocket, and your friend has $$\$b$$ in his. You agree to play the following game. At each step you flip a fair coin. If it comes up heads you friend gives you $$\$1$$, and otherwise you give him $$\$1$$. The process continues until one of you exhausts their resources, and the winner takes the lump sum of $$a + b$$ dollars. What is the probability of winning? What is the probability of winning if the coin comes up heads with probability $$p \in (0,1)$$?
+> You have $$a$$ dollars in your pocket, and your friend has $$b$$ in his. You agree to play the following game. At each step you flip a fair coin. If it comes up heads you friend gives you 1 dollar, and otherwise you give him 1. The process continues until one of you exhausts their resources, and the winner takes the lump sum of $$a + b$$ dollars. What is the probability of winning? What is the probability of winning if the coin comes up heads with probability $$p \in (0,1)$$?
