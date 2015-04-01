@@ -22,4 +22,5 @@
   * [Conditional probability](probability/conditional.md)
   * [Geometric probability](probability/geometric.md)
   * [Combinatorial probability](probability/combinatorial.md)
+  * [Random walks](probability/random-walks.md)
 * [Algorithms](algorithms/README.md)

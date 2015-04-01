@@ -64,3 +64,11 @@ These equalities are referred to as [*De Morgan's laws*](http://en.wikipedia.org
 ### Identical birthdays
 
 > How many people should be in the same room so that the probability of two having the same birthday is at least 1/2? How many people should be in the room so the probability of at least one of them having the same birthday as you is 1/2?
+
+### Two decks
+
+> We take an ordered deck of cards and form a line from its cards by taking them one by one in the order that the appear. Next, we take a well-shuffled deck and place its cards in a line directly below the first one.
+> a. What is the average number of pairs of matching cards which lie directly above each other?
+> b. What is the answer if we do this experiment with two independently shuffled decks?
+> c. If each deck consists of $$n$$ cards, what is the probability that no matches occur?
+> d. If each deck consists of $$n$$ cards, what is the probability that there are exactly $$r$$ matches?
