@@ -55,7 +55,7 @@ The shape of the pieces makes this problem appear a little harder, but in fact i
 
 ![T-shaped pieces types](Diagrams/Tetris_T_two.png)
 
-Suppose there are $$a$$ pieces of type A, and $$b$$ pieces of type B. The entire board has $$10^2 = 100$ squares of which 50 are black and 50 are white. Equating the squares in each color, we obtain the following.
+Suppose there are $$a$$ pieces of type A, and $$b$$ pieces of type B. The entire board has $$10^2 = 100$$ squares of which 50 are black and 50 are white. Equating the squares in each color, we obtain the following.
 $$
 \begin{align}
 3 a + b &= 50 \\
