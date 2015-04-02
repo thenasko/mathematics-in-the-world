@@ -143,7 +143,7 @@ There is a simple trick which helps us evaluate the expression above. Recall the
 $$
 (x + y)^n = \sum_{k = 0}^n \binom{n}{k} x^{n-k} y^k.
 $$
-Replacing $$y$$ with $-y$$, we get
+Replacing $$y$$ with $$-y$$, we get
 $$
 (x - y)^n = \sum_{k = 0}^n (-1)^k \binom{n}{k} x^{n-k} y^k.
 $$
