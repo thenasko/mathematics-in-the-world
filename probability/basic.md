@@ -182,7 +182,7 @@ $$
 \mathbb{P}(H_1 = 0) =
 \frac{1}{2}.
 $$
-Next, assume that $$\mathbb{P}(X_n \textrm{ is even}) = 1/2$. We can use conditional probability to compute
+Next, assume that $$\mathbb{P}(X_n \textrm{ is even}) = 1/2$$. We can use conditional probability to compute
 $$
 \begin{align}
 \mathbb{P}(X_{n+1} \textrm{ is even})
