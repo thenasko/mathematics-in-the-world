@@ -14,7 +14,7 @@ The goal of this problem is to find an expression for
 $$
 P_k = \mathbb{P}(\textrm{hitting the fence if we start at position $k$})
 $$
-in terms of $p \in [0,1]$ and $k > 0$. Let's start with $$P_1$$ and condition on the first step:
+in terms of $$p \in [0,1]$$ and $$k > 0$$. Let's start with $$P_1$$ and condition on the first step:
 $$
 \begin{align}
 P_1
