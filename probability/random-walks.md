@@ -32,7 +32,7 @@ p P_1^2 - P_1 + 1 - p =
 (p P_1 + p - 1) (P_1 - 1) =
 0,
 $$
-so there are two viable solutions $$P_1 = 1$$ and $$P_1 = q / p$$ where $$q = 1 - p$$. To figure out which one it is, it suffices to note that $$P_1$$ should be a continuous function of $$p$$. Also $$P_1 = 1$$ when $$p = 0$$ and $$P_1 = 0$$ when $$p = 1$$. The conclusion is that
+so there are two viable solutions: $$P_1 = 1$$ and $$P_1 = q / p$$ where $$q = 1 - p$$. To figure out which one it is, it suffices to note that $$P_1$$ should be a continuous function of $$p$$. Also $$P_1 = 1$$ when $$p = 0$$ and $$P_1 = 0$$ when $$p = 1$$. The conclusion is that
 $$
 P_1 = \min\{ 1, q/p \}.
 $$
