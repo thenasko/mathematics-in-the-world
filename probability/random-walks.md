@@ -20,7 +20,7 @@ $$
 P_1
 &= \mathbb{P}(\textrm{hitting the fence if we start at position 1}) \\
 &= \mathbb{P}(\textrm{hitting the fence if we start at position 1} \;|\; \textrm{first step $-1$}) \cdot \mathbb{P}(\textrm{first step $-1$}) + \\
-&\phantom{{}={}} \mathbb{P}(\textrm{hitting the fence if we start at position 1} \;|\; \textrm{first step $+1$}) \cdot \mathbb{P}(\textrm{first step $+1$}) \\
+{}&\phantom{{}={}} \mathbb{P}(\textrm{hitting the fence if we start at position 1} \;|\; \textrm{first step $+1$}) \cdot \mathbb{P}(\textrm{first step $+1$}) \\
 &= 1 \cdot (1 - p) + P_2 \cdot p.
 \end{align}
 $$
