@@ -257,3 +257,8 @@ The advantages of using the Euler-Mascheroni approximation are twofold. First, w
 ### Singles row
 
 > A number of single men and women independently bought tickets for a movie, and they end up sitting in a single row. If a man and a woman occupy adjacent seats, we will call them a potential couple. Assuming that the seating arrangement is random, and there are $$a$$ men and $$b$$ women, how many potential couples are there on average?
+
+
+### Two loans
+
+> An aspiring loan shark, Tony, has made two month-long loans. He becomes worried that some of them will default. After a sleepless night of computations, he figures out that the chance of default for the first loan is 10%, and for the second is 20%. What are the possible values for the probability that at least one of the loans will default? What are the possible correlations between the two events?
