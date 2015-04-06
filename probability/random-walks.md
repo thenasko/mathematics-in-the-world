@@ -44,10 +44,55 @@ P_1^k =
 $$
 ![The graph of P_1](Diagrams/P1.png)
 
+Back to the original problem statement, plugging in $$p = 2/3$$ and $$q = 1/3$$, we get
+$$
+P_1 = \frac{1}{2}.
+$$
+
 
 ### Gambler's ruin
 
 > You have $$a$$ dollars in your pocket, and your friend has $$b$$ in his. You agree to play the following game. At each step you flip a fair coin. If it comes up heads you friend gives you 1 dollar, and otherwise you give him 1. The process continues until one of you exhausts their resources, and the winner takes the lump sum of $$a + b$$ dollars. What is the probability of winning? What is the probability of winning if the coin comes up heads with probability $$p \in (0,1)$$?
+
+Let $$P_{a+b, a}$$ denote the probability of winning if you start with $$a$$ dollars in your pocket, and the opponent has $$b$$. The winning and loosing final outcomes correspond to
+$$
+P_{a+b, 0} = 0
+\qquad\textrm{and}\qquad
+P_{a+b,a+b} = 1.
+$$
+Similar to the solution of the fence problem, if we start with $$a$$ and condition on the first flip, we arrive at
+$$
+P_{a+b, a} = q \cdot P_{a+b, a-1} + p \cdot P_{a+b, a+1}
+$$
+for $$0 < a < a + b$$. These equalities are sufficient to obtain a closed formula for $$P_{a+b, a}$$. For simplicity, we will take $$p = q = 1/2$$ in which case
+$$
+P_{a+b,a} = \frac{P_{a+b,a-1} + P_{a+b,a+1}}{2}.
+$$
+If we set $$P_{a+b,1} = r$$, then using $$a = 1$$ in the equality above, we get $$P_{a+b,2} = 2r$$. Setting $$r = 2$$, we get $$P_{a+b,3} = 3r$$ and so on: $$P_{a+b,a} = a r$$. In particular $$P_{a+b,a+b} = (a+b)r = 1$$, so $$r = 1/(a + b)$$. We showed that
+$$
+P_{a+b,a} = \frac{a}{a+b}.
+$$
+
+Instead of running through the argument above with general $$p$$ and $$q$$, we will present an alternative solution using the fence problem. Imagine we have only one absorbing the state at 0 identical to the previous problem. If we start at $$a$$ the probability of reaching 0 has already been computed above to be $$1 - P_a$$. These paths can be split in two groups -- those that pass through $$a + b$$ and those that always keep below $$a + b$$. The probability of being in the second group is exactly $$P_{a+b,a}$$, that is, we loose in the Gambler's ruin game. What about the first group? The probability of reaching $$a + b$$ is $$P_{a+b,a}$$, that is, we win. But then the random walk continues and we must hit 0 which happens with probability $$P_{a + b}$$. To sum things up, we showed that
+$$
+P_a = P_{a+b,a} \cdot P_{a + b} + (1 - P_{a+b,a}),
+$$
+which simplifies to
+$$
+P_{a+b,a} = \frac{1 - P_a}{1 - P_{a + b}}.
+$$
+This is a valid expression only when $$P_{a + b} < 1$$, that is $$p > 1/2$$, in which case
+$$
+P_{a+b,a} = \frac{1 - (q/p)^a}{1 - (q/p)^{a+b}}.
+$$
+If $$p < 1/2$$, we can switch places with the opponent (and the roles of $$p$$ and $$q$$). After some algebraic simplification, it turns out the same formula for $$P_{a+b,a}$$ holds. The only case we haven't handled is $$p = q = 1/2$$. We can either resort to the first argument we presented or say that $$P_{a+b,a}$$ is a continuous function of $$p$$, so we can apply L'Hospilal's rule. In conclusion, we have shown that
+$$
+P_{a+b,a} =
+\begin{cases}
+\frac{1 - (q/p)^a}{1 - (q/p)^{a+b}} & \textrm{if } p \neq \frac{1}{2}, \\
+\frac{a}{a + b} & \textrm{if } p = \frac{1}{2}.
+\end{cases}
+$$
 
 
 ### Returning home
