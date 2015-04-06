@@ -73,7 +73,7 @@ $$
 P_{a+b,a} = \frac{a}{a+b}.
 $$
 
-Instead of running through the argument above with general $$p$$ and $$q$$, we will present an alternative solution using the fence problem. Imagine we have only one absorbing the state at 0 identical to the previous problem. If we start at $$a$$ the probability of reaching 0 has already been computed above to be $$P_a$$. The paths to 0 can be split in two groups -- those that pass through $$a + b$$ and those that always keep below $$a + b$$. The probability of being in the second group is exactly $$P_{a+b,a}$$, that is, we loose in the Gambler's ruin game. What about the first group? We win with probability $$P_{a+b,a}$$ which means reaching $$a + b$$ without going through 0. If the random walk continues until we get to 0, that would happen with probability $$P_{a + b}$$. To sum things up, we showed that
+Instead of running through the argument above with general $$p$$ and $$q$$, we will present an alternative solution using the fence problem. Imagine we have only one absorbing the state at 0 identical to the previous problem. If we start at $$a$$ the probability of reaching 0 has already been computed above to be $$P_a$$. The paths to 0 can be split in two groups -- those that pass through $$a + b$$ and those that always keep below $$a + b$$. The probability of being in the second group is exactly $$P_{a+b,a}$$, that is, we loose in the Gambler's ruin game. What about the first group? Reaching $$a + b$$ leads to a win which happens with probability $$P_{a+b,a}$$ by definition. If the random walk continues until we get to 0, that would happen with probability $$P_{a + b}$$. To sum things up, we showed that
 $$
 P_a = P_{a+b,a} \cdot P_{a + b} + (1 - P_{a+b,a}),
 $$
@@ -85,7 +85,7 @@ This is a valid expression only when $$P_{a + b} < 1$$, that is $$p > 1/2$$, in 
 $$
 P_{a+b,a} = \frac{1 - (q/p)^a}{1 - (q/p)^{a+b}}.
 $$
-If $$p < 1/2$$, we can switch places with the opponent (and the roles of $$p$$ and $$q$$). After some algebraic simplification, it turns out the same formula for $$P_{a+b,a}$$ holds. The only case we haven't handled is $$p = q = 1/2$$. We can either resort to the first argument we presented or say that $$P_{a+b,a}$$ is a continuous function of $$p$$, so we can apply L'Hospilal's rule. In conclusion, we have shown that
+If $$p < 1/2$$, we can switch places with the opponent (and the roles of $$p$$ and $$q$$). After some algebraic simplification, it turns out the same formula for $$P_{a+b,a}$$ still holds. The only case we haven't handled is $$p = q = 1/2$$. An alternative to resorting to the first solution, we can use that $$P_{a+b,a}$$ is a continuous function of $$p$$. We can then get the same expression by applying L'Hospilal's rule. In conclusion, we have shown that
 $$
 P_{a+b,a} =
 \begin{cases}
