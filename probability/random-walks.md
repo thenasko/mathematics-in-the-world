@@ -73,7 +73,7 @@ $$
 P_{a+b,a} = \frac{a}{a+b}.
 $$
 
-Instead of running through the argument above with general $$p$$ and $$q$$, we will present an alternative solution using the fence problem. Imagine we have only one absorbing the state at 0 identical to the previous problem. If we start at $$a$$ the probability of reaching 0 has already been computed above to be $$1 - P_a$$. These paths can be split in two groups -- those that pass through $$a + b$$ and those that always keep below $$a + b$$. The probability of being in the second group is exactly $$P_{a+b,a}$$, that is, we loose in the Gambler's ruin game. What about the first group? The probability of reaching $$a + b$$ is $$P_{a+b,a}$$, that is, we win. But then the random walk continues and we must hit 0 which happens with probability $$P_{a + b}$$. To sum things up, we showed that
+Instead of running through the argument above with general $$p$$ and $$q$$, we will present an alternative solution using the fence problem. Imagine we have only one absorbing the state at 0 identical to the previous problem. If we start at $$a$$ the probability of reaching 0 has already been computed above to be $$P_a$$. The paths to 0 can be split in two groups -- those that pass through $$a + b$$ and those that always keep below $$a + b$$. The probability of being in the second group is exactly $$P_{a+b,a}$$, that is, we loose in the Gambler's ruin game. What about the first group? We win with probability $$P_{a+b,a}$$ which means reaching $$a + b$$ without going through 0. If the random walk continues until we get to 0, that would happen with probability $$P_{a + b}$$. To sum things up, we showed that
 $$
 P_a = P_{a+b,a} \cdot P_{a + b} + (1 - P_{a+b,a}),
 $$
