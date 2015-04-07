@@ -111,14 +111,14 @@ $$
 $$
 The remaining two probabilities have been computed to be $1$ in the fence problem, so we conclude
 $$
-\Pbb(\textrm{return})
+\mathbb{P}(\textrm{return})
 = \frac{1}{2} \cdot 1 + \frac{1}{2} \cdot 1
 = 1.
 $$
 If we don't assume $$p = q = 1/2$$, then
 $$
 \begin{align}
-\Pbb(\textrm{return})
+\mathbb{P}(\textrm{return})
 &= p \cdot \min\{ 1, q/p \} + q \cdot \min\{ 1, p/q \} \\
 &=
 \begin{cases}
