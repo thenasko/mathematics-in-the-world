@@ -99,6 +99,35 @@ $$
 
 > A drunk man leaves his house for a walk. Staying on his own street, he takes random steps back and forth with equal probability. This continues until the first time he runs back into his own house, when the stroll ends. What is the chance he will make it back?
 
+This may look like a difficult problem at first, but there is an easy solution using the fence problem. The idea is to condition on the first step.
+$$
+\begin{align}
+\mathbb{P}(\textrm{return})
+&= \mathbb{P}(\textrm{return} \;|\; \textrm{first step $+1$}) \cdot \mathbb{P}(\textrm{first step $+1$}) +
+&\phantom{ {} = {} } \mathbb{P}(\textrm{return} \;|\; \textrm{first step $-1$}) \cdot \mathbb{P}(\textrm{first step $-1$}) \\
+&= p \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $+1$}$}) +
+&\phantom{ {} = {} } q \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $-1$}).
+\end{align}
+$$
+The remaining two probabilities have been computed to be $1$ in the fence problem, so we conclude
+$$
+\Pbb(\textrm{return})
+= \frac{1}{2} \cdot 1 + \frac{1}{2} \cdot 1
+= 1.
+$$
+If we don't assume $$p = q = 1/2$$, then
+$$
+\begin{align}
+\Pbb(\textrm{return})
+&= p \cdot \min\{ 1, q/p \} + q \cdot \min\{ 1, p/q \} \\
+&=
+\begin{cases}
+2p & \textrm{if } p < 1/2, \\
+2q & \textrm{if } p \geq 1/2.
+\end{cases}
+\end{align}
+$$
+
 
 ### Returning home in higher dimensions
 
