@@ -103,9 +103,9 @@ This may look like a difficult problem at first, but there is an easy solution u
 $$
 \begin{align}
 \mathbb{P}(\textrm{return})
-&= \mathbb{P}(\textrm{return} \;|\; \textrm{first step $+1$}) \cdot \mathbb{P}(\textrm{first step $+1$}) +
+&= \mathbb{P}(\textrm{return} \;|\; \textrm{first step $+1$}) \cdot \mathbb{P}(\textrm{first step $+1$}) + \\
 &\phantom{ {} = {} } \mathbb{P}(\textrm{return} \;|\; \textrm{first step $-1$}) \cdot \mathbb{P}(\textrm{first step $-1$}) \\
-&= p \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $+1$}$}) +
+&= p \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $+1$}) + \\
 &\phantom{ {} = {} } q \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $-1$}).
 \end{align}
 $$
