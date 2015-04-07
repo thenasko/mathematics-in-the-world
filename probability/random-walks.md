@@ -109,7 +109,7 @@ $$
 &\phantom{ {} = {} } q \cdot \mathbb{P}(\textrm{reaching $0$ if we start at $-1$}).
 \end{align}
 $$
-The remaining two probabilities have been computed to be $1$ in the fence problem, so we conclude
+The remaining two probabilities have been computed to be 1 in the fence problem, so we conclude
 $$
 \mathbb{P}(\textrm{return})
 = \frac{1}{2} \cdot 1 + \frac{1}{2} \cdot 1
