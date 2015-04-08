@@ -262,3 +262,13 @@ The advantages of using the Euler-Mascheroni approximation are twofold. First, w
 ### Two loans
 
 > An aspiring loan shark, Tony, has made two month-long loans. He becomes worried that some of them will default. After a sleepless night of computations, he figures out that the chance of default for the first loan is 10%, and for the second is 20%. What are the possible values for the probability that at least one of the loans will default? What are the possible correlations between the two events?
+
+
+### Fair from unfair
+
+> You are given a coin, but you are afraid it is not fair. Is it possible to simulate a fair coin using it? You can assume successive tosses are independent.
+
+
+### Fair from unfair
+
+> Conversely, imagine that you have a fair coin. How can you simulate a coin which comes up heads with probability $$p \in (0,1)$$?
