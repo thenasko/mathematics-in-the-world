@@ -19,4 +19,6 @@ Bit-wise operations:
 > How can you check whether a positive integer is a power of 2 without using loops or the logarithm function?
 
 
+### Counting ones
 
+> Given an integer, count the number of ones in its binary presentation.

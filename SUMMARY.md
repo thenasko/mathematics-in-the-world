@@ -25,3 +25,4 @@
   * [Random walks](probability/random-walks.md)
 * [Algorithms](algorithms/README.md)
   * [Bits and pieces](algorithms/bits.md)
+  * [Searching](algorithms/searching.md)
