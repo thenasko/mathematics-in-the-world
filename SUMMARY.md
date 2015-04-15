@@ -26,3 +26,5 @@
 * [Algorithms](algorithms/README.md)
   * [Bits and pieces](algorithms/bits.md)
   * [Searching](algorithms/searching.md)
+  * [Hashing](algorithms/hashing.md)
+  * [Sorting](algorithms/sorting.md)
