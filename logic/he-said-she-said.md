@@ -22,4 +22,22 @@
 > 
 > What is Alice's birthday?
 
-The answer is September 1. Before everyone speaks, Claire can know the birthday only if the birthday is June 7 or December 2, because the dates 2 and 7 are unique. Bryan knows this fact, and he additionallyknows that Claire doesn't know the birthday, given his knowledge of the month. So the month that Bryan knows is either March or September. (Otherwise Bryan cannot speak with certainty that Claire doesn't know.) Claire can carry out the same analysis above and know that the month is now restricted to March and September. This knowledge equips her to know the birthday. Therefore, the date has to initially not be unique, but become unique after restricting to March and September. When Bryan carries out the above analysis, he knows that the birthday cannot be March 5 or September 5 (because the date is still not unique). When he eliminates the two dates, he has March 4, March 8 and September 1 remaining. Since Bryan knowing the month now allows him to deduce Alice's birthday, the birthday is September 1.
+The key insight in this question is tabulating the data. Given in the form of a list, it is hard to say which one of the ten dates is the solution, but things get clearer when we arrange the months as rows, and days as columns. X's mark possible solutions in the table below.
+
+|           | 1 | 2 | 4 | 5 | 7 | 8 |
+|-----------|:-:|:-:|:-:|:-:|:-:|:-:|
+| March     |   |   | X | X |   | X |
+| June      |   |   | X |   | X |   |
+| September | X |   |   | X |   |   |
+| December  | X | X |   |   |   | X |
+
+We are now in good shape to analyze the first line. Imagine that the Alice's birthday was June 7 or December 2. Since there is only one X in the 2 and 7 columns, Claire would automatically be able to guess the month and deduce the solution. It follows that if Bryan was given June or December as the birthday month and no additional information, he could not be certain that Claire doesn't know the solution. We deduce that the birthday cannot be in June or December. The following table summarizes the remaining possibilities.
+
+|           | 1 | 4 | 5 | 8 |
+|-----------|:-:|:-:|:-:|:-:|
+| March     |   | X | X | X |
+| September | X |   | X |   |
+
+Let's look at the second line. Claire confirms she did not know the birthday originally, but she has been able to figure it out given Bryan's comment (which eliminates June and September). Looking at the updated table, Claire must have been given 1, 4, or 8, since she wouldn't be able to deduce the birtday otherwise (the 5 column contains two possibilities).
+
+In the third line, Bryan deduces the birthday himself. The only information we could draw from Claire's previous comment was that the solution is not on the 5th day of a month. If Bryan is given March, he would still need to decide between March 4 and 8. He doesn't have any additional information, so he must have been told the birthday falls in Septebler. We conlude the solution is September 1!
