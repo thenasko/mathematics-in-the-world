@@ -36,7 +36,7 @@ We are now in good shape to analyze the first line. Imagine that the Alice's bir
 |           | 1 | 4 | 5 | 8 |
 |-----------|:-:|:-:|:-:|:-:|
 | March     |   | X | X | X |
-| September | X |   | X |   |
+| September | X |   | X |   ||
 
 Let's look at the second line. Claire confirms she did not know the birthday originally, but she has been able to figure it out given Bryan's comment (which eliminates June and September). Looking at the updated table, Claire must have been given 1, 4, or 8, since she wouldn't be able to deduce the birtday otherwise (the 5 column contains two possibilities).
 
