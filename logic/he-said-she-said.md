@@ -29,7 +29,7 @@ The key insight in this question is tabulating the data. Given in the form of a 
 | March     |   |   | X | X |   | X |
 | June      |   |   | X |   | X |   |
 | September | X |   |   | X |   |   |
-| December  | X | X |   |   |   | X |
+| December  | X | X |   |   |   | X ||
 
 We are now in good shape to analyze the first line. Imagine that the Alice's birthday was June 7 or December 2. Since there is only one X in the 2 and 7 columns, Claire would automatically be able to guess the month and deduce the solution. It follows that if Bryan was given June or December as the birthday month and no additional information, he could not be certain that Claire doesn't know the solution. We deduce that the birthday cannot be in June or December. The following table summarizes the remaining possibilities.
 
