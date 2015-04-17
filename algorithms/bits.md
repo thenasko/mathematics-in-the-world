@@ -22,3 +22,25 @@ Bit-wise operations:
 ### Counting ones
 
 > Given an integer, count the number of ones in its binary presentation.
+
+
+### Gray code
+
+> Consider the following list of all four values of two bits.
+> |:-:|:-:|
+> | 0 | 0 |
+> | 0 | 1 |
+> | 1 | 1 |
+> | 1 | 0 |
+> Note that each following line is formed from the previous one by changing only one bit. Such a sequence is called a *Gray code*. For example, the following is a Gray code of length 3.
+> |:-:|:-:|:-:|
+> | 0 | 0 | 0 |
+> | 0 | 0 | 1 |
+> | 0 | 1 | 1 |
+> | 0 | 1 | 0 |
+> | 1 | 1 | 0 |
+> | 1 | 1 | 1 |
+> | 1 | 0 | 1 |
+> | 1 | 0 | 0 |
+> How can we construct a Gray code of arbitrary length $$n \geq 1$$?
+

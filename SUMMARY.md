@@ -28,3 +28,4 @@
   * [Searching](algorithms/searching.md)
   * [Hashing](algorithms/hashing.md)
   * [Sorting](algorithms/sorting.md)
+  * [Dynamic programming](algorithms/dynamic.md)

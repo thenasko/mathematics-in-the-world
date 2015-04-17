@@ -15,3 +15,6 @@
 > Given an body of text, construct a list of all words that appear in it together with their frequencies.
 
 
+### Finding anagrams
+
+> Two words are called *anagrams( if one can be obtained from the other by rearranging its letters. For example, "listen" and "silent" are anagrams. Given a dictionary of words, split it into groups such that each consists of words that are anagrams of each other.
