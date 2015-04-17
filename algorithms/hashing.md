@@ -36,9 +36,13 @@ pets = { "cat", "dog" }
 
 Before jumping to a hash table, let's think of simple solutions to this problem. For once, we can go through all pairs $$(a, b)$$ and compute their sum. The resulting algorithm has complexity $$O(n^2)$$.
 
-As a second attempt, we can start by sorting the list. Imagine we have fixed one integer $$a$$ and would like to check if the list contains its companion $$b = n - a$$. This operation can be performed using a binary search which is $$O(\log n)$$. Since there are $$n$$ choices for the first integer $$a$$, the algorithm has complexity $$O(n \log n)$$.
+As a second attempt, we can start by sorting the list. Imagine we have fixed one integer $$a$$ and would like to check if the list contains its complement $$b = n - a$$. This operation can be performed using a binary search which is $$O(\log n)$$. Since there are $$n$$ choices for the first integer $$a$$, the algorithm has complexity $$O(n \log n)$$.
 
+Instead of starting with a sort, we can convert the list of numbers to a set. This is an $$O(n)$$ operation ($$n$$ constant time additions). Once that is done, we can go through all elements $$a$$, and check if their complement $$b = n - a$$ is also in the set. This amounts to $$n$$ constant time checks, so the second part is also $$O(n)$$. In conclusion, using a set reduced the complexity to $$O(n)$$.
 
+```
+{% include "Code/finding_summands,py" %}
+```
 
 
 ### Unique elements
