@@ -8,7 +8,7 @@ While that sounds like a useful structure, it is also a very rigid one. What abo
 
 The [hash table](http://en.wikipedia.org/wiki/Hash_table) is a data structure which solves a lot of these problems. Without going into the inner workings of a hash table, we can think of such an object as a map
 $$
-B \colon\; \textrm{Keys} \longrightarrow \textrm{Values}.
+\textrm{Keys} \longrightarrow \textrm{Values}.
 $$
 The keys (indexes) can be numbers, strings, or a variety of other objects. While allowing such diverse keys is often a plus, that also means that we have no sense of order between them. Put formally, the set of keys is non-ordered. On the positive side, reading, writing, adding, and removing elements are all constant time operations (on average).
 
@@ -22,11 +22,23 @@ The same dictionary can equivalently be initialized directly in one line.
 ```
 ages = { "cat": 2, "dog": 2 }
 ```
+Checking whether a given key exists in a dictionary using the ```in``` operator. For example, the statement ```"cat" in ages``` evaluates to ```True```.
+
+Sometimes, we need a data structure similar to a set, that is, a keys-only hash table. In Python such objects are also called *sets*, and they are even easier to work with than dictionaries. For example, the following line initializes a set of two strings.
+```
+pets = { "cat", "dog" }
+```
 
 
 ### Finding summands
 
 > Given an array $$A$$ and an integer $$n$$, find elements $$a$$ and $$b$$ of $$A$$ such that $$a + b = n$$.
+
+Before jumping to a hash table, let's think of simple solutions to this problem. For once, we can go through all pairs $$(a, b)$$ and compute their sum. The resulting algorithm has complexity $$O(n^2)$$.
+
+As a second attempt, we can start by sorting the list. Imagine we have fixed one integer $$a$$ and would like to check if the list contains its companion $$b = n - a$$. This operation can be performed using a binary search which is $$O(\log n)$$. Since there are $$n$$ choices for the first integer $$a$$, the algorithm has complexity $$O(n \log n)$$.
+
+
 
 
 ### Unique elements
