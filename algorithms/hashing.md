@@ -41,7 +41,7 @@ As a second attempt, we can start by sorting the list. Imagine we have fixed one
 Instead of starting with a sort, we can convert the list of numbers to a set. This is an $$O(n)$$ operation ($$n$$ constant time additions). Once that is done, we can go through all elements $$a$$, and check if their complement $$b = n - a$$ is also in the set. This amounts to $$n$$ constant time checks, so the second part is also $$O(n)$$. In conclusion, using a set reduced the complexity to $$O(n)$$.
 
 ```
-{% include "Code/finding_summands,py" %}
+{% include "Code/finding_summands.py" %}
 ```
 
 
