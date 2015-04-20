@@ -44,7 +44,6 @@ Instead of starting with a sort, we can convert the list of numbers to a set. Th
 {% include "./algorithms/Code/finding_summands.py" %}
 ```
 
-
 ### Unique elements
 
 > Given a list of integers, remove all duplicates from it.
