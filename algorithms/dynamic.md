@@ -35,7 +35,7 @@
 
 ### Matrix multiplication}
 
-> Given two matrices $$A$$ and $$B$$ of size $$a \x b$$ and $$b \x c$$ respectively, it takes $$O(a b c)$$ operations to compute the product $$A \cdot B$$. Suppose we have one more matrix $$C$$ of size $$c \x d$$. We can compute the product $$A \cdot B \cdot C$$ in one of two ways:
+> Given two matrices $$A$$ and $$B$$ of size $$a \times b$$ and $$b \times c$$ respectively, it takes $$O(a b c)$$ operations to compute the product $$A \cdot B$$. Suppose we have one more matrix $$C$$ of size $$c \times d$$. We can compute the product $$A \cdot B \cdot C$$ in one of two ways:
 > $$
 > (A \cdot B) \cdot D, \qquad
 > A \cdot (B \cdot C).
