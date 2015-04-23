@@ -29,8 +29,8 @@ The remaining contenders for the second and third place are marked as bold in th
 
 > If
 > $$
-> x^{x^{x^\cdots}} = 2,
-> $$
+x^{x^{x^\cdots}} = 2,
+$$
 > what is the value of $$x$$?
 
 As with many other problems, the simplest solution seems to involve a trick. On the other hand, the more time we spend on the problem, the more natural the solution becomes. Before we get to the actual discussion, there is an intentional ambiguity in the statement.

@@ -30,20 +30,20 @@ Together with $$T_1 = F_1 = 1$$, and $$T_2 = F_2 = 2$$, induction implies that $
 
 > Find a geometric proof of the identity
 > $$
-> F_1^2 + \cdots + F_n^2 = F_n F_{n+1}.
-> $$
+F_1^2 + \cdots + F_n^2 = F_n F_{n+1}.
+$$
 
 
 ### The negative Fibonacci sequence
 > 
 > Manipulating the recursive relation
 > $$
-> F_{n+2} = F_{n+1} + F_n
-> $$
+F_{n+2} = F_{n+1} + F_n
+$$
 > to
 > $$
-> F_n = F_{n+2} - F_{n+1},
-> $$
+F_n = F_{n+2} - F_{n+1},
+$$
 > allows us to define the Fibonacci numbers $$F_n$$ for negative values of $$n$$. Can you express $$F_{-n}$$ in terms of $$F_n$$?
 
 
@@ -51,8 +51,8 @@ Together with $$T_1 = F_1 = 1$$, and $$T_2 = F_2 = 2$$, induction implies that $
 
 > What is the limit
 > $$
-> \lim_{n \rightarrow \infty} \frac{F_{n+1}}{F_n}?
-> $$
+\lim_{n \rightarrow \infty} \frac{F_{n+1}}{F_n}?
+$$
 
 Let us assume the limit exists and is equal to $$\ell$$. The trick is to find a self-similarity (similar to the *Infinite exponentiation* problem) and arrive at an equation satisfies by $$\ell$$. As with any problem involving the Fibonacci numbers, the first thing we should try to use is the recursive relation.
 
@@ -89,17 +89,17 @@ Try to show that the limit $$\ell$$ exists.
 
 > Find a $$2 \times 2$$ matrix $$A$$ such that
 > $$
-> \begin{pmatrix}
->   F_{n+2} \\
->   F_{n+1}
-> \end{pmatrix}
-> =
-> A
-> \begin{pmatrix}
->   F_{n+1} \\
->   F_n
-> \end{pmatrix}.
-> $$
+\begin{pmatrix}
+  F_{n+2} \\
+  F_{n+1}
+\end{pmatrix}
+=
+A
+\begin{pmatrix}
+  F_{n+1} \\
+  F_n
+\end{pmatrix}.
+$$
 > Use this to find a closed formula for $$F_n$$ in terms of $$n$$.
 
 If we write $$F_{n+2} = F_{n+1} + F_n$$, then it is immediate that
@@ -189,10 +189,10 @@ This equality holds for all integers $$n$$, so it gives us an alternative approa
 
 > Consider the sequence
 > $$
-> S_0 = a, \qquad
-> S_1 = b, \qquad
-> S_{n+2} = S_{n+1} + S_n,
-> $$
+S_0 = a, \qquad
+S_1 = b, \qquad
+S_{n+2} = S_{n+1} + S_n,
+$$
 > where $$a$$ and $$b$$ are real numbers. Can you express $$S_n$$ in terms of the Fibonacci numbers?
 
 Note that $$F_0 = 0$$ and $$F_{-1} = F_1 = 1$$. It follows that we can write

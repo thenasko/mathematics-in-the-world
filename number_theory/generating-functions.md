@@ -4,8 +4,8 @@
 
 > Define the function $$f(x)$$ in terms of the infinite power series
 > $$
-> f(x) = \sum_{n = 0}^\infty F_n x^n.
-> $$
+f(x) = \sum_{n = 0}^\infty F_n x^n.
+$$
 > What does the recursive relation satisfied by $$F_n$$ say about $$f(x)$$? Does this give an alternative derivation of the closed formula for $$F_n$$?
 
 The solution of this problem is a little longer, so it is important to start with a plan and understand that well. The premise behind *generating functions*, of which $$f(x)$$ is an example, is that a recursive relation can be translated to an equation satisfied by $$f$$. We can find an expression for $$f(x)$$, and in turn that will give a closed formula for the original sequence.

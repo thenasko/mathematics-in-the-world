@@ -9,8 +9,8 @@
 
 > The possible sums of two standard dice (with numbers $$1, \dots, 6$$ on their faces) are $$2, 3, \dots, 12$$ which occur with frequencies
 > $$
-> 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1.
-> $$
+1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1.
+$$
 > Do there exist two non-standard dice with positive integers on their faces such that the sum of the two has the same frequencies as above?
 > 
 > (Hint: If this sounds complicated, try starting with tetrahedral dice first.)

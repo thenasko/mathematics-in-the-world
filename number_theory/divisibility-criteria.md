@@ -80,7 +80,7 @@ $$33!=8683317618811886495518194401280000000.$$
 
 > Let $$S(n)$$ denote the sum of the decimal digits of $$n$$. Consider the following recursive sequence
 > $$
-> a_0 = 2015!, \qquad
-> a_{n+1} = S(a_n).
-> $$
+a_0 = 2015!, \qquad
+a_{n+1} = S(a_n).
+$$
 > What is the behavior of the sequence for large $$n$$? Can you find its limit? How soon is it achieved?

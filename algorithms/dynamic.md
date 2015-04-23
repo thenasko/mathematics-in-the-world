@@ -12,12 +12,12 @@ $$
 
 > Given a list of numbers
 > $$
-> a_1, \dots, a_n,
-> $$
+a_1, \dots, a_n,
+$$
 > design an algorithm which finds the longest sequence
 > $$
-> i_1, \dots, i_k
-> $$
+i_1, \dots, i_k
+$$
 > such that $$i_j < i_{j+1}$$ and $$a_{i_j} \leq a_{i_{j+1}}$$ for all $$1 \leq j \leq k-1$$.
 
 
@@ -37,7 +37,7 @@ $$
 
 > Given two matrices $$A$$ and $$B$$ of size $$a \times b$$ and $$b \times c$$ respectively, it takes $$O(a b c)$$ operations to compute the product $$A \cdot B$$. Suppose we have one more matrix $$C$$ of size $$c \times d$$. We can compute the product $$A \cdot B \cdot C$$ in one of two ways:
 > $$
-> (A \cdot B) \cdot D, \qquad
-> A \cdot (B \cdot C).
-> $$
+(A \cdot B) \cdot D, \qquad
+A \cdot (B \cdot C).
+$$
 > Which one is better? How would you approach the problem if you had to compute the product of $$n$$ matrices?
