@@ -6,10 +6,10 @@
 > 
 > You have found a second map which indicates the location of an ancient treasure is buried under the ice. How can you compute the number of days you need to wait before starting to dig for the treasure?
 
-!(Ice)[Diagrams/Ice.png]
+![Ice](Diagrams/Ice.png)
 
 ### Navigating a maze
 
 > You are given the map of a rectangular maze (walls are shaded black). Design an algorithm that finds the shortest route from the lower left to the upper right corner?
 
-!(Maze)[Diagrams/Maze.png]
+![Maze](Diagrams/Maze.png)
