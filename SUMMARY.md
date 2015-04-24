@@ -29,3 +29,5 @@
   * [Hashing](algorithms/hashing.md)
   * [Sorting](algorithms/sorting.md)
   * [Dynamic programming](algorithms/dynamic.md)
+  * [Trees](algorithms/trees.md)
+  * [Miscellaneous](algorithms/misc.md)

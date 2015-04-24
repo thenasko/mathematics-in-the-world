@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="805"
+   height="805"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Maze.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="/home/nasko/Dropbox/Harvard Documents/Year_5/Mathematics in the world/Book/algorithms/Diagrams/Maze.png"
+   inkscape:export-xdpi="30"
+   inkscape:export-ydpi="30">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43090055"
+     inkscape:cx="220.31289"
+     inkscape:cy="464.65599"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:grid-points="true"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Tetris T</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Devin Cook</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Devin Cook
+www.devincook.com</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>This is the &quot;T&quot; from the game of Tetris. The image color follows the color used in Vadim Gerasimov's original Tetris.
+</dc:description>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-97.5,-229.86202)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 100,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path2187"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 300,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3168"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 200,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3170"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path2986"
+       d="m 400,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path2988"
+       d="m 600,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path2990"
+       d="m 500,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 800,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path2992"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 700,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path2994"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path2996"
+       d="m 100,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path2998"
+       d="m 300,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3000"
+       d="m 200,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 400,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3002"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 600,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3004"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 500,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3006"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3008"
+       d="m 800,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3010"
+       d="m 700,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3012"
+       d="m 100,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3014"
+       d="m 300,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3016"
+       d="m 200,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 400,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3018"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 600,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3020"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 500,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3022"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3024"
+       d="m 800,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3026"
+       d="m 700,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 100,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3028"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 300,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3030"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 200,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3032"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3034"
+       d="m 400,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3036"
+       d="m 600,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3038"
+       d="m 500,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 800,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3040"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 700,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3042"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3044"
+       d="m 100,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3046"
+       d="m 300,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3048"
+       d="m 200,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 400,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3050"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 600,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3052"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 500,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3054"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3056"
+       d="m 800,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3058"
+       d="m 700,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 100,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3060"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 300,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3062"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 200,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3064"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3066"
+       d="m 400,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3068"
+       d="m 600,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3070"
+       d="m 500,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 800,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3072"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 700,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3074"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 100,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3076"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 300,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3078"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 200,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3080"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3082"
+       d="m 400,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3084"
+       d="m 600,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3086"
+       d="m 500,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 800,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3088"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 700,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3090"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3094"
+       d="m 300,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3096"
+       d="m 200,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 400,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3098"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 600,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3100"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 500,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3102"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3104"
+       d="m 800,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3106"
+       d="m 700,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 100,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3045"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3047"
+       d="m 1000,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3049"
+       d="m 900,1032.3622 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1000,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3051"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 900,932.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3053"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1000,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3055"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 900,832.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3057"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3059"
+       d="m 1000,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3061"
+       d="m 900,732.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1000,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3063"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 900,632.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3065"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3067"
+       d="m 1000,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3069"
+       d="m 900,532.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3071"
+       d="m 1000,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3073"
+       d="m 900,432.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1000,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3075"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 900,332.36166 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3077"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3079"
+       d="m 100,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3081"
+       d="m 300,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3083"
+       d="m 200,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 400,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3085"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 600,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3087"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 500,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3089"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3091"
+       d="m 800,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3093"
+       d="m 700,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 300,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3095"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 200,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3097"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3099"
+       d="m 400,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3101"
+       d="m 600,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3103"
+       d="m 500,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 800,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3105"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 700,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3107"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3109"
+       d="m 100,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1000,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3111"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 900,232.36202 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       id="path3113"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-ydpi="30.09836" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3115"
+       d="m 1000,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       inkscape:export-ydpi="30.09836"
+       inkscape:export-xdpi="30.09836"
+       inkscape:export-filename="/home/nasko/Documents/Harvard/Year_5/Mathematics in the world/Book/logic/Diagrams/path2187.png"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       id="path3117"
+       d="m 900,132.36184 100,0 0,-100.00002 -100,0 0,100.00002 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+  </g>
+</svg>
