@@ -75,7 +75,9 @@ $$
 \begin{align*}
 \mathbb{P}( \textrm{not coprime to } 30 )
 &= \mathbb{P}( A_2 \cup A_3 \cup A_5 ) \\
-&= \mathbb{P}( A_2 ) + \mathbb{P}( A_3 ) + \mathbb{P}( A_5 ) - \mathbb{P}( A_2 \cap A_3 ) - \mathbb{P}( A_2 \cap A_5 ) - \mathbb{P}( A_3 \cap A_5 ) + \mathbb{P}( A_2 \cap A_3 \cap A_5 ) \\
+&= \phantom{+}\mathbb{P}( A_2 ) + \mathbb{P}( A_3 ) + \mathbb{P}( A_5 ) \\
+&\phantom{=} - \mathbb{P}( A_2 \cap A_3 ) - \mathbb{P}( A_2 \cap A_5 ) - \mathbb{P}( A_3 \cap A_5 ) \\
+&\phantom{=} + \mathbb{P}( A_2 \cap A_3 \cap A_5 ) \\
 &= \frac{50}{100} + \frac{33}{100} + \frac{20}{100} - \frac{16}{100} - \frac{10}{100} - \frac{6}{100} + \frac{3}{100} \\
 &= \frac{74}{100}.
 \end{align*}
