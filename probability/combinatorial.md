@@ -111,6 +111,9 @@ $$
 $$
 We can computationally verify that value of $$(99/100)^{100}$$ is closer to $$0.3660$$ which is only about $$0.5\%$$ from the earlier approximation.
 
+In fact the function $$\left( 1 - 1/n \right)^n$$ approaches the limit quite fast. For example, $$n = 51$$ is the smallest value for which the approximation error is less than $$1\%$$.
+![The graph of (1+1/n)^n](Diagrams/counterfeit.png)
+
 
 ### Catching the greedy counterfeiter
 
