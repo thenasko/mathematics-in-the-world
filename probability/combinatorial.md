@@ -50,6 +50,37 @@ These equalities are referred to as [*De Morgan's laws*](http://en.wikipedia.org
 
 > If you choose a number between 1 and 100, what is the probability it is not coprime to 12? What about getting a number that is not coprime to 30?
 
+The heart of this problem is the inclusion-exclusion principle. It's much better if we see this naturally, so let's start by breaking down the statement. Being not coprime to $$12 = 2^2 \cdot 3$$, means being either divisible by $$2$$ or by $$3$$. Let $$A_2, A_3 \subset \{ 1, \dots, 100 \}$$ denote the sets of numbers divisible by $$2$$ and $$3$$ respectively. We are now ready to apply the simplest form of the inclusion-exclusion principle:
+$$
+\mathbb{P}( \textrm{not coprime to } 12 ) =
+\mathbb{P}( A_2 \cup A_3 ) =
+\mathbb{P}( A_2 ) + \mathbb{P}( A_3 ) - \mathbb{P}( A_2 \cap A_3 ).
+$$
+The statement reduces to computing the sizes of $$A_2$$, $$A_3$$, and $$A_2 \cap A_3$$ which consists of all numbers divisible by $$6$$. It is easy to see that
+$$
+|A_2| = 50, \qquad
+|A_3| = 33, \qquad
+|A_2 \cap A_3| = 16.
+$$
+(More generally, there are exactly $$\lfloor k / n \rfloor$$ numbers between $$1$$ and $$n$$ divisible by $$k$$.)
+We are now ready to compute
+$$
+\mathbb{P}( \textrm{not coprime to } 12 ) =
+\frac{50}{100} + \frac{33}{100} - \frac{16}{100} =
+\frac{67}{100}.
+$$
+
+To answer the second part of the question, we let $$A_5$$ be the set of numbers divisible by $$5$$ from $$1$$ to $$100$$. We can then compute
+$$
+\begin{align*}
+\mathbb{P}( \textrm{not coprime to } 30 )
+&= \mathbb{P}( A_2 \cup A_3 \cup A_5 ) \\
+&= \mathbb{P}( A_2 ) + \mathbb{P}( A_3 ) + \mathbb{P}( A_5 ) - \mathbb{P}( A_2 \cap A_3 ) - \mathbb{P}( A_2 \cap A_5 ) - \mathbb{P}( A_3 \cap A_5 ) + \mathbb{P}( A_2 \cap A_3 \cap A_5 ) \\
+&= \frac{50}{100} + \frac{33}{100} + \frac{20}{100} - \frac{16}{100} - \frac{10}{100} - \frac{6}{100} + \frac{3}{100} \\
+&= \frac{74}{100}.
+\end{align*}
+$$
+
 
 ### Catching the curious counterfeiter
 
