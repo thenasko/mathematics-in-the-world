@@ -88,6 +88,29 @@ $$
 
 > The minter of a kingdom produces boxes with 100 coins in each. He replaces one coin by a false one in each box. The king received intelligence about the counterfeit operation, and draws one coin from each of 100 boxes. What is the probability that the minter's side business will remain undetected? What is the answer if both 100s are replaced by $$n$$?
 
+Let's start by studying a single box of $$100$$ coins which contains a single counterfeit. The probability of drawing the false coin is $$1/100$$, so the probability of remaining undetected is $$99/100$$. Next, if there are $$100$$ boxes in total, we need to draw a true coin from each of the boxes. Since all draws are independent, the probability is
+$$
+\left( \frac{99}{100} \right)^{100}.
+$$
+More generally when both $$100$$s are replaced by an arbitrary positive integer $$n$$, the answer is
+$$
+\left( \frac{n-1}{n} \right)^n =
+\left( 1 - \frac{1}{n} \right)^n.
+$$
+This expression is reminiscent of the following limit (typically taught in pre-calculus):
+$$
+\lim_{n \rightarrow \infty} \left( 1 + \frac{1}{n} \right)^n = e.
+$$
+More generally, we have
+$$
+\lim_{n \rightarrow \infty} \left( 1 + \frac{x}{n} \right)^n = e^x.
+$$
+In the particular case we are interested $$x = -1$$, so
+$$
+\left( \frac{99}{100} \right)^n \approx e^{-1} \approx 0.3678.
+$$
+We can computationally verify that value of $$(99/100)^{100}$$ is closer to $$0.3660$$ which is only about $$0.5\%$$ from the earlier approximation.
+
 
 ### Catching the greedy counterfeiter
 
