@@ -114,10 +114,63 @@ We can computationally verify that value of $$(99/100)^{100}$$ is closer to $$0.
 In fact the function $$\left( 1 - 1/n \right)^n$$ approaches the limit quite fast. For example, $$n = 51$$ is the smallest value for which the approximation error is less than $$1\%$$.
 ![The graph of (1+1/n)^n](Diagrams/counterfeit.png)
 
+This is a good place to mention that there is a simple heuristic argument which demonstrates that $$\left( 1 + \frac{x}{n} \right)^n$$ approaches $$e^x$$ as $$n \rightarrow \infty$$. Recall the Taylor expansion of $$e^x$$ around $$0$$:
+$$
+e^x =
+\sum_{k \geq 0} \frac{x^k}{k!} =
+1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots.
+$$
+Let's expand $$\left( 1 + \frac{x}{n} \right)^n$$:
+$$
+\begin{align*}
+\left( 1 + \frac{x}{n} \right)^n
+&= 1 + \binom{n}{1} \frac{x}{n} + \binom{n}{2} \left( \frac{x}{n} \right)^2 + \binom{n}{3} \left( \frac{x}{n} \right)^3 + \cdots \\
+&= 1 + n \cdot \frac{x}{n} + \frac{n(n-1)}{2!} \cdot \frac{x^2}{n^2} + \frac{n(n-1)(n-2)}{3!} \frac{x^3}{n^3} \\
+&= 1 + x + \left( 1 - \frac{1}{n} \right) \frac{x^2}{2!} + \left( 1 - \frac{1}{n} \right) \left( 1 - \frac{2}{n} \right) \cdot \frac{x^3}{3!} + \cdots.
+\end{align*}
+$$
+The first two terms agree with the expansion of $$e^x$$ on the nose. Since $\lim_{n \rightarrow \infty} \frac{1}{n} = 0$$, it follows that the third term converges to $$x^2/2!$$ as $$n \rightarrow \infty$$. Similarly, the next term converges to $$x^3/3!$$, and so on. Needless to say, this is not a rigorous proof, but it can actually be strengthened to become one. More importantly, manipulating series in this fashion is a good way to build intuition and form conjectures.
+
 
 ### Catching the greedy counterfeiter
 
 > Suppose the minter has expanded his operation and each box of $$n$$ he produced contains $$m$$ doctored coins. What is the probability that the king will find exactly $$r$$ false coins if he draws one from each of $$n$$ boxes?
+
+Using analogous reasoning to the previous problem, the chance of drawing a doctored coin from a single box is $$m / n$$. Since we are drawing from $$n$$ distinct boxes independently, there are $$\binom{n}{r}$$ ways of distributing the $$r$$ false coins. Putting everything together, the probability of drawing exactly $$r$$ false coins is
+$$
+\binom{n}{r} \left( \frac{m}{n} \right)^r \left( 1 - \frac{m}{n} \right)^{n-r}.
+$$
+Note this is the $$r$$-th term in the binomial expansion of
+$$
+\left( \left( 1 - \frac{m}{n} \right) + \frac{m}{n} \right)^n.
+$$
+
+To extend the argument and potentially arrive at a useful approximation, let us try to study the behavior of our answer as $$n$$ becomes large. The key here is to rewrite the expression we obtained, and try to analyze it piece by piece. Some parts will be independent of $$n$$, while others won't and require a bit more effort.
+$$
+\begin{align*}
+\binom{n}{r} \left( \frac{m}{n} \right)^r \left( 1 - \frac{m}{n} \right)^{n-r}
+&= \frac{n!}{r! (n-r)!} \frac{m^r}{n^r} \left( 1 - \frac{m}{n} \right)^{n-r} \\
+&= \frac{n (n-1) (n-2) \cdots (n-r+1)}{n^r} \cdot \frac{m^r}{r!} \cdot \left( 1 - \frac{m}{n} \right)^n \cdot \left( 1 - \frac{m}{n} \right)^{-r}.
+\end{align*}
+$$
+The first part consists of $$r$$ fractions of the form $$(n - i)/n$$, all of which converge to $$1$$; the second is independent of $$n$$. As we already saw in the previous problem, the third part converges to $$e^{-m}$$, and finally the last part converges to $$1$$. In conclusion, we have shown that
+$$
+\mathbb{P}( \textrm{exactly $r$ false coins} ) \approx
+\lim_{n \rightarrow \infty} \binom{n}{r} \left( \frac{m}{n} \right)^r \left( 1 - \frac{m}{n} \right)^{n-r} =
+\frac{m^r e^{-m}}{r!}.
+$$
+For small $$m$$ and $$r$$, this is a computationally feasible approximation of the original answer we arrived at.
+
+As $$r$$ varies the probabilities of $$r$$ false coins add up to $$1$$. Intuitively, the approximations we obtained should also add up to $$1$$:
+$$
+\begin{align*}
+\sum_{r \geq 0} \frac{m^r e_{-m}}{r!}
+&= e^{-m} \sum_{r \geq 0} \frac{m^r}{r!} \\
+&= e^{-m} \left( 1 + m + \frac{m^2}{2!} + \frac{m^3}{3!} + \cdots \right) \\
+&= e^{-m} e^m \\
+&= 1.
+\end{align*}
+$$
 
 
 ### Identical birthdays
