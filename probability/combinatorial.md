@@ -129,7 +129,7 @@ $$
 &= 1 + x + \left( 1 - \frac{1}{n} \right) \frac{x^2}{2!} + \left( 1 - \frac{1}{n} \right) \left( 1 - \frac{2}{n} \right) \cdot \frac{x^3}{3!} + \cdots.
 \end{align*}
 $$
-The first two terms agree with the expansion of $$e^x$$ on the nose. Since $\lim_{n \rightarrow \infty} \frac{1}{n} = 0$$, it follows that the third term converges to $$x^2/2!$$ as $$n \rightarrow \infty$$. Similarly, the next term converges to $$x^3/3!$$, and so on. Needless to say, this is not a rigorous proof, but it can actually be strengthened to become one. More importantly, manipulating series in this fashion is a good way to build intuition and form conjectures.
+The first two terms agree with the expansion of $$e^x$$ on the nose. Since $$\lim_{n \rightarrow \infty} \frac{1}{n} = 0$$, it follows that the third term converges to $$x^2/2!$$ as $$n \rightarrow \infty$$. Similarly, the next term converges to $$x^3/3!$$, and so on. Needless to say, this is not a rigorous proof, but it can actually be strengthened to become one. More importantly, manipulating series in this fashion is a good way to build intuition and form conjectures.
 
 
 ### Catching the greedy counterfeiter
